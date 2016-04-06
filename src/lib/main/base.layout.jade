@@ -1,0 +1,53 @@
+doctype html
+html(lang=t('site.lang') dir='auto')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    block title
+      title #{t('site.product')} &middot; #{t('site.tagline')}
+    block description
+      meta(name='description' content=t('site.description'))
+    link(rel='apple-touch-icon' href='apple-touch-icon.png')
+    block bundles
+      |!{build.bundles(['jqbs', 'ko', 'main'])}
+  body
+    //- NAVBAR
+    #topnav.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+      .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button' 
+            data-toggle='collapse' data-target='#navbar' 
+            aria-controls='navbar'
+          )
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/')
+            img(src='lib/main/img/graffiti-logo-225x42.png' 
+              width='225' height='42')
+        #navbar.navbar-collapse.collapse
+          ul.nav.navbar-nav.navbar-right
+            li: a(href='/') Introduction
+            li: a(href='#beta' title='(Project is currently in beta.)'): strong (Beta)
+            li: a(href='#features') Features
+            li: a(href='#api') API
+            li: a(href=t('url.github')) GitHub
+    //- CONTENT
+    block content
+      p!= '&nbsp;'
+    //- FOOTER
+    = '\n    '
+    //- The next container should probably be in a footer.
+    .container.text-center
+      em.pull-left.
+        #{t('site.copyright')}
+      em.
+        This site built with #[a(href=t('url.github')) staticbuild].
+      em.pull-right
+        = t('site.domain') + ' '
+        | v#{build.pkg.version} 
+        small (#{build.locale}) 
+        != '&nbsp;'
+        a(href=t('url.githubIssues')) Help

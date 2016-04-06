@@ -1,0 +1,14 @@
+{
+  "site": {
+    "lang": "en",
+    "domain": "staticbuild.github.io",
+    "product": "Staticbuild (beta)",
+    "tagline": "A simple static website builder.",
+    "description": "Staticbuild is a simple static website builder that lets you use Jade or Nunjucks templates to build your site.",
+    "copyright": "Copyright @ Devoptix LLC 2016"
+  },
+  "url": {
+    "github": "https://github.com/devoptix/staticbuild",
+    "githubIssues": "https://github.com/devoptix/staticbuild/issues"
+  }
+}

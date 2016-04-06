@@ -1,0 +1,35 @@
+extends ./lib/main/base.layout.jade
+block content
+  a(name='introduction')
+  .jumbotron
+    .container
+      h1.text-center(style='margin: 0 auto; max-width: 900px'): small.
+        A simple and easy to use #[strong static website] builder.
+  .container    
+    p!= '&nbsp;'    
+    a(name='beta')
+    p!= '&nbsp;'
+    p.text-center
+      a.bn.btn-primary.btn-lg(href=t('url.github') 
+        role='button')!= 'GitHub &raquo;'
+      br
+      br
+      em: strong (Project is currently in the beta.)
+    p!= '&nbsp;'
+  a(name='features')
+  .jumbotron: .container
+    h1 Features
+    p
+      | Here are some features...
+    p!= '&nbsp;'
+    a(name='api')
+    p!= '&nbsp;'
+    h1 API
+    p.
+      API content...
+    p!= '&nbsp;'
+    p!= '&nbsp;'
+    p.text-center
+      a.bn.btn-primary.btn-lg(href=t('url.github') 
+        role='button')!= 'GitHub &raquo;'
+    p!= '&nbsp;'
