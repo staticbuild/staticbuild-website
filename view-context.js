@@ -26,7 +26,7 @@ function readClassAST(className) {
 			functions: []
 		}
 	};
-	for (var i in ast) {
+	for (var i=0; i < ast.length; i++) {
 		var entry = ast[i];
 		if (entry.ignore)
 			continue;
