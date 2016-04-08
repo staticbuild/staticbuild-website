@@ -1,5 +1,10 @@
 /*!
+ * Staticbuild website v0.0.1 (http://github.com/staticbuild/staticbuild-website)
+ */
+/*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -7277,9 +7282,6 @@ fieldset[disabled] .btn-danger.active {
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
 }
-/*!
- * Staticbuild website v0.0.1 (http://github.com/staticbuild/staticbuild-website)
- */
 body {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -7293,4 +7295,5 @@ a.navbar-brand {
 #api-list > .category {
   background-image: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
 }
-/*# sourceMappingURL=/lib/main/css/site.css.map */
+
+/*# sourceMappingURL=site.css.map */

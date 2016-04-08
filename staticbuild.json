@@ -21,11 +21,11 @@
     },
     "main": {
       "scripts": [
-        "/lib/main/js/site.js"
+        "/lib/js/site.js"
       ],
       "styles": [
-        "/lib/main/css/monokai-sublime.css",
-        "/lib/main/css/site.css"
+        "/lib/css/monokai-sublime.css",
+        "/lib/css/site.css"
       ]
     }
   }

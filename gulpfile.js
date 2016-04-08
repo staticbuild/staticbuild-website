@@ -72,7 +72,7 @@ gulp.task('clean-all', function () {
 
 gulp.task(mts('fonts'), function () {
   return gulp.src([
-    'bower_components/bootstrap/dist/fonts/**/*'
+    'src/lib/fonts/**/*'
   ])
   .pipe(gulpif(gzipOn, gzip(gzipOpt)))
   .pipe(gulp.dest(build.destLocale('/lib/fonts/')));
@@ -90,7 +90,10 @@ gulp.task(mts('images'), function () {
 });
 
 gulp.task(mts('less'), function () {
-  return gulp.src([build.src('/**/site.less')], { base: './' })
+  return gulp.src([
+    build.src('/**/*.less'),
+    build.src('!/**/*.part.less')
+  ], { base: './' })
   .pipe(sourcemaps.init())
   .pipe(less()).on('error', gutil.log)
   .pipe(sourcemaps.write('.'))
