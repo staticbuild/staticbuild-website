@@ -1,6 +1,7 @@
 'use strict';
 
 var fs = require('fs');
+var lodash = require('lodash');
 var hljs = require('highlight.js');
 
 function highlightJS(js) {
@@ -53,6 +54,10 @@ function readClassAST(className) {
 				result.static.functions.push(entry);
 		}
 	}
+	result.fields = lodash.sortBy(result.fields, 'name');
+	result.functions = lodash.sortBy(result.functions, 'name');
+	result.static.fields = lodash.sortBy(result.static.fields, 'name');
+	result.static.functions = lodash.sortBy(result.static.functions, 'name');
 	return result;
 }
 exports.readClassAST = readClassAST;

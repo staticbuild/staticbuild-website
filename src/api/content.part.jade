@@ -1,0 +1,27 @@
+h1 #{ast.root.name} #[span.glyphicon.glyphicon-search]
+p #{ast.root.classdesc}
+h2 Constructor
+.panel.panel-default
+  .panel-heading #{ast.root.name}()
+  .panel-body: p #{ast.root.description}
+h2 Fields
+each field in ast.fields
+  .panel.panel-default
+    .panel-heading #{field.name}
+    .panel-body: p #{field.description}
+h2 Methods
+each method in ast.functions
+  .panel.panel-default
+    .panel-heading #{method.name}
+    .panel-body: p #{method.description}
+h2 Static Fields
+each field in ast.static.fields
+  .panel.panel-default
+    .panel-heading #{field.name}
+    .panel-body: p #{field.description}
+h2 Static Methods
+each method in ast.static.functions
+  .panel.panel-default
+    .panel-heading #{method.name}
+    .panel-body: p #{method.description}
+    

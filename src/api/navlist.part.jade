@@ -1,0 +1,16 @@
+h3 API
+ul#api-list.list-group
+  li.list-group-item.category: h4.list-group-item-heading Class
+  li.list-group-item #{ast.root.name}
+  li.list-group-item.category: h4.list-group-item-heading Fields
+  each field in ast.fields
+    li.list-group-item #{field.name}
+  li.list-group-item.category: h4.list-group-item-heading Methods
+  each method in ast.functions
+    li.list-group-item #{method.name}
+  li.list-group-item.category: h4.list-group-item-heading Static Fields
+  each field in ast.static.fields
+    li.list-group-item #{field.name}
+  li.list-group-item.category: h4.list-group-item-heading Static Methods
+  each method in ast.static.functions
+    li.list-group-item #{method.name}
