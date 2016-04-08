@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "staticbuild dev .",
     "en": "static -H \"{\"\"Content-Encoding\"\": \"\"gzip\"\"}\" dist/en",
-    "es": "static -H \"{\"\"Content-Encoding\"\": \"\"gzip\"\"}\" dist/es"
+    "es": "static -H \"{\"\"Content-Encoding\"\": \"\"gzip\"\"}\" dist/es",
+    "jsdoc-ast": "jsdoc -X ../staticbuild/index.js > ast/StaticBuild.json"
   },
   "devDependencies": {
     "del": "^1.2.0",
@@ -34,6 +35,7 @@
     "highlight.js": "^9.3.0",
     "i18n": "^0.5.0",
     "jade": "^1.11.0",
+    "jsdoc": "^3.4.0",
     "jshint-stylish": "^2.0.0",
     "lodash": "^3.10.0",
     "run-sequence": "^1.1.4",

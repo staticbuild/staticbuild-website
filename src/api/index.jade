@@ -1,0 +1,50 @@
+extends ../lib/main/base.layout.jade
+block content
+  - var ast = readClassAST('StaticBuild');
+  .container
+    .row
+      .col-md-4.hidden-sm.hidden-xs
+        h3 API
+        ul#api-list.list-group
+          li.list-group-item.category: h4.list-group-item-heading Class
+          li.list-group-item #{ast.root.name}
+          li.list-group-item.category: h4.list-group-item-heading Fields
+          each field in ast.fields
+            li.list-group-item #{field.name}
+          li.list-group-item.category: h4.list-group-item-heading Methods
+          each method in ast.functions
+            li.list-group-item #{method.name}
+          li.list-group-item.category: h4.list-group-item-heading Static Fields
+          each field in ast.static.fields
+            li.list-group-item #{field.name}
+          li.list-group-item.category: h4.list-group-item-heading Static Methods
+          each method in ast.static.functions
+            li.list-group-item #{method.name}
+      .col-xs-12.col-md-8
+        h1 #{ast.root.name}
+        p #{ast.root.classdesc}
+        h2 Constructor
+        .panel.panel-default
+          .panel-heading #{ast.root.name}()
+          .panel-body: p #{ast.root.description}
+        h2 Fields
+        each field in ast.fields
+          .panel.panel-default
+            .panel-heading #{field.name}
+            .panel-body: p #{field.description}
+        h2 Methods
+        each method in ast.functions
+          .panel.panel-default
+            .panel-heading #{method.name}
+            .panel-body: p #{method.description}
+        h2 Static Fields
+        each field in ast.static.fields
+          .panel.panel-default
+            .panel-heading #{field.name}
+            .panel-body: p #{field.description}
+        h2 Static Methods
+        each method in ast.static.functions
+          .panel.panel-default
+            .panel-heading #{method.name}
+            .panel-body: p #{method.description}
+        
