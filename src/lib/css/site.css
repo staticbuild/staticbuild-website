@@ -7292,9 +7292,6 @@ a.navbar-brand {
 .jumbotron {
   padding-top: 40px;
 }
-#api-list > .category {
-  background-image: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
-}
 a.anchor {
   display: block;
   position: relative;
@@ -7314,6 +7311,7 @@ a.anchor {
   background-color: #393939;
   font-size: 13px;
   font-weight: bold;
+  padding: 5px;
 }
 .page-wrapper {
   margin-left: 230px;

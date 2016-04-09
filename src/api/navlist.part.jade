@@ -1,19 +1,68 @@
-h3 API
-.search
-  input#input-search.search(type='text' placeholder='Search')
-.search-results
-ul#api-list.list-group
-  li.list-group-item.category: h4.list-group-item-heading Class
-  li.list-group-item #{ast.root.name}
-  li.list-group-item.category: h4.list-group-item-heading Fields
-  each field in ast.fields
-    li.list-group-item #{field.name}
-  li.list-group-item.category: h4.list-group-item-heading Methods
-  each method in ast.functions
-    li.list-group-item #{method.name}
-  li.list-group-item.category: h4.list-group-item-heading Static Fields
-  each field in ast.static.fields
-    li.list-group-item #{field.name}
-  li.list-group-item.category: h4.list-group-item-heading Static Methods
-  each method in ast.static.functions
-    li.list-group-item #{method.name}
+h3.text-center API
+//.search
+//  input#input-search.search(type='text' placeholder='Search')
+//.search-results
+#api-pg-1.panel-group
+  .panel.panel-default
+    .panel-heading: h4.panel-title: a(
+      href='#api-ls-1'
+      data-toggle='collapse'
+      data-parent='#api-pg-1'
+      aria-expanded='true') Class
+    #api-ls-1.panel-collapse.collapse.in
+      ul.list-group
+        li.list-group-item
+          a(href='#class')
+            | #{ast.root.name}
+#api-pg-2.panel-group
+  .panel.panel-default
+    .panel-heading: h4.panel-title: a(
+      href='#api-ls-2'
+      data-toggle='collapse'
+      data-parent='#api-pg-2'
+      aria-expanded='false') Fields
+    #api-ls-2.panel-collapse.collapse
+      ul.list-group
+        each field in ast.fields
+          li.list-group-item
+            a(href='#' + field.name)
+              | #{field.name}
+#api-pg-3.panel-group
+  .panel.panel-default
+    .panel-heading: h4.panel-title: a(
+      href='#api-ls-3'
+      data-toggle='collapse'
+      data-parent='#api-pg-3'
+      aria-expanded='false') Methods
+    #api-ls-3.panel-collapse.collapse
+      ul.list-group
+        each method in ast.functions
+          li.list-group-item
+            a(href='#' + method.name)
+              | #{method.name}
+#api-pg-4.panel-group
+  .panel.panel-default
+    .panel-heading: h4.panel-title: a(
+      href='#api-ls-4'
+      data-toggle='collapse'
+      data-parent='#api-pg-4'
+      aria-expanded='false') Static Fields
+    #api-ls-4.panel-collapse.collapse
+      ul.list-group
+        each field in ast.static.fields
+          li.list-group-item
+            a(href='#static-' + field.name)
+              | #{field.name}
+#api-pg-5.panel-group
+  .panel.panel-default
+    .panel-heading: h4.panel-title: a(
+      href='#api-ls-5'
+      data-toggle='collapse'
+      data-parent='#api-pg-5'
+      aria-expanded='false') Static Methods
+    #api-ls-5.panel-collapse.collapse
+      ul.list-group
+        each method in ast.static.functions
+          li.list-group-item
+            a(href='#static-' + method.name)
+              | #{method.name}
