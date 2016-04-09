@@ -1,5 +1,5 @@
 a.anchor(name='class')
-h1 #{ast.root.name} #[span.glyphicon.glyphicon-search]
+h1 #{ast.root.name}
 p #{ast.root.classdesc}
 h2 Constructor
 .panel.panel-default
@@ -9,24 +9,47 @@ p: a.anchor(name='fields')
 h2 Fields
 each field in ast.fields
   .panel.panel-default
-    .panel-heading #{field.name}
+    .panel-heading: strong
+      | #{field.name}
+      +fieldtypes(field)
     .panel-body: p #{field.description}
 p: a.anchor(name='methods')
 h2 Methods
 each method in ast.functions
   .panel.panel-default
-    .panel-heading #{method.name}
+    .panel-heading: strong #{method.name}(#{methodParamNames(method)})
     .panel-body: p #{method.description}
+    +paramstable(method)
 p: a.anchor(name='static-fields')
 h2 Static Fields
 each field in ast.static.fields
   .panel.panel-default
-    .panel-heading #{field.name}
+    .panel-heading: strong #{field.name}
     .panel-body: p #{field.description}
 p: a.anchor(name='static-methods')
 h2 Static Methods
 each method in ast.static.functions
   .panel.panel-default
-    .panel-heading #{method.name}
+    .panel-heading: strong #{method.name}(#{methodParamNames(method)})
     .panel-body: p #{method.description}
-    
+    +paramstable(method)
+
+mixin fieldtypes(field)
+  if field.type && field.type.names
+    span.pull-right #{field.type.names}
+mixin paramstable(method)
+  if method.params
+    table.table
+      thead
+        tr
+          td(style='width: 125px'): em Argument
+          td(style='width: 100px'): em Type
+          td: em Description
+      tbody
+        each param in method.params
+          tr
+            td(style='width: 125px') #{param.name}
+            td(style='width: 100px')
+              if param.type
+                | #{param.type.names}
+            td #{param.description}

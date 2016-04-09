@@ -61,3 +61,15 @@ function readClassAST(className) {
 	return result;
 }
 exports.readClassAST = readClassAST;
+
+function methodParamNames(method) {
+  if (!method || !method.params)
+    return '';
+  var names = [];
+  for (var i = 0; i < method.params.length; i++) {
+    names.push(method.params[i].name);
+  }
+  var joined = names.join(', ');
+  return joined;
+}
+exports.methodParamNames = methodParamNames;

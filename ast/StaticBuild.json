@@ -188,7 +188,7 @@
         "meta": {
             "range": [
                 969,
-                6494
+                6595
             ],
             "filename": "index.js",
             "lineno": 27,
@@ -853,14 +853,14 @@
         "scope": "static"
     },
     {
-        "comment": "/** Path to the source directory. */",
+        "comment": "/** Path to the source directory.\n   * @type {string} */",
         "meta": {
             "range": [
-                3241,
-                3263
+                3261,
+                3283
             ],
             "filename": "index.js",
-            "lineno": 101,
+            "lineno": 102,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000209",
@@ -871,6 +871,11 @@
             }
         },
         "description": "Path to the source directory.",
+        "type": {
+            "names": [
+                "string"
+            ]
+        },
         "name": "sourceDir",
         "longname": "StaticBuild#sourceDir",
         "kind": "member",
@@ -878,14 +883,14 @@
         "scope": "instance"
     },
     {
-        "comment": "/** Path to the package file. */",
+        "comment": "/** Path to the package file.\n   * @type {string} */",
         "meta": {
             "range": [
-                3342,
-                3375
+                3382,
+                3415
             ],
             "filename": "index.js",
-            "lineno": 106,
+            "lineno": 108,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000215",
@@ -896,6 +901,11 @@
             }
         },
         "description": "Path to the package file.",
+        "type": {
+            "names": [
+                "string"
+            ]
+        },
         "name": "packageFile",
         "longname": "StaticBuild#packageFile",
         "kind": "member",
@@ -906,11 +916,11 @@
         "comment": "/** Data from package.json */",
         "meta": {
             "range": [
-                3411,
-                3424
+                3451,
+                3464
             ],
             "filename": "index.js",
-            "lineno": 108,
+            "lineno": 110,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000221",
@@ -928,14 +938,14 @@
         "scope": "instance"
     },
     {
-        "comment": "/** Package Version */",
+        "comment": "/** Package Version\n   * @type {string} */",
         "meta": {
             "range": [
-                3453,
-                3469
+                3513,
+                3529
             ],
             "filename": "index.js",
-            "lineno": 110,
+            "lineno": 113,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000227",
@@ -946,6 +956,11 @@
             }
         },
         "description": "Package Version",
+        "type": {
+            "names": [
+                "string"
+            ]
+        },
         "name": "pkgVer",
         "longname": "StaticBuild#pkgVer",
         "kind": "member",
@@ -953,14 +968,14 @@
         "scope": "instance"
     },
     {
-        "comment": "/** Package Version Hashid */",
+        "comment": "/** Package Version Hashid\n   * @type {string} */",
         "meta": {
             "range": [
-                3505,
-                3525
+                3585,
+                3605
             ],
             "filename": "index.js",
-            "lineno": 112,
+            "lineno": 116,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000233",
@@ -971,6 +986,11 @@
             }
         },
         "description": "Package Version Hashid",
+        "type": {
+            "names": [
+                "string"
+            ]
+        },
         "name": "pkgVerHash",
         "longname": "StaticBuild#pkgVerHash",
         "kind": "member",
@@ -978,14 +998,14 @@
         "scope": "instance"
     },
     {
-        "comment": "/** True if pkgVerHash should be used when replacing \n   * pathTokens.packageVersionDefault. */",
+        "comment": "/** True if pkgVerHash should be used when replacing \n   * pathTokens.packageVersionDefault.\n   * @type {boolean} */",
         "meta": {
             "range": [
-                3627,
-                3659
+                3728,
+                3760
             ],
             "filename": "index.js",
-            "lineno": 115,
+            "lineno": 120,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000239",
@@ -996,6 +1016,11 @@
             }
         },
         "description": "True if pkgVerHash should be used when replacing \npathTokens.packageVersionDefault.",
+        "type": {
+            "names": [
+                "boolean"
+            ]
+        },
         "name": "usePkgVerHashDefault",
         "longname": "StaticBuild#usePkgVerHashDefault",
         "kind": "member",
@@ -1006,11 +1031,11 @@
         "comment": "/** Configuration for hashing version strings. */",
         "meta": {
             "range": [
-                3763,
-                3904
+                3864,
+                4005
             ],
             "filename": "index.js",
-            "lineno": 120,
+            "lineno": 125,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000245",
@@ -1031,11 +1056,11 @@
         "comment": "",
         "meta": {
             "range": [
-                3788,
-                3836
+                3889,
+                3937
             ],
             "filename": "index.js",
-            "lineno": 121,
+            "lineno": 126,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000250",
@@ -1055,11 +1080,11 @@
         "comment": "",
         "meta": {
             "range": [
-                3842,
-                3854
+                3943,
+                3955
             ],
             "filename": "index.js",
-            "lineno": 122,
+            "lineno": 127,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000252",
@@ -1079,11 +1104,11 @@
         "comment": "",
         "meta": {
             "range": [
-                3860,
-                3900
+                3961,
+                4001
             ],
             "filename": "index.js",
-            "lineno": 123,
+            "lineno": 128,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000254",
@@ -1103,11 +1128,11 @@
         "comment": "/** An instance of hashids or compatible: `{String encode(Number)}`. */",
         "meta": {
             "range": [
-                3982,
-                4007
+                4083,
+                4108
             ],
             "filename": "index.js",
-            "lineno": 126,
+            "lineno": 131,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000257",
@@ -1128,11 +1153,11 @@
         "comment": "/** Cache of hashed version strings. */",
         "meta": {
             "range": [
-                4053,
-                4077
+                4154,
+                4178
             ],
             "filename": "index.js",
-            "lineno": 128,
+            "lineno": 133,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000263",
@@ -1153,11 +1178,11 @@
         "comment": "/** Id of the default locale. */",
         "meta": {
             "range": [
-                4156,
-                4181
+                4257,
+                4282
             ],
             "filename": "index.js",
-            "lineno": 133,
+            "lineno": 138,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000269",
@@ -1178,11 +1203,11 @@
         "comment": "/** The i18n module used to provide translate and other functions. */",
         "meta": {
             "range": [
-                4257,
-                4273
+                4358,
+                4374
             ],
             "filename": "index.js",
-            "lineno": 135,
+            "lineno": 140,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000275",
@@ -1203,11 +1228,11 @@
         "comment": "/** Id of the current locale. */",
         "meta": {
             "range": [
-                4312,
-                4330
+                4413,
+                4431
             ],
             "filename": "index.js",
-            "lineno": 137,
+            "lineno": 142,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000281",
@@ -1228,11 +1253,11 @@
         "comment": "/** Array of available locale ids. */",
         "meta": {
             "range": [
-                4374,
-                4395
+                4475,
+                4496
             ],
             "filename": "index.js",
-            "lineno": 139,
+            "lineno": 144,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000287",
@@ -1253,11 +1278,11 @@
         "comment": "/** True if locales have been supplied from the config file. */",
         "meta": {
             "range": [
-                4465,
-                4495
+                4566,
+                4596
             ],
             "filename": "index.js",
-            "lineno": 141,
+            "lineno": 146,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000294",
@@ -1278,11 +1303,11 @@
         "comment": "/** Path to the locales directory containing translations. */",
         "meta": {
             "range": [
-                4563,
-                4590
+                4664,
+                4691
             ],
             "filename": "index.js",
-            "lineno": 143,
+            "lineno": 148,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000300",
@@ -1303,11 +1328,11 @@
         "comment": "/** Name of the default view engine. */",
         "meta": {
             "range": [
-                4675,
-                4706
+                4776,
+                4807
             ],
             "filename": "index.js",
-            "lineno": 148,
+            "lineno": 153,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000306",
@@ -1328,11 +1353,11 @@
         "comment": "/** Contains view engine configurations. */",
         "meta": {
             "range": [
-                4756,
-                5167
+                4857,
+                5268
             ],
             "filename": "index.js",
-            "lineno": 150,
+            "lineno": 155,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000312",
@@ -1353,11 +1378,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4776,
-                4860
+                4877,
+                4961
             ],
             "filename": "index.js",
-            "lineno": 151,
+            "lineno": 156,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000317",
@@ -1377,11 +1402,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4790,
-                4807
+                4891,
+                4908
             ],
             "filename": "index.js",
-            "lineno": 152,
+            "lineno": 157,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000319",
@@ -1401,11 +1426,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4815,
-                4854
+                4916,
+                4955
             ],
             "filename": "index.js",
-            "lineno": 153,
+            "lineno": 158,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000321",
@@ -1425,11 +1450,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4826,
-                4838
+                4927,
+                4939
             ],
             "filename": "index.js",
-            "lineno": 153,
+            "lineno": 158,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000323",
@@ -1449,11 +1474,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4840,
-                4852
+                4941,
+                4953
             ],
             "filename": "index.js",
-            "lineno": 153,
+            "lineno": 158,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000325",
@@ -1473,11 +1498,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4866,
-                4948
+                4967,
+                5049
             ],
             "filename": "index.js",
-            "lineno": 155,
+            "lineno": 160,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000327",
@@ -1497,11 +1522,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4880,
-                4897
+                4981,
+                4998
             ],
             "filename": "index.js",
-            "lineno": 156,
+            "lineno": 161,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000329",
@@ -1521,11 +1546,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4905,
-                4942
+                5006,
+                5043
             ],
             "filename": "index.js",
-            "lineno": 157,
+            "lineno": 162,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000331",
@@ -1545,11 +1570,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4912,
-                4925
+                5013,
+                5026
             ],
             "filename": "index.js",
-            "lineno": 157,
+            "lineno": 162,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000333",
@@ -1569,11 +1594,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4927,
-                4940
+                5028,
+                5041
             ],
             "filename": "index.js",
-            "lineno": 157,
+            "lineno": 162,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000335",
@@ -1593,11 +1618,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4954,
-                5163
+                5055,
+                5264
             ],
             "filename": "index.js",
-            "lineno": 159,
+            "lineno": 164,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000337",
@@ -1617,11 +1642,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4972,
-                4988
+                5073,
+                5089
             ],
             "filename": "index.js",
-            "lineno": 160,
+            "lineno": 165,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000339",
@@ -1641,11 +1666,11 @@
         "comment": "",
         "meta": {
             "range": [
-                4996,
-                5017
+                5097,
+                5118
             ],
             "filename": "index.js",
-            "lineno": 161,
+            "lineno": 166,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000341",
@@ -1665,11 +1690,11 @@
         "comment": "",
         "meta": {
             "range": [
-                5025,
-                5043
+                5126,
+                5144
             ],
             "filename": "index.js",
-            "lineno": 162,
+            "lineno": 167,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000343",
@@ -1689,11 +1714,11 @@
         "comment": "",
         "meta": {
             "range": [
-                5051,
-                5069
+                5152,
+                5170
             ],
             "filename": "index.js",
-            "lineno": 163,
+            "lineno": 168,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000345",
@@ -1713,11 +1738,11 @@
         "comment": "",
         "meta": {
             "range": [
-                5077,
-                5092
+                5178,
+                5193
             ],
             "filename": "index.js",
-            "lineno": 164,
+            "lineno": 169,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000347",
@@ -1737,11 +1762,11 @@
         "comment": "",
         "meta": {
             "range": [
-                5100,
-                5120
+                5201,
+                5221
             ],
             "filename": "index.js",
-            "lineno": 165,
+            "lineno": 170,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000349",
@@ -1761,11 +1786,11 @@
         "comment": "",
         "meta": {
             "range": [
-                5128,
-                5157
+                5229,
+                5258
             ],
             "filename": "index.js",
-            "lineno": 166,
+            "lineno": 171,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000351",
@@ -1785,11 +1810,11 @@
         "comment": "",
         "meta": {
             "range": [
-                5139,
-                5155
+                5240,
+                5256
             ],
             "filename": "index.js",
-            "lineno": 166,
+            "lineno": 171,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000353",
@@ -1809,11 +1834,11 @@
         "comment": "/** True if a view context should be created automatically.*/",
         "meta": {
             "range": [
-                5273,
-                5296
+                5374,
+                5397
             ],
             "filename": "index.js",
-            "lineno": 173,
+            "lineno": 178,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000356",
@@ -1834,11 +1859,11 @@
         "comment": "/** Name of the variable to expose StaticBuild in the view context. */",
         "meta": {
             "range": [
-                5373,
-                5403
+                5474,
+                5504
             ],
             "filename": "index.js",
-            "lineno": 175,
+            "lineno": 180,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000362",
@@ -1859,11 +1884,11 @@
         "comment": "/** The view context. */",
         "meta": {
             "range": [
-                5434,
-                5451
+                5535,
+                5552
             ],
             "filename": "index.js",
-            "lineno": 177,
+            "lineno": 182,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000368",
@@ -1884,11 +1909,11 @@
         "comment": "/** Path to a separate file containing the view context. */",
         "meta": {
             "range": [
-                5517,
-                5538
+                5618,
+                5639
             ],
             "filename": "index.js",
-            "lineno": 179,
+            "lineno": 184,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000374",
@@ -1909,11 +1934,11 @@
         "comment": "/** Name of the default view file (without file extension). */",
         "meta": {
             "range": [
-                5607,
-                5633
+                5708,
+                5734
             ],
             "filename": "index.js",
-            "lineno": 181,
+            "lineno": 186,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000380",
@@ -1934,11 +1959,11 @@
         "comment": "/** Path to a favicon. */",
         "meta": {
             "range": [
-                5665,
-                5693
+                5766,
+                5794
             ],
             "filename": "index.js",
-            "lineno": 183,
+            "lineno": 188,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000386",
@@ -1959,11 +1984,11 @@
         "comment": "/** Array of errors or error messages. */",
         "meta": {
             "range": [
-                5780,
-                5796
+                5881,
+                5897
             ],
             "filename": "index.js",
-            "lineno": 188,
+            "lineno": 193,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000392",
@@ -1984,11 +2009,11 @@
         "comment": "/** Array of information messages. */",
         "meta": {
             "range": [
-                5840,
-                5854
+                5941,
+                5955
             ],
             "filename": "index.js",
-            "lineno": 190,
+            "lineno": 195,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000398",
@@ -2009,11 +2034,11 @@
         "comment": "/** Array of warning messages. */",
         "meta": {
             "range": [
-                5894,
-                5912
+                5995,
+                6013
             ],
             "filename": "index.js",
-            "lineno": 192,
+            "lineno": 197,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000404",
@@ -2034,11 +2059,11 @@
         "comment": "/** True if pre-minified sources should be located by default. */",
         "meta": {
             "range": [
-                6025,
-                6047
+                6126,
+                6148
             ],
             "filename": "index.js",
-            "lineno": 197,
+            "lineno": 202,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000410",
@@ -2059,11 +2084,11 @@
         "comment": "/** Collection of bundles. */",
         "meta": {
             "range": [
-                6083,
-                6099
+                6184,
+                6200
             ],
             "filename": "index.js",
-            "lineno": 199,
+            "lineno": 204,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000416",
@@ -2084,11 +2109,11 @@
         "comment": "/** Relative path where bundled files should be placed by default. */",
         "meta": {
             "range": [
-                6175,
-                6209
+                6276,
+                6310
             ],
             "filename": "index.js",
-            "lineno": 201,
+            "lineno": 206,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000422",
@@ -2109,11 +2134,11 @@
         "comment": "/** True if the bundle should be rendered instead of the source paths. */",
         "meta": {
             "range": [
-                6289,
-                6339
+                6390,
+                6440
             ],
             "filename": "index.js",
-            "lineno": 203,
+            "lineno": 208,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000428",
@@ -2134,11 +2159,11 @@
         "comment": "/** The current (most recently created) instance of StaticBuild. */",
         "meta": {
             "range": [
-                6451,
-                6477
+                6552,
+                6578
             ],
             "filename": "index.js",
-            "lineno": 208,
+            "lineno": 213,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000447",
@@ -2159,11 +2184,11 @@
         "comment": "",
         "meta": {
             "range": [
-                6495,
-                6523
+                6596,
+                6624
             ],
             "filename": "index.js",
-            "lineno": 211,
+            "lineno": 216,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000457",
@@ -2184,11 +2209,11 @@
         "comment": "",
         "meta": {
             "range": [
-                6545,
-                6859
+                6646,
+                6960
             ],
             "filename": "index.js",
-            "lineno": 214,
+            "lineno": 219,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000462",
@@ -2214,11 +2239,11 @@
         "comment": "",
         "meta": {
             "range": [
-                6695,
-                6723
+                6796,
+                6824
             ],
             "filename": "index.js",
-            "lineno": 220,
+            "lineno": 225,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000485",
@@ -2238,11 +2263,11 @@
         "comment": "",
         "meta": {
             "range": [
-                6756,
-                6793
+                6857,
+                6894
             ],
             "filename": "index.js",
-            "lineno": 222,
+            "lineno": 227,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000501",
@@ -2263,11 +2288,11 @@
         "comment": "",
         "meta": {
             "range": [
-                6861,
-                7613
+                6962,
+                7714
             ],
             "filename": "index.js",
-            "lineno": 230,
+            "lineno": 235,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000517",
@@ -2300,11 +2325,11 @@
         "comment": "",
         "meta": {
             "range": [
-                6911,
-                6923
+                7012,
+                7024
             ],
             "filename": "index.js",
-            "lineno": 231,
+            "lineno": 236,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000523",
@@ -2324,11 +2349,11 @@
         "comment": "",
         "meta": {
             "range": [
-                6964,
-                6990
+                7065,
+                7091
             ],
             "filename": "index.js",
-            "lineno": 233,
+            "lineno": 238,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000532",
@@ -2350,11 +2375,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7003,
-                7018
+                7104,
+                7119
             ],
             "filename": "index.js",
-            "lineno": 235,
+            "lineno": 240,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000539",
@@ -2376,11 +2401,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7022,
-                7164
+                7123,
+                7265
             ],
             "filename": "index.js",
-            "lineno": 236,
+            "lineno": 241,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000543",
@@ -2402,11 +2427,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7048,
-                7061
+                7149,
+                7162
             ],
             "filename": "index.js",
-            "lineno": 237,
+            "lineno": 242,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000550",
@@ -2425,11 +2450,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7067,
-                7081
+                7168,
+                7182
             ],
             "filename": "index.js",
-            "lineno": 238,
+            "lineno": 243,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000552",
@@ -2448,11 +2473,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7087,
-                7097
+                7188,
+                7198
             ],
             "filename": "index.js",
-            "lineno": 239,
+            "lineno": 244,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000554",
@@ -2471,11 +2496,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7103,
-                7113
+                7204,
+                7214
             ],
             "filename": "index.js",
-            "lineno": 240,
+            "lineno": 245,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000556",
@@ -2494,11 +2519,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7119,
-                7133
+                7220,
+                7234
             ],
             "filename": "index.js",
-            "lineno": 241,
+            "lineno": 246,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000558",
@@ -2517,11 +2542,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7139,
-                7154
+                7240,
+                7255
             ],
             "filename": "index.js",
-            "lineno": 242,
+            "lineno": 247,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000560",
@@ -2540,11 +2565,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7205,
-                7218
+                7306,
+                7319
             ],
             "filename": "index.js",
-            "lineno": 245,
+            "lineno": 250,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000572",
@@ -2566,11 +2591,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7264,
-                7283
+                7365,
+                7384
             ],
             "filename": "index.js",
-            "lineno": 247,
+            "lineno": 252,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000586",
@@ -2592,11 +2617,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7324,
-                7339
+                7425,
+                7440
             ],
             "filename": "index.js",
-            "lineno": 249,
+            "lineno": 254,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000600",
@@ -2618,11 +2643,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7419,
-                7434
+                7520,
+                7535
             ],
             "filename": "index.js",
-            "lineno": 251,
+            "lineno": 256,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000621",
@@ -2644,11 +2669,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7479,
-                7498
+                7580,
+                7599
             ],
             "filename": "index.js",
-            "lineno": 253,
+            "lineno": 258,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000635",
@@ -2670,11 +2695,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7547,
-                7567
+                7648,
+                7668
             ],
             "filename": "index.js",
-            "lineno": 255,
+            "lineno": 260,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000649",
@@ -2696,11 +2721,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7615,
-                8023
+                7716,
+                8124
             ],
             "filename": "index.js",
-            "lineno": 260,
+            "lineno": 265,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000660",
@@ -2727,11 +2752,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7689,
-                7743
+                7790,
+                7844
             ],
             "filename": "index.js",
-            "lineno": 262,
+            "lineno": 267,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000670",
@@ -2752,11 +2777,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7749,
-                7791
+                7850,
+                7892
             ],
             "filename": "index.js",
-            "lineno": 263,
+            "lineno": 268,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000686",
@@ -2777,11 +2802,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7838,
-                7887
+                7939,
+                7988
             ],
             "filename": "index.js",
-            "lineno": 266,
+            "lineno": 271,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000705",
@@ -2802,11 +2827,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7893,
-                7959
+                7994,
+                8060
             ],
             "filename": "index.js",
-            "lineno": 267,
+            "lineno": 272,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000715",
@@ -2827,11 +2852,11 @@
         "comment": "",
         "meta": {
             "range": [
-                7965,
-                8016
+                8066,
+                8117
             ],
             "filename": "index.js",
-            "lineno": 268,
+            "lineno": 273,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000735",
@@ -2852,11 +2877,11 @@
         "comment": "/**\n * Returns a hash of the given version using Hashids.\n * @param {string} version - A version string, e.g. '1.0.1'.\n * @returns {string} The hash value.\n * @see https://github.com/ivanakimov/hashids.node.js\n */",
         "meta": {
             "range": [
-                8278,
-                8551
+                8379,
+                8652
             ],
             "filename": "index.js",
-            "lineno": 280,
+            "lineno": 285,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000750",
@@ -2907,11 +2932,11 @@
         "comment": "",
         "meta": {
             "range": [
-                8346,
-                8379
+                8447,
+                8480
             ],
             "filename": "index.js",
-            "lineno": 282,
+            "lineno": 287,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000760",
@@ -2931,11 +2956,11 @@
         "comment": "",
         "meta": {
             "range": [
-                8412,
-                8443
+                8513,
+                8544
             ],
             "filename": "index.js",
-            "lineno": 285,
+            "lineno": 290,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000772",
@@ -2955,11 +2980,11 @@
         "comment": "",
         "meta": {
             "range": [
-                8447,
-                8481
+                8548,
+                8582
             ],
             "filename": "index.js",
-            "lineno": 286,
+            "lineno": 291,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000780",
@@ -2981,11 +3006,11 @@
         "comment": "/** @ignore */",
         "meta": {
             "range": [
-                8502,
-                8535
+                8603,
+                8636
             ],
             "filename": "index.js",
-            "lineno": 288,
+            "lineno": 293,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000790",
@@ -3006,11 +3031,11 @@
         "comment": "/**\n * Returns the given version as an integer.\n * @param {string} version - A version string, e.g. '1.0.1'.\n * @returns {number} The version as an integer.\n * @see https://github.com/ivanakimov/hashids.node.js\n */",
         "meta": {
             "range": [
-                8768,
-                9100
+                8869,
+                9201
             ],
             "filename": "index.js",
-            "lineno": 297,
+            "lineno": 302,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000800",
@@ -3063,11 +3088,11 @@
         "comment": "",
         "meta": {
             "range": [
-                8829,
-                8874
+                8930,
+                8975
             ],
             "filename": "index.js",
-            "lineno": 299,
+            "lineno": 304,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000810",
@@ -3089,11 +3114,11 @@
         "comment": "",
         "meta": {
             "range": [
-                8882,
-                8931
+                8983,
+                9032
             ],
             "filename": "index.js",
-            "lineno": 300,
+            "lineno": 305,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000822",
@@ -3113,11 +3138,11 @@
         "comment": "",
         "meta": {
             "range": [
-                8939,
-                8940
+                9040,
+                9041
             ],
             "filename": "index.js",
-            "lineno": 301,
+            "lineno": 306,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000835",
@@ -3135,11 +3160,11 @@
         "comment": "",
         "meta": {
             "range": [
-                8942,
-                8960
+                9043,
+                9061
             ],
             "filename": "index.js",
-            "lineno": 301,
+            "lineno": 306,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000837",
@@ -3159,11 +3184,11 @@
         "comment": "",
         "meta": {
             "range": [
-                8969,
-                8974
+                9070,
+                9075
             ],
             "filename": "index.js",
-            "lineno": 302,
+            "lineno": 307,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000843",
@@ -3185,11 +3210,11 @@
         "comment": "",
         "meta": {
             "range": [
-                8994,
-                9037
+                9095,
+                9138
             ],
             "filename": "index.js",
-            "lineno": 303,
+            "lineno": 308,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000852",
@@ -3211,11 +3236,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9041,
-                9065
+                9142,
+                9166
             ],
             "filename": "index.js",
-            "lineno": 304,
+            "lineno": 309,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000866",
@@ -3237,11 +3262,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9142,
-                9563
+                9243,
+                9664
             ],
             "filename": "index.js",
-            "lineno": 310,
+            "lineno": 315,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000878",
@@ -3266,11 +3291,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9202,
-                9244
+                9303,
+                9345
             ],
             "filename": "index.js",
-            "lineno": 312,
+            "lineno": 317,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000883",
@@ -3290,11 +3315,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9565,
-                9750
+                9666,
+                9851
             ],
             "filename": "index.js",
-            "lineno": 326,
+            "lineno": 331,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000941",
@@ -3320,11 +3345,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9719,
-                9747
+                9820,
+                9848
             ],
             "filename": "index.js",
-            "lineno": 330,
+            "lineno": 335,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000959",
@@ -3345,11 +3370,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9752,
-                10980
+                9853,
+                11081
             ],
             "filename": "index.js",
-            "lineno": 333,
+            "lineno": 338,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000966",
@@ -3380,11 +3405,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9799,
-                9809
+                9900,
+                9910
             ],
             "filename": "index.js",
-            "lineno": 334,
+            "lineno": 339,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000972",
@@ -3402,11 +3427,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9817,
-                9825
+                9918,
+                9926
             ],
             "filename": "index.js",
-            "lineno": 335,
+            "lineno": 340,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000975",
@@ -3424,11 +3449,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9833,
-                9845
+                9934,
+                9946
             ],
             "filename": "index.js",
-            "lineno": 336,
+            "lineno": 341,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000978",
@@ -3448,11 +3473,11 @@
         "comment": "",
         "meta": {
             "range": [
-                9973,
-                10003
+                10074,
+                10104
             ],
             "filename": "index.js",
-            "lineno": 339,
+            "lineno": 344,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100000994",
@@ -3473,11 +3498,11 @@
         "comment": "",
         "meta": {
             "range": [
-                10050,
-                10084
+                10151,
+                10185
             ],
             "filename": "index.js",
-            "lineno": 341,
+            "lineno": 346,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001009",
@@ -3498,11 +3523,11 @@
         "comment": "",
         "meta": {
             "range": [
-                10127,
-                10151
+                10228,
+                10252
             ],
             "filename": "index.js",
-            "lineno": 343,
+            "lineno": 348,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001024",
@@ -3524,11 +3549,11 @@
         "comment": "",
         "meta": {
             "range": [
-                10155,
-                10853
+                10256,
+                10954
             ],
             "filename": "index.js",
-            "lineno": 344,
+            "lineno": 349,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001029",
@@ -3557,11 +3582,11 @@
         "comment": "",
         "meta": {
             "range": [
-                10277,
-                10291
+                10378,
+                10392
             ],
             "filename": "index.js",
-            "lineno": 347,
+            "lineno": 352,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001044",
@@ -3583,11 +3608,11 @@
         "comment": "",
         "meta": {
             "range": [
-                10458,
-                10522
+                10559,
+                10623
             ],
             "filename": "index.js",
-            "lineno": 352,
+            "lineno": 357,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001066",
@@ -3609,11 +3634,11 @@
         "comment": "",
         "meta": {
             "range": [
-                10678,
-                10696
+                10779,
+                10797
             ],
             "filename": "index.js",
-            "lineno": 359,
+            "lineno": 364,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001092",
@@ -3634,11 +3659,11 @@
         "comment": "",
         "meta": {
             "range": [
-                10774,
-                10803
+                10875,
+                10904
             ],
             "filename": "index.js",
-            "lineno": 361,
+            "lineno": 366,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001112",
@@ -3659,11 +3684,11 @@
         "comment": "",
         "meta": {
             "range": [
-                10982,
-                11486
+                11083,
+                11587
             ],
             "filename": "index.js",
-            "lineno": 370,
+            "lineno": 375,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001135",
@@ -3691,11 +3716,11 @@
         "comment": "",
         "meta": {
             "range": [
-                11185,
-                11206
+                11286,
+                11307
             ],
             "filename": "index.js",
-            "lineno": 375,
+            "lineno": 380,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001141",
@@ -3717,11 +3742,11 @@
         "comment": "",
         "meta": {
             "range": [
-                11300,
-                11332
+                11401,
+                11433
             ],
             "filename": "index.js",
-            "lineno": 380,
+            "lineno": 385,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001161",
@@ -3742,11 +3767,11 @@
         "comment": "",
         "meta": {
             "range": [
-                11383,
-                11415
+                11484,
+                11516
             ],
             "filename": "index.js",
-            "lineno": 383,
+            "lineno": 388,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001178",
@@ -3767,11 +3792,11 @@
         "comment": "",
         "meta": {
             "range": [
-                11488,
-                11895
+                11589,
+                11996
             ],
             "filename": "index.js",
-            "lineno": 387,
+            "lineno": 392,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001187",
@@ -3797,11 +3822,11 @@
         "comment": "",
         "meta": {
             "range": [
-                11848,
-                11892
+                11949,
+                11993
             ],
             "filename": "index.js",
-            "lineno": 398,
+            "lineno": 403,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001245",
@@ -3822,11 +3847,11 @@
         "comment": "",
         "meta": {
             "range": [
-                11897,
-                12373
+                11998,
+                12474
             ],
             "filename": "index.js",
-            "lineno": 401,
+            "lineno": 406,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001252",
@@ -3857,11 +3882,11 @@
         "comment": "",
         "meta": {
             "range": [
-                11944,
-                11966
+                12045,
+                12067
             ],
             "filename": "index.js",
-            "lineno": 402,
+            "lineno": 407,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001258",
@@ -3881,11 +3906,11 @@
         "comment": "",
         "meta": {
             "range": [
-                11974,
-                11995
+                12075,
+                12096
             ],
             "filename": "index.js",
-            "lineno": 403,
+            "lineno": 408,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001264",
@@ -3905,11 +3930,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12088,
-                12113
+                12189,
+                12214
             ],
             "filename": "index.js",
-            "lineno": 407,
+            "lineno": 412,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001283",
@@ -3931,11 +3956,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12178,
-                12205
+                12279,
+                12306
             ],
             "filename": "index.js",
-            "lineno": 410,
+            "lineno": 415,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001298",
@@ -3957,11 +3982,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12260,
-                12277
+                12361,
+                12378
             ],
             "filename": "index.js",
-            "lineno": 413,
+            "lineno": 418,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001313",
@@ -3983,11 +4008,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12285,
-                12370
+                12386,
+                12471
             ],
             "filename": "index.js",
-            "lineno": 415,
+            "lineno": 420,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001321",
@@ -4008,11 +4033,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12375,
-                12696
+                12476,
+                12797
             ],
             "filename": "index.js",
-            "lineno": 422,
+            "lineno": 427,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001336",
@@ -4039,11 +4064,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12419,
-                12435
+                12520,
+                12536
             ],
             "filename": "index.js",
-            "lineno": 423,
+            "lineno": 428,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001342",
@@ -4063,11 +4088,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12539,
-                12583
+                12640,
+                12684
             ],
             "filename": "index.js",
-            "lineno": 428,
+            "lineno": 433,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001362",
@@ -4088,11 +4113,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12698,
-                13195
+                12799,
+                13296
             ],
             "filename": "index.js",
-            "lineno": 434,
+            "lineno": 439,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001395",
@@ -4121,11 +4146,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12742,
-                12758
+                12843,
+                12859
             ],
             "filename": "index.js",
-            "lineno": 435,
+            "lineno": 440,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001401",
@@ -4145,11 +4170,11 @@
         "comment": "",
         "meta": {
             "range": [
-                12862,
-                12906
+                12963,
+                13007
             ],
             "filename": "index.js",
-            "lineno": 440,
+            "lineno": 445,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001421",
@@ -4170,11 +4195,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13010,
-                13067
+                13111,
+                13168
             ],
             "filename": "index.js",
-            "lineno": 444,
+            "lineno": 449,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001450",
@@ -4195,11 +4220,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13133,
-                13188
+                13234,
+                13289
             ],
             "filename": "index.js",
-            "lineno": 447,
+            "lineno": 452,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001477",
@@ -4220,11 +4245,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13197,
-                13648
+                13298,
+                13749
             ],
             "filename": "index.js",
-            "lineno": 451,
+            "lineno": 456,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001494",
@@ -4254,11 +4279,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13307,
-                13347
+                13408,
+                13448
             ],
             "filename": "index.js",
-            "lineno": 454,
+            "lineno": 459,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001508",
@@ -4279,11 +4304,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13353,
-                13387
+                13454,
+                13488
             ],
             "filename": "index.js",
-            "lineno": 455,
+            "lineno": 460,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001516",
@@ -4304,11 +4329,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13454,
-                13488
+                13555,
+                13589
             ],
             "filename": "index.js",
-            "lineno": 459,
+            "lineno": 464,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001531",
@@ -4329,11 +4354,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13549,
-                13605
+                13650,
+                13706
             ],
             "filename": "index.js",
-            "lineno": 463,
+            "lineno": 468,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001547",
@@ -4354,11 +4379,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13611,
-                13641
+                13712,
+                13742
             ],
             "filename": "index.js",
-            "lineno": 464,
+            "lineno": 469,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001563",
@@ -4379,11 +4404,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13650,
-                14515
+                13751,
+                14616
             ],
             "filename": "index.js",
-            "lineno": 468,
+            "lineno": 473,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001568",
@@ -4412,11 +4437,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13698,
-                13722
+                13799,
+                13823
             ],
             "filename": "index.js",
-            "lineno": 469,
+            "lineno": 474,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001574",
@@ -4436,11 +4461,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13834,
-                13886
+                13935,
+                13987
             ],
             "filename": "index.js",
-            "lineno": 474,
+            "lineno": 479,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001594",
@@ -4461,11 +4486,11 @@
         "comment": "",
         "meta": {
             "range": [
-                13970,
-                14028
+                14071,
+                14129
             ],
             "filename": "index.js",
-            "lineno": 477,
+            "lineno": 482,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001613",
@@ -4486,11 +4511,11 @@
         "comment": "",
         "meta": {
             "range": [
-                14088,
-                14150
+                14189,
+                14251
             ],
             "filename": "index.js",
-            "lineno": 479,
+            "lineno": 484,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001632",
@@ -4511,11 +4536,11 @@
         "comment": "",
         "meta": {
             "range": [
-                14225,
-                14277
+                14326,
+                14378
             ],
             "filename": "index.js",
-            "lineno": 482,
+            "lineno": 487,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001651",
@@ -4536,11 +4561,11 @@
         "comment": "",
         "meta": {
             "range": [
-                14334,
-                14390
+                14435,
+                14491
             ],
             "filename": "index.js",
-            "lineno": 484,
+            "lineno": 489,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001670",
@@ -4561,11 +4586,11 @@
         "comment": "",
         "meta": {
             "range": [
-                14517,
-                14757
+                14618,
+                14858
             ],
             "filename": "index.js",
-            "lineno": 490,
+            "lineno": 495,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001703",
@@ -4591,11 +4616,11 @@
         "comment": "",
         "meta": {
             "range": [
-                14630,
-                14665
+                14731,
+                14766
             ],
             "filename": "index.js",
-            "lineno": 493,
+            "lineno": 498,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001716",
@@ -4616,11 +4641,11 @@
         "comment": "",
         "meta": {
             "range": [
-                14718,
-                14754
+                14819,
+                14855
             ],
             "filename": "index.js",
-            "lineno": 495,
+            "lineno": 500,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001731",
@@ -4641,11 +4666,11 @@
         "comment": "",
         "meta": {
             "range": [
-                14759,
-                15648
+                14860,
+                15749
             ],
             "filename": "index.js",
-            "lineno": 498,
+            "lineno": 503,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001738",
@@ -4675,11 +4700,11 @@
         "comment": "",
         "meta": {
             "range": [
-                14866,
-                14898
+                14967,
+                14999
             ],
             "filename": "index.js",
-            "lineno": 501,
+            "lineno": 506,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001751",
@@ -4700,11 +4725,11 @@
         "comment": "",
         "meta": {
             "range": [
-                14946,
-                14975
+                15047,
+                15076
             ],
             "filename": "index.js",
-            "lineno": 503,
+            "lineno": 508,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001766",
@@ -4725,11 +4750,11 @@
         "comment": "",
         "meta": {
             "range": [
-                15039,
-                15067
+                15140,
+                15168
             ],
             "filename": "index.js",
-            "lineno": 506,
+            "lineno": 511,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001781",
@@ -4750,11 +4775,11 @@
         "comment": "",
         "meta": {
             "range": [
-                15113,
-                15138
+                15214,
+                15239
             ],
             "filename": "index.js",
-            "lineno": 508,
+            "lineno": 513,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001796",
@@ -4775,11 +4800,11 @@
         "comment": "",
         "meta": {
             "range": [
-                15197,
-                15225
+                15298,
+                15326
             ],
             "filename": "index.js",
-            "lineno": 511,
+            "lineno": 516,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001812",
@@ -4800,11 +4825,11 @@
         "comment": "",
         "meta": {
             "range": [
-                15372,
-                15417
+                15473,
+                15518
             ],
             "filename": "index.js",
-            "lineno": 515,
+            "lineno": 520,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001846",
@@ -4825,11 +4850,11 @@
         "comment": "",
         "meta": {
             "range": [
-                15591,
-                15645
+                15692,
+                15746
             ],
             "filename": "index.js",
-            "lineno": 521,
+            "lineno": 526,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001885",
@@ -4850,11 +4875,11 @@
         "comment": "",
         "meta": {
             "range": [
-                15650,
-                16503
+                15751,
+                16604
             ],
             "filename": "index.js",
-            "lineno": 524,
+            "lineno": 529,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001892",
@@ -4885,11 +4910,11 @@
         "comment": "",
         "meta": {
             "range": [
-                15753,
-                15789
+                15854,
+                15890
             ],
             "filename": "index.js",
-            "lineno": 527,
+            "lineno": 532,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001905",
@@ -4910,11 +4935,11 @@
         "comment": "",
         "meta": {
             "range": [
-                15862,
-                15906
+                15963,
+                16007
             ],
             "filename": "index.js",
-            "lineno": 530,
+            "lineno": 535,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001920",
@@ -4935,11 +4960,11 @@
         "comment": "",
         "meta": {
             "range": [
-                15977,
-                16009
+                16078,
+                16110
             ],
             "filename": "index.js",
-            "lineno": 533,
+            "lineno": 538,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001935",
@@ -4960,11 +4985,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16062,
-                16098
+                16163,
+                16199
             ],
             "filename": "index.js",
-            "lineno": 535,
+            "lineno": 540,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001950",
@@ -4985,11 +5010,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16149,
-                16173
+                16250,
+                16274
             ],
             "filename": "index.js",
-            "lineno": 537,
+            "lineno": 542,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001966",
@@ -5010,11 +5035,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16179,
-                16207
+                16280,
+                16308
             ],
             "filename": "index.js",
-            "lineno": 538,
+            "lineno": 543,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001972",
@@ -5035,11 +5060,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16290,
-                16326
+                16391,
+                16427
             ],
             "filename": "index.js",
-            "lineno": 542,
+            "lineno": 547,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100001987",
@@ -5060,11 +5085,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16379,
-                16415
+                16480,
+                16516
             ],
             "filename": "index.js",
-            "lineno": 544,
+            "lineno": 549,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002002",
@@ -5085,11 +5110,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16472,
-                16500
+                16573,
+                16601
             ],
             "filename": "index.js",
-            "lineno": 547,
+            "lineno": 552,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002017",
@@ -5110,11 +5135,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16535,
-                17405
+                16636,
+                17506
             ],
             "filename": "index.js",
-            "lineno": 552,
+            "lineno": 557,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002024",
@@ -5145,11 +5170,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16611,
-                16667
+                16712,
+                16768
             ],
             "filename": "index.js",
-            "lineno": 555,
+            "lineno": 560,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002033",
@@ -5170,11 +5195,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16696,
-                16748
+                16797,
+                16849
             ],
             "filename": "index.js",
-            "lineno": 557,
+            "lineno": 562,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002049",
@@ -5195,11 +5220,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16775,
-                16823
+                16876,
+                16924
             ],
             "filename": "index.js",
-            "lineno": 559,
+            "lineno": 564,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002065",
@@ -5220,11 +5245,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16853,
-                16907
+                16954,
+                17008
             ],
             "filename": "index.js",
-            "lineno": 561,
+            "lineno": 566,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002081",
@@ -5245,11 +5270,11 @@
         "comment": "",
         "meta": {
             "range": [
-                16957,
-                17058
+                17058,
+                17159
             ],
             "filename": "index.js",
-            "lineno": 563,
+            "lineno": 568,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002101",
@@ -5270,11 +5295,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17105,
-                17200
+                17206,
+                17301
             ],
             "filename": "index.js",
-            "lineno": 566,
+            "lineno": 571,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002129",
@@ -5295,11 +5320,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17231,
-                17287
+                17332,
+                17388
             ],
             "filename": "index.js",
-            "lineno": 569,
+            "lineno": 574,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002153",
@@ -5320,11 +5345,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17407,
-                17765
+                17508,
+                17866
             ],
             "filename": "index.js",
-            "lineno": 577,
+            "lineno": 582,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002180",
@@ -5346,11 +5371,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17522,
-                17540
+                17623,
+                17641
             ],
             "filename": "index.js",
-            "lineno": 581,
+            "lineno": 586,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002199",
@@ -5369,11 +5394,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17546,
-                17558
+                17647,
+                17659
             ],
             "filename": "index.js",
-            "lineno": 582,
+            "lineno": 587,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002201",
@@ -5392,11 +5417,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17564,
-                17586
+                17665,
+                17687
             ],
             "filename": "index.js",
-            "lineno": 583,
+            "lineno": 588,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002203",
@@ -5415,11 +5440,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17592,
-                17626
+                17693,
+                17727
             ],
             "filename": "index.js",
-            "lineno": 584,
+            "lineno": 589,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002207",
@@ -5438,11 +5463,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17632,
-                17659
+                17733,
+                17760
             ],
             "filename": "index.js",
-            "lineno": 585,
+            "lineno": 590,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002211",
@@ -5461,11 +5486,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17665,
-                17685
+                17766,
+                17786
             ],
             "filename": "index.js",
-            "lineno": 586,
+            "lineno": 591,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002215",
@@ -5484,11 +5509,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17691,
-                17701
+                17792,
+                17802
             ],
             "filename": "index.js",
-            "lineno": 587,
+            "lineno": 592,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002217",
@@ -5507,11 +5532,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17707,
-                17725
+                17808,
+                17826
             ],
             "filename": "index.js",
-            "lineno": 588,
+            "lineno": 593,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002219",
@@ -5530,11 +5555,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17767,
-                18773
+                17868,
+                18874
             ],
             "filename": "index.js",
-            "lineno": 593,
+            "lineno": 598,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002229",
@@ -5564,11 +5589,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17862,
-                17921
+                17963,
+                18022
             ],
             "filename": "index.js",
-            "lineno": 595,
+            "lineno": 600,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002234",
@@ -5588,11 +5613,11 @@
         "comment": "",
         "meta": {
             "range": [
-                17929,
-                17942
+                18030,
+                18043
             ],
             "filename": "index.js",
-            "lineno": 596,
+            "lineno": 601,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002247",
@@ -5610,11 +5635,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18058,
-                18101
+                18159,
+                18202
             ],
             "filename": "index.js",
-            "lineno": 600,
+            "lineno": 605,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002258",
@@ -5636,11 +5661,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18105,
-                18324
+                18206,
+                18425
             ],
             "filename": "index.js",
-            "lineno": 601,
+            "lineno": 606,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002266",
@@ -5662,11 +5687,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18431,
-                18488
+                18532,
+                18589
             ],
             "filename": "index.js",
-            "lineno": 609,
+            "lineno": 614,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002320",
@@ -5687,11 +5712,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18593,
-                18624
+                18694,
+                18725
             ],
             "filename": "index.js",
-            "lineno": 612,
+            "lineno": 617,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002346",
@@ -5712,11 +5737,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18736,
-                18770
+                18837,
+                18871
             ],
             "filename": "index.js",
-            "lineno": 615,
+            "lineno": 620,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002368",
@@ -5737,11 +5762,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18775,
-                19051
+                18876,
+                19152
             ],
             "filename": "index.js",
-            "lineno": 618,
+            "lineno": 623,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002375",
@@ -5770,11 +5795,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18849,
-                18894
+                18950,
+                18995
             ],
             "filename": "index.js",
-            "lineno": 621,
+            "lineno": 626,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002386",
@@ -5794,11 +5819,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18923,
-                18939
+                19024,
+                19040
             ],
             "filename": "index.js",
-            "lineno": 624,
+            "lineno": 629,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002400",
@@ -5819,11 +5844,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18947,
-                18969
+                19048,
+                19070
             ],
             "filename": "index.js",
-            "lineno": 625,
+            "lineno": 630,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002406",
@@ -5843,11 +5868,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18973,
-                18995
+                19074,
+                19096
             ],
             "filename": "index.js",
-            "lineno": 626,
+            "lineno": 631,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002412",
@@ -5868,11 +5893,11 @@
         "comment": "",
         "meta": {
             "range": [
-                18999,
-                19048
+                19100,
+                19149
             ],
             "filename": "index.js",
-            "lineno": 627,
+            "lineno": 632,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002418",
@@ -5893,11 +5918,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19053,
-                19810
+                19154,
+                19911
             ],
             "filename": "index.js",
-            "lineno": 630,
+            "lineno": 635,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002427",
@@ -5928,11 +5953,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19095,
-                19127
+                19196,
+                19228
             ],
             "filename": "index.js",
-            "lineno": 631,
+            "lineno": 636,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002432",
@@ -5952,11 +5977,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19135,
-                19146
+                19236,
+                19247
             ],
             "filename": "index.js",
-            "lineno": 632,
+            "lineno": 637,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002440",
@@ -5976,11 +6001,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19217,
-                19281
+                19318,
+                19382
             ],
             "filename": "index.js",
-            "lineno": 635,
+            "lineno": 640,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002448",
@@ -6002,11 +6027,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19315,
-                19373
+                19416,
+                19474
             ],
             "filename": "index.js",
-            "lineno": 637,
+            "lineno": 642,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002464",
@@ -6028,11 +6053,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19407,
-                19481
+                19508,
+                19582
             ],
             "filename": "index.js",
-            "lineno": 640,
+            "lineno": 645,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002480",
@@ -6054,11 +6079,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19488,
-                19570
+                19589,
+                19671
             ],
             "filename": "index.js",
-            "lineno": 642,
+            "lineno": 647,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002495",
@@ -6080,11 +6105,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19598,
-                19663
+                19699,
+                19764
             ],
             "filename": "index.js",
-            "lineno": 645,
+            "lineno": 650,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002511",
@@ -6106,11 +6131,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19721,
-                19807
+                19822,
+                19908
             ],
             "filename": "index.js",
-            "lineno": 648,
+            "lineno": 653,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002526",
@@ -6132,11 +6157,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19812,
-                20242
+                19913,
+                20343
             ],
             "filename": "index.js",
-            "lineno": 652,
+            "lineno": 657,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002537",
@@ -6165,11 +6190,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19852,
-                19875
+                19953,
+                19976
             ],
             "filename": "index.js",
-            "lineno": 653,
+            "lineno": 658,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002542",
@@ -6189,11 +6214,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19906,
-                19988
+                20007,
+                20089
             ],
             "filename": "index.js",
-            "lineno": 655,
+            "lineno": 660,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002552",
@@ -6215,11 +6240,11 @@
         "comment": "",
         "meta": {
             "range": [
-                19916,
-                19988
+                20017,
+                20089
             ],
             "filename": "index.js",
-            "lineno": 655,
+            "lineno": 660,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002554",
@@ -6240,11 +6265,11 @@
         "comment": "",
         "meta": {
             "range": [
-                20099,
-                20137
+                20200,
+                20238
             ],
             "filename": "index.js",
-            "lineno": 660,
+            "lineno": 665,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002577",
@@ -6266,11 +6291,11 @@
         "comment": "",
         "meta": {
             "range": [
-                20143,
-                20182
+                20244,
+                20283
             ],
             "filename": "index.js",
-            "lineno": 661,
+            "lineno": 666,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002585",
@@ -6292,11 +6317,11 @@
         "comment": "",
         "meta": {
             "range": [
-                20188,
-                20235
+                20289,
+                20336
             ],
             "filename": "index.js",
-            "lineno": 662,
+            "lineno": 667,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002597",
@@ -6318,11 +6343,11 @@
         "comment": "/**\n * Applies the i18n translate method (`__`).\n * @param {string|obj} [str] - String or phrase object with mustache template.\n * @param [etc] - An object or primitive value to merge into the template.\n * @returns {string} The translation.\n * @see https://github.com/mashpie/i18n-node#__\n */",
         "meta": {
             "range": [
-                20570,
-                20773
+                20671,
+                20874
             ],
             "filename": "index.js",
-            "lineno": 675,
+            "lineno": 680,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002609",
@@ -6379,11 +6404,11 @@
         "comment": "",
         "meta": {
             "range": [
-                20659,
-                20703
+                20760,
+                20804
             ],
             "filename": "index.js",
-            "lineno": 678,
+            "lineno": 683,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002620",
@@ -6403,11 +6428,11 @@
         "comment": "/**\n * Applies the i18n translate-numeric method (`__n`).\n * @param {string} singular - The singular format string.\n * @param {string} plural - The plural format string.\n * @param {number} value - The number to translate.\n * @returns {string} The translation.\n * @see https://github.com/mashpie/i18n-node#__n\n */",
         "meta": {
             "range": [
-                21088,
-                21314
+                21189,
+                21415
             ],
             "filename": "index.js",
-            "lineno": 690,
+            "lineno": 695,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002645",
@@ -6476,11 +6501,11 @@
         "comment": "",
         "meta": {
             "range": [
-                21199,
-                21243
+                21300,
+                21344
             ],
             "filename": "index.js",
-            "lineno": 693,
+            "lineno": 698,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002657",
@@ -6500,11 +6525,11 @@
         "comment": "/**\n * Sets the current locale for i18n.\n * @param {string} locale - The locale id string.\n * @param {function} errback - A callback that accepts (err, locale);\n * @returns {boolean} True if successful otherwise false.\n * @see https://github.com/mashpie/i18n-node#setlocale\n */",
         "meta": {
             "range": [
-                21594,
-                22025
+                21695,
+                22126
             ],
             "filename": "index.js",
-            "lineno": 704,
+            "lineno": 709,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002682",
@@ -6564,11 +6589,11 @@
         "comment": "",
         "meta": {
             "range": [
-                21696,
-                21739
+                21797,
+                21840
             ],
             "filename": "index.js",
-            "lineno": 708,
+            "lineno": 713,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002698",
@@ -6590,11 +6615,11 @@
         "comment": "/** @ignore */",
         "meta": {
             "range": [
-                21914,
-                21934
+                22015,
+                22035
             ],
             "filename": "index.js",
-            "lineno": 715,
+            "lineno": 720,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002737",
@@ -6615,11 +6640,11 @@
         "comment": "",
         "meta": {
             "range": [
-                22028,
-                22149
+                22129,
+                22250
             ],
             "filename": "index.js",
-            "lineno": 722,
+            "lineno": 727,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002755",
@@ -6641,11 +6666,11 @@
         "comment": "",
         "meta": {
             "range": [
-                22183,
-                22412
+                22284,
+                22513
             ],
             "filename": "index.js",
-            "lineno": 731,
+            "lineno": 736,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002776",
@@ -6672,11 +6697,11 @@
         "comment": "",
         "meta": {
             "range": [
-                22239,
-                22266
+                22340,
+                22367
             ],
             "filename": "index.js",
-            "lineno": 732,
+            "lineno": 737,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002782",
@@ -6696,11 +6721,11 @@
         "comment": "",
         "meta": {
             "range": [
-                22274,
-                22392
+                22375,
+                22493
             ],
             "filename": "index.js",
-            "lineno": 733,
+            "lineno": 738,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002790",
@@ -6720,11 +6745,11 @@
         "comment": "/**\n * Returns the pathStr after appending the given value to the fileName, \n * before the extension.\n * @function\n * @param {string} pathStr - The file path.\n * @param {string} valueToAppend - The value to append.\n * @returns {string} The pathStr with value appended.\n */",
         "meta": {
             "range": [
-                22686,
-                22729
+                22787,
+                22830
             ],
             "filename": "index.js",
-            "lineno": 750,
+            "lineno": 755,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002816",
@@ -6775,11 +6800,11 @@
         "comment": "/**\n * Returns the pathStr after appending the given value to the fileName, \n * before the extension.\n * @function\n * @param {string} pathStr - The file path.\n * @param {string} valueToAppend - The value to append.\n * @returns {string} The pathStr with value appended.\n */",
         "meta": {
             "range": [
-                23004,
-                23057
+                23105,
+                23158
             ],
             "filename": "index.js",
-            "lineno": 759,
+            "lineno": 764,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002822",
@@ -6830,11 +6855,11 @@
         "comment": "",
         "meta": {
             "range": [
-                23060,
-                23164
+                23161,
+                23265
             ],
             "filename": "index.js",
-            "lineno": 761,
+            "lineno": 766,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002829",
@@ -6857,11 +6882,11 @@
         "comment": "/**\n * Returns the pathStr with the given part appended to the fileName, before \n * the extension, using a standard dash as a delimiter.\n * @function\n * @param {string} pathStr - The file path.\n * @param {string} valueToAppend - The value to append.\n * @returns {string} The pathStr with value appended.\n */",
         "meta": {
             "range": [
-                23473,
-                23524
+                23574,
+                23625
             ],
             "filename": "index.js",
-            "lineno": 772,
+            "lineno": 777,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002844",
@@ -6912,11 +6937,11 @@
         "comment": "/**\n * Returns the pathStr with the given part appended to the fileName, before \n * the extension, using a standard dash as a delimiter.\n * @function\n * @param {string} pathStr - The file path.\n * @param {string} valueToAppend - The value to append.\n * @returns {string} The pathStr with value appended.\n */",
         "meta": {
             "range": [
-                23834,
-                23895
+                23935,
+                23996
             ],
             "filename": "index.js",
-            "lineno": 781,
+            "lineno": 786,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002850",
@@ -6967,11 +6992,11 @@
         "comment": "/**\n * Returns a relative path derived from the build's destDir.\n * @param {string} pattern - The path pattern within the destination.\n * @returns {string} The relative destination path with pattern appended.\n */",
         "meta": {
             "range": [
-                24110,
-                24215
+                24211,
+                24316
             ],
             "filename": "index.js",
-            "lineno": 787,
+            "lineno": 792,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002858",
@@ -7014,11 +7039,11 @@
         "comment": "/**\n * Returns a relative path derived from the build's locale directory.\n * @param {string} pattern - The path pattern within the locale destination.\n */",
         "meta": {
             "range": [
-                24372,
-                24507
+                24473,
+                24608
             ],
             "filename": "index.js",
-            "lineno": 795,
+            "lineno": 800,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002877",
@@ -7051,11 +7076,11 @@
         "comment": "/**\n * Returns a filesystem path for the given path string, taking any pathMap \n * mappings into account.\n * @param {string} pathStr - The path string.\n * @returns {string} The filesystem path.\n */",
         "meta": {
             "range": [
-                24707,
-                24917
+                24808,
+                25018
             ],
             "filename": "index.js",
-            "lineno": 805,
+            "lineno": 810,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002903",
@@ -7101,11 +7126,11 @@
         "comment": "",
         "meta": {
             "range": [
-                24765,
-                24810
+                24866,
+                24911
             ],
             "filename": "index.js",
-            "lineno": 806,
+            "lineno": 811,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002913",
@@ -7125,11 +7150,11 @@
         "comment": "/**\n * Returns true if the given url path is mapped.\n * @param {string} pathType - The type of pathStr ('fs', 'url').\n * @param {string} pathStr - The path to get the mapping for.\n * @returns {object} The path mapping object with keys: 'fs', 'url'.\n */",
         "meta": {
             "range": [
-                25172,
-                25505
+                25273,
+                25606
             ],
             "filename": "index.js",
-            "lineno": 817,
+            "lineno": 822,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002945",
@@ -7185,11 +7210,11 @@
         "comment": "",
         "meta": {
             "range": [
-                25273,
-                25453
+                25374,
+                25554
             ],
             "filename": "index.js",
-            "lineno": 821,
+            "lineno": 826,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002959",
@@ -7215,11 +7240,11 @@
         "comment": "",
         "meta": {
             "range": [
-                25314,
-                25342
+                25415,
+                25443
             ],
             "filename": "index.js",
-            "lineno": 822,
+            "lineno": 827,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002964",
@@ -7239,11 +7264,11 @@
         "comment": "/**\n * Returns an array of paths outside of src that are watched in dev mode.\n * @returns {string[]} An array of paths that are watched in dev mode.\n */",
         "meta": {
             "range": [
-                25660,
-                26050
+                25761,
+                26151
             ],
             "filename": "index.js",
-            "lineno": 832,
+            "lineno": 837,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100002998",
@@ -7276,11 +7301,11 @@
         "comment": "",
         "meta": {
             "range": [
-                25719,
-                25729
+                25820,
+                25830
             ],
             "filename": "index.js",
-            "lineno": 834,
+            "lineno": 839,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003007",
@@ -7300,11 +7325,11 @@
         "comment": "/**\n * Returns a glob that excludes the given path string.\n * @param {string} pathStr - The path to exclude.\n * @returns {string} The pathStr with exclusion pattern applied.\n */",
         "meta": {
             "range": [
-                26230,
-                26308
+                26331,
+                26409
             ],
             "filename": "index.js",
-            "lineno": 850,
+            "lineno": 855,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003077",
@@ -7347,11 +7372,11 @@
         "comment": "/**\n * Returns a relative path derived from the build's baseDir.\n * @param {string} targetPath - The path to get a relative path to.\n * @returns {string} A relative path to targetPath.\n */",
         "meta": {
             "range": [
-                26499,
-                26630
+                26600,
+                26731
             ],
             "filename": "index.js",
-            "lineno": 858,
+            "lineno": 863,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003091",
@@ -7394,11 +7419,11 @@
         "comment": "/**\n * Returns a relative path pattern derived from the build's baseDir. \n * (e.g. '../path/to/##/#.js' but with asterisks instead of hashes)\n * @param {string} basePath - The base path.\n * @param {string} pattern - The glob pattern.\n * @returns {string} A relative path pattern within baseDir.\n */",
         "meta": {
             "range": [
-                26931,
-                27293
+                27032,
+                27394
             ],
             "filename": "index.js",
-            "lineno": 869,
+            "lineno": 874,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003115",
@@ -7454,11 +7479,11 @@
         "comment": "",
         "meta": {
             "range": [
-                27116,
-                27142
+                27217,
+                27243
             ],
             "filename": "index.js",
-            "lineno": 873,
+            "lineno": 878,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003145",
@@ -7478,11 +7503,11 @@
         "comment": "",
         "meta": {
             "range": [
-                27296,
-                27470
+                27397,
+                27571
             ],
             "filename": "index.js",
-            "lineno": 880,
+            "lineno": 885,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003178",
@@ -7511,11 +7536,11 @@
         "comment": "",
         "meta": {
             "range": [
-                27350,
-                27351
+                27451,
+                27452
             ],
             "filename": "index.js",
-            "lineno": 881,
+            "lineno": 886,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003185",
@@ -7533,11 +7558,11 @@
         "comment": "",
         "meta": {
             "range": [
-                27353,
-                27378
+                27454,
+                27479
             ],
             "filename": "index.js",
-            "lineno": 881,
+            "lineno": 886,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003187",
@@ -7557,11 +7582,11 @@
         "comment": "",
         "meta": {
             "range": [
-                27387,
-                27392
+                27488,
+                27493
             ],
             "filename": "index.js",
-            "lineno": 882,
+            "lineno": 887,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003193",
@@ -7583,11 +7608,11 @@
         "comment": "",
         "meta": {
             "range": [
-                27412,
-                27453
+                27513,
+                27554
             ],
             "filename": "index.js",
-            "lineno": 883,
+            "lineno": 888,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003202",
@@ -7609,11 +7634,11 @@
         "comment": "/**\n * Returns an absolute file-system path resolved from the build's baseDir.\n * @param {string} targetPath - The path to resolve to.\n * @returns {string} An absolute path to the targetPath.\n */",
         "meta": {
             "range": [
-                27667,
-                27778
+                27768,
+                27879
             ],
             "filename": "index.js",
-            "lineno": 891,
+            "lineno": 896,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003215",
@@ -7656,11 +7681,11 @@
         "comment": "/**\n * Returns an absolute file-system path resolved from sourceDir.\n * @param {string} srcPath - The path to resolve.\n * @returns {string} Th absolute path to the given srcPath.\n */",
         "meta": {
             "range": [
-                27963,
-                28073
+                28064,
+                28174
             ],
             "filename": "index.js",
-            "lineno": 900,
+            "lineno": 905,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003234",
@@ -7703,11 +7728,11 @@
         "comment": "/**\n * Returns the given pathStr with pathTokens replaced for use at runtime.\n * @param {string} pathStr - The path string.\n * @param {object} [opt] - Options.\n * @param {string} [opt.bundle] - A bundle name for string replacement.\n * @param {string} [opt.bundleVer] - A bundle version for string replacement.\n * @param {string} [opt.bundlePath] - A bundle path for string replacement.\n * @returns {string} The pathStr with runtime path tokens replaced.\n */",
         "meta": {
             "range": [
-                28533,
-                29533
+                28634,
+                29634
             ],
             "filename": "index.js",
-            "lineno": 913,
+            "lineno": 918,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003253",
@@ -7796,11 +7821,11 @@
         "comment": "",
         "meta": {
             "range": [
-                28602,
-                28615
+                28703,
+                28716
             ],
             "filename": "index.js",
-            "lineno": 915,
+            "lineno": 920,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003264",
@@ -7818,11 +7843,11 @@
         "comment": "",
         "meta": {
             "range": [
-                28619,
-                28672
+                28720,
+                28773
             ],
             "filename": "index.js",
-            "lineno": 916,
+            "lineno": 921,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003267",
@@ -7844,11 +7869,11 @@
         "comment": "",
         "meta": {
             "range": [
-                28645,
-                28662
+                28746,
+                28763
             ],
             "filename": "index.js",
-            "lineno": 917,
+            "lineno": 922,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003274",
@@ -7867,11 +7892,11 @@
         "comment": "",
         "meta": {
             "range": [
-                28739,
-                28828
+                28840,
+                28929
             ],
             "filename": "index.js",
-            "lineno": 921,
+            "lineno": 926,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003288",
@@ -7893,11 +7918,11 @@
         "comment": "",
         "meta": {
             "range": [
-                28834,
-                28931
+                28935,
+                29032
             ],
             "filename": "index.js",
-            "lineno": 924,
+            "lineno": 929,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003301",
@@ -7919,11 +7944,11 @@
         "comment": "",
         "meta": {
             "range": [
-                28937,
-                29035
+                29038,
+                29136
             ],
             "filename": "index.js",
-            "lineno": 927,
+            "lineno": 932,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003313",
@@ -7945,11 +7970,11 @@
         "comment": "",
         "meta": {
             "range": [
-                29041,
-                29135
+                29142,
+                29236
             ],
             "filename": "index.js",
-            "lineno": 930,
+            "lineno": 935,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003327",
@@ -7971,11 +7996,11 @@
         "comment": "",
         "meta": {
             "range": [
-                29178,
-                29265
+                29279,
+                29366
             ],
             "filename": "index.js",
-            "lineno": 935,
+            "lineno": 940,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003345",
@@ -7997,11 +8022,11 @@
         "comment": "",
         "meta": {
             "range": [
-                29296,
-                29385
+                29397,
+                29486
             ],
             "filename": "index.js",
-            "lineno": 939,
+            "lineno": 944,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003363",
@@ -8023,11 +8048,11 @@
         "comment": "",
         "meta": {
             "range": [
-                29417,
-                29508
+                29518,
+                29609
             ],
             "filename": "index.js",
-            "lineno": 943,
+            "lineno": 948,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003381",
@@ -8049,11 +8074,11 @@
         "comment": "/**\n * Returns a relative path derived from the build's sourceDir.\n * @param {string} pattern - Path pattern within the source directory.\n * @returns {string} A relative source directory path.\n */",
         "meta": {
             "range": [
-                29732,
-                29838
+                29833,
+                29939
             ],
             "filename": "index.js",
-            "lineno": 954,
+            "lineno": 959,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003397",
@@ -8096,11 +8121,11 @@
         "comment": "",
         "meta": {
             "range": [
-                29841,
-                30331
+                29942,
+                30432
             ],
             "filename": "index.js",
-            "lineno": 959,
+            "lineno": 964,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003415",
@@ -8126,11 +8151,11 @@
         "comment": "",
         "meta": {
             "range": [
-                29881,
-                29886
+                29982,
+                29987
             ],
             "filename": "index.js",
-            "lineno": 960,
+            "lineno": 965,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003420",
@@ -8148,11 +8173,11 @@
         "comment": "",
         "meta": {
             "range": [
-                29888,
-                29894
+                29989,
+                29995
             ],
             "filename": "index.js",
-            "lineno": 960,
+            "lineno": 965,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003422",
@@ -8170,11 +8195,11 @@
         "comment": "",
         "meta": {
             "range": [
-                30019,
-                30166
+                30120,
+                30267
             ],
             "filename": "index.js",
-            "lineno": 966,
+            "lineno": 971,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003441",
@@ -8196,11 +8221,11 @@
         "comment": "",
         "meta": {
             "range": [
-                30172,
-                30236
+                30273,
+                30337
             ],
             "filename": "index.js",
-            "lineno": 969,
+            "lineno": 974,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003463",
@@ -8222,11 +8247,11 @@
         "comment": "/**\n * Attempts to require an uncached instance of the given pathStr's module \n * using require-new.\n * @function\n * @param {string} pathStr - The path string.\n * @returns {object} The required javascript module or JSON file data.\n */",
         "meta": {
             "range": [
-                30567,
-                30608
+                30668,
+                30709
             ],
             "filename": "index.js",
-            "lineno": 983,
+            "lineno": 988,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003490",
@@ -8268,11 +8293,11 @@
         "comment": "/**\n * Attempts to require an uncached instance of the given pathStr's module \n * using require-new.\n * @function\n * @param {string} pathStr - The path string.\n * @returns {object} The required javascript module or JSON file data.\n */",
         "meta": {
             "range": [
-                30845,
-                30896
+                30946,
+                30997
             ],
             "filename": "index.js",
-            "lineno": 991,
+            "lineno": 996,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003496",
@@ -8314,11 +8339,11 @@
         "comment": "/**\n * Do not use. This function is not finished.\n */",
         "meta": {
             "range": [
-                31061,
-                32099
+                31162,
+                32200
             ],
             "filename": "index.js",
-            "lineno": 1000,
+            "lineno": 1005,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003504",
@@ -8350,11 +8375,11 @@
         "comment": "",
         "meta": {
             "range": [
-                31126,
-                31136
+                31227,
+                31237
             ],
             "filename": "index.js",
-            "lineno": 1002,
+            "lineno": 1007,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003514",
@@ -8374,11 +8399,11 @@
         "comment": "",
         "meta": {
             "range": [
-                31143,
-                31180
+                31244,
+                31281
             ],
             "filename": "index.js",
-            "lineno": 1004,
+            "lineno": 1009,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003518",
@@ -8400,11 +8425,11 @@
         "comment": "",
         "meta": {
             "range": [
-                31191,
-                31222
+                31292,
+                31323
             ],
             "filename": "index.js",
-            "lineno": 1006,
+            "lineno": 1011,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003524",
@@ -8424,11 +8449,11 @@
         "comment": "",
         "meta": {
             "range": [
-                31259,
-                31288
+                31360,
+                31389
             ],
             "filename": "index.js",
-            "lineno": 1010,
+            "lineno": 1015,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003536",
@@ -8450,11 +8475,11 @@
         "comment": "",
         "meta": {
             "range": [
-                31301,
-                31317
+                31402,
+                31418
             ],
             "filename": "index.js",
-            "lineno": 1012,
+            "lineno": 1017,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003544",
@@ -8476,11 +8501,11 @@
         "comment": "",
         "meta": {
             "range": [
-                31359,
-                31418
+                31460,
+                31519
             ],
             "filename": "index.js",
-            "lineno": 1015,
+            "lineno": 1020,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003550",
@@ -8502,11 +8527,11 @@
         "comment": "",
         "meta": {
             "range": [
-                31422,
-                31490
+                31523,
+                31591
             ],
             "filename": "index.js",
-            "lineno": 1016,
+            "lineno": 1021,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003565",
@@ -8528,11 +8553,11 @@
         "comment": "",
         "meta": {
             "range": [
-                31494,
-                31557
+                31595,
+                31658
             ],
             "filename": "index.js",
-            "lineno": 1017,
+            "lineno": 1022,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003580",
@@ -8554,11 +8579,11 @@
         "comment": "",
         "meta": {
             "range": [
-                32010,
-                32056
+                32111,
+                32157
             ],
             "filename": "index.js",
-            "lineno": 1040,
+            "lineno": 1045,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003675",
@@ -8578,11 +8603,11 @@
         "comment": "/**\n * Returns HTML for a link tag with a dynamic href attribute.\n * @param {string} srcPath - Relative path to the css file.\n * @returns {string} An HTML link tag string.\n */",
         "meta": {
             "range": [
-                32308,
-                32514
+                32409,
+                32615
             ],
             "filename": "index.js",
-            "lineno": 1052,
+            "lineno": 1057,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003692",
@@ -8629,11 +8654,11 @@
         "comment": "",
         "meta": {
             "range": [
-                32360,
-                32395
+                32461,
+                32496
             ],
             "filename": "index.js",
-            "lineno": 1054,
+            "lineno": 1059,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003702",
@@ -8655,11 +8680,11 @@
         "comment": "",
         "meta": {
             "range": [
-                32403,
-                32498
+                32504,
+                32599
             ],
             "filename": "index.js",
-            "lineno": 1055,
+            "lineno": 1060,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003710",
@@ -8679,11 +8704,11 @@
         "comment": "/**\n * Returns HTML for a script tag with a dynamic src attribute.\n * @param {string} srcPath - Relative path to the js file.\n * @returns {string} An HTML script tag string.\n */",
         "meta": {
             "range": [
-                32695,
-                32903
+                32796,
+                33004
             ],
             "filename": "index.js",
-            "lineno": 1067,
+            "lineno": 1072,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003722",
@@ -8730,11 +8755,11 @@
         "comment": "",
         "meta": {
             "range": [
-                32749,
-                32784
+                32850,
+                32885
             ],
             "filename": "index.js",
-            "lineno": 1069,
+            "lineno": 1074,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003732",
@@ -8756,11 +8781,11 @@
         "comment": "",
         "meta": {
             "range": [
-                32792,
-                32887
+                32893,
+                32988
             ],
             "filename": "index.js",
-            "lineno": 1070,
+            "lineno": 1075,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003740",
@@ -8780,11 +8805,11 @@
         "comment": "/**\n * Stores the result path for the bundled css, for rendering later.\n * @param {string} name - Name of the bundle.\n * @param {string} resultPath - Path to the bundled file.\n */",
         "meta": {
             "range": [
-                33120,
-                33231
+                33221,
+                33332
             ],
             "filename": "index.js",
-            "lineno": 1084,
+            "lineno": 1089,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003752",
@@ -8830,11 +8855,11 @@
         "comment": "",
         "meta": {
             "range": [
-                33187,
-                33228
+                33288,
+                33329
             ],
             "filename": "index.js",
-            "lineno": 1085,
+            "lineno": 1090,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003763",
@@ -8855,11 +8880,11 @@
         "comment": "/**\n * Stores the result path for the bundled css, for rendering later.\n * @param {string} name - Name of the bundle.\n * @param {object} logger - Object with log method to use for logging.\n * @returns {stream.Transform} A stream transform to capture the bundle file.\n */",
         "meta": {
             "range": [
-                33504,
-                34085
+                33605,
+                34186
             ],
             "filename": "index.js",
-            "lineno": 1093,
+            "lineno": 1098,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003775",
@@ -8918,11 +8943,11 @@
         "comment": "",
         "meta": {
             "range": [
-                33579,
-                33637
+                33680,
+                33738
             ],
             "filename": "index.js",
-            "lineno": 1094,
+            "lineno": 1099,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003786",
@@ -8942,11 +8967,11 @@
         "comment": "",
         "meta": {
             "range": [
-                33618,
-                33634
+                33719,
+                33735
             ],
             "filename": "index.js",
-            "lineno": 1094,
+            "lineno": 1099,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003793",
@@ -8965,11 +8990,11 @@
         "comment": "",
         "meta": {
             "range": [
-                33645,
-                33657
+                33746,
+                33758
             ],
             "filename": "index.js",
-            "lineno": 1095,
+            "lineno": 1100,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003796",
@@ -8989,11 +9014,11 @@
         "comment": "",
         "meta": {
             "range": [
-                33661,
-                34007
+                33762,
+                34108
             ],
             "filename": "index.js",
-            "lineno": 1096,
+            "lineno": 1101,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003799",
@@ -9022,11 +9047,11 @@
         "comment": "",
         "meta": {
             "range": [
-                33720,
-                33747
+                33821,
+                33848
             ],
             "filename": "index.js",
-            "lineno": 1097,
+            "lineno": 1102,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003806",
@@ -9046,11 +9071,11 @@
         "comment": "",
         "meta": {
             "range": [
-                33757,
-                33817
+                33858,
+                33918
             ],
             "filename": "index.js",
-            "lineno": 1098,
+            "lineno": 1103,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003814",
@@ -9070,11 +9095,11 @@
         "comment": "",
         "meta": {
             "range": [
-                33802,
-                33814
+                33903,
+                33915
             ],
             "filename": "index.js",
-            "lineno": 1098,
+            "lineno": 1103,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003826",
@@ -9093,11 +9118,11 @@
         "comment": "",
         "meta": {
             "range": [
-                33823,
-                33883
+                33924,
+                33984
             ],
             "filename": "index.js",
-            "lineno": 1099,
+            "lineno": 1104,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003829",
@@ -9119,11 +9144,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34010,
-                34058
+                34111,
+                34159
             ],
             "filename": "index.js",
-            "lineno": 1105,
+            "lineno": 1110,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003871",
@@ -9145,11 +9170,11 @@
         "comment": "/**\n * Stores the result path for the bundled js, for rendering later.\n * @param {string} name - Name of the bundle.\n * @param {string} resultPath - Path to the bundled file.\n */",
         "meta": {
             "range": [
-                34266,
-                34375
+                34367,
+                34476
             ],
             "filename": "index.js",
-            "lineno": 1113,
+            "lineno": 1118,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003879",
@@ -9195,11 +9220,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34332,
-                34372
+                34433,
+                34473
             ],
             "filename": "index.js",
-            "lineno": 1114,
+            "lineno": 1119,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003890",
@@ -9220,11 +9245,11 @@
         "comment": "/**\n * Stores the result path for the bundled js, for rendering later.\n * @param {string} name - Name of the bundle.\n * @param {object} logger - Object with log method to use for logging.\n * @returns {stream.Transform} A stream transform to capture the bundle file.\n */",
         "meta": {
             "range": [
-                34647,
-                35224
+                34748,
+                35325
             ],
             "filename": "index.js",
-            "lineno": 1122,
+            "lineno": 1127,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003902",
@@ -9283,11 +9308,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34721,
-                34779
+                34822,
+                34880
             ],
             "filename": "index.js",
-            "lineno": 1123,
+            "lineno": 1128,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003913",
@@ -9307,11 +9332,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34760,
-                34776
+                34861,
+                34877
             ],
             "filename": "index.js",
-            "lineno": 1123,
+            "lineno": 1128,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003920",
@@ -9330,11 +9355,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34787,
-                34799
+                34888,
+                34900
             ],
             "filename": "index.js",
-            "lineno": 1124,
+            "lineno": 1129,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003923",
@@ -9354,11 +9379,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34803,
-                35147
+                34904,
+                35248
             ],
             "filename": "index.js",
-            "lineno": 1125,
+            "lineno": 1130,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003926",
@@ -9387,11 +9412,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34861,
-                34888
+                34962,
+                34989
             ],
             "filename": "index.js",
-            "lineno": 1126,
+            "lineno": 1131,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003933",
@@ -9411,11 +9436,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34898,
-                34958
+                34999,
+                35059
             ],
             "filename": "index.js",
-            "lineno": 1127,
+            "lineno": 1132,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003941",
@@ -9435,11 +9460,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34943,
-                34955
+                35044,
+                35056
             ],
             "filename": "index.js",
-            "lineno": 1127,
+            "lineno": 1132,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003953",
@@ -9458,11 +9483,11 @@
         "comment": "",
         "meta": {
             "range": [
-                34964,
-                35024
+                35065,
+                35125
             ],
             "filename": "index.js",
-            "lineno": 1128,
+            "lineno": 1133,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003956",
@@ -9484,11 +9509,11 @@
         "comment": "",
         "meta": {
             "range": [
-                35150,
-                35197
+                35251,
+                35298
             ],
             "filename": "index.js",
-            "lineno": 1134,
+            "lineno": 1139,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100003998",
@@ -9510,11 +9535,11 @@
         "comment": "/**\n * Returns HTML for the given bundles name(s) with CSS link tags first, \n * then JS script tags.\n * @param {string|string[]} nameOrNames - Bundle name or array of names.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns {string} HTML of link and script tags that comprise the bundle.\n */",
         "meta": {
             "range": [
-                35555,
-                36654
+                35656,
+                36755
             ],
             "filename": "index.js",
-            "lineno": 1144,
+            "lineno": 1149,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004006",
@@ -9574,11 +9599,11 @@
         "comment": "",
         "meta": {
             "range": [
-                35705,
-                35712
+                35806,
+                35813
             ],
             "filename": "index.js",
-            "lineno": 1148,
+            "lineno": 1153,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004024",
@@ -9598,11 +9623,11 @@
         "comment": "",
         "meta": {
             "range": [
-                35720,
-                35750
+                35821,
+                35851
             ],
             "filename": "index.js",
-            "lineno": 1149,
+            "lineno": 1154,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004028",
@@ -9622,11 +9647,11 @@
         "comment": "",
         "meta": {
             "range": [
-                35758,
-                35769
+                35859,
+                35870
             ],
             "filename": "index.js",
-            "lineno": 1150,
+            "lineno": 1155,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004036",
@@ -9646,11 +9671,11 @@
         "comment": "",
         "meta": {
             "range": [
-                35909,
-                35933
+                36010,
+                36034
             ],
             "filename": "index.js",
-            "lineno": 1154,
+            "lineno": 1159,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004057",
@@ -9670,11 +9695,11 @@
         "comment": "",
         "meta": {
             "range": [
-                36067,
-                36099
+                36168,
+                36200
             ],
             "filename": "index.js",
-            "lineno": 1160,
+            "lineno": 1165,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004082",
@@ -9696,11 +9721,11 @@
         "comment": "",
         "meta": {
             "range": [
-                36158,
-                36183
+                36259,
+                36284
             ],
             "filename": "index.js",
-            "lineno": 1162,
+            "lineno": 1167,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004104",
@@ -9722,11 +9747,11 @@
         "comment": "",
         "meta": {
             "range": [
-                36337,
-                36361
+                36438,
+                36462
             ],
             "filename": "index.js",
-            "lineno": 1168,
+            "lineno": 1173,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004131",
@@ -9746,11 +9771,11 @@
         "comment": "",
         "meta": {
             "range": [
-                36502,
-                36535
+                36603,
+                36636
             ],
             "filename": "index.js",
-            "lineno": 1174,
+            "lineno": 1179,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004156",
@@ -9772,11 +9797,11 @@
         "comment": "",
         "meta": {
             "range": [
-                36595,
-                36622
+                36696,
+                36723
             ],
             "filename": "index.js",
-            "lineno": 1176,
+            "lineno": 1181,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004178",
@@ -9798,11 +9823,11 @@
         "comment": "/**\n * Creates a new bundle within the build.\n * @param {string} name - Name of the bundle.\n * @param {object} data - Data for the bundle.\n * @returns {object} The bundle data.\n */",
         "meta": {
             "range": [
-                36837,
-                38503
+                36938,
+                38604
             ],
             "filename": "index.js",
-            "lineno": 1187,
+            "lineno": 1192,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004190",
@@ -9866,11 +9891,11 @@
         "comment": "",
         "meta": {
             "range": [
-                36904,
-                36930
+                37005,
+                37031
             ],
             "filename": "index.js",
-            "lineno": 1189,
+            "lineno": 1194,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004201",
@@ -9890,11 +9915,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37138,
-                37186
+                37239,
+                37287
             ],
             "filename": "index.js",
-            "lineno": 1193,
+            "lineno": 1198,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004207",
@@ -9915,11 +9940,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37190,
-                37236
+                37291,
+                37337
             ],
             "filename": "index.js",
-            "lineno": 1194,
+            "lineno": 1199,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004217",
@@ -9940,11 +9965,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37240,
-                37874
+                37341,
+                37975
             ],
             "filename": "index.js",
-            "lineno": 1195,
+            "lineno": 1200,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004227",
@@ -9966,11 +9991,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37390,
-                37417
+                37491,
+                37518
             ],
             "filename": "index.js",
-            "lineno": 1202,
+            "lineno": 1207,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004234",
@@ -9989,11 +10014,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37423,
-                37463
+                37524,
+                37564
             ],
             "filename": "index.js",
-            "lineno": 1203,
+            "lineno": 1208,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004238",
@@ -10012,11 +10037,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37436,
-                37443
+                37537,
+                37544
             ],
             "filename": "index.js",
-            "lineno": 1204,
+            "lineno": 1209,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004240",
@@ -10036,11 +10061,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37451,
-                37457
+                37552,
+                37558
             ],
             "filename": "index.js",
-            "lineno": 1205,
+            "lineno": 1210,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004242",
@@ -10060,11 +10085,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37469,
-                37532
+                37570,
+                37633
             ],
             "filename": "index.js",
-            "lineno": 1207,
+            "lineno": 1212,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004244",
@@ -10083,11 +10108,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37483,
-                37497
+                37584,
+                37598
             ],
             "filename": "index.js",
-            "lineno": 1208,
+            "lineno": 1213,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004246",
@@ -10107,11 +10132,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37505,
-                37512
+                37606,
+                37613
             ],
             "filename": "index.js",
-            "lineno": 1209,
+            "lineno": 1214,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004248",
@@ -10131,11 +10156,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37520,
-                37526
+                37621,
+                37627
             ],
             "filename": "index.js",
-            "lineno": 1210,
+            "lineno": 1215,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004250",
@@ -10155,11 +10180,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37538,
-                37597
+                37639,
+                37698
             ],
             "filename": "index.js",
-            "lineno": 1212,
+            "lineno": 1217,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004252",
@@ -10178,11 +10203,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37554,
-                37562
+                37655,
+                37663
             ],
             "filename": "index.js",
-            "lineno": 1213,
+            "lineno": 1218,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004254",
@@ -10202,11 +10227,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37570,
-                37577
+                37671,
+                37678
             ],
             "filename": "index.js",
-            "lineno": 1214,
+            "lineno": 1219,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004256",
@@ -10226,11 +10251,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37585,
-                37591
+                37686,
+                37692
             ],
             "filename": "index.js",
-            "lineno": 1215,
+            "lineno": 1220,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004258",
@@ -10250,11 +10275,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37603,
-                37753
+                37704,
+                37854
             ],
             "filename": "index.js",
-            "lineno": 1217,
+            "lineno": 1222,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004260",
@@ -10273,11 +10298,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37759,
-                37863
+                37860,
+                37964
             ],
             "filename": "index.js",
-            "lineno": 1223,
+            "lineno": 1228,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004262",
@@ -10296,11 +10321,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37917,
-                37948
+                38018,
+                38049
             ],
             "filename": "index.js",
-            "lineno": 1230,
+            "lineno": 1235,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004273",
@@ -10322,11 +10347,11 @@
         "comment": "",
         "meta": {
             "range": [
-                37931,
-                37946
+                38032,
+                38047
             ],
             "filename": "index.js",
-            "lineno": 1230,
+            "lineno": 1235,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004278",
@@ -10346,11 +10371,11 @@
         "comment": "",
         "meta": {
             "range": [
-                38098,
-                38128
+                38199,
+                38229
             ],
             "filename": "index.js",
-            "lineno": 1233,
+            "lineno": 1238,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004301",
@@ -10372,11 +10397,11 @@
         "comment": "",
         "meta": {
             "range": [
-                38156,
-                38202
+                38257,
+                38303
             ],
             "filename": "index.js",
-            "lineno": 1235,
+            "lineno": 1240,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004316",
@@ -10398,11 +10423,11 @@
         "comment": "",
         "meta": {
             "range": [
-                38229,
-                38274
+                38330,
+                38375
             ],
             "filename": "index.js",
-            "lineno": 1237,
+            "lineno": 1242,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004337",
@@ -10424,11 +10449,11 @@
         "comment": "/** @ignore */",
         "meta": {
             "range": [
-                38461,
-                38485
+                38562,
+                38586
             ],
             "filename": "index.js",
-            "lineno": 1243,
+            "lineno": 1248,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004380",
@@ -10449,11 +10474,11 @@
         "comment": "/**\n * Returns CSS link tags HTML only for the given bundle name(s).\n * @param {string|string[]} nameOrNames - Bundle name or array of names.\n * @returns {string} HTML of link tags that comprise the bundle.\n */",
         "meta": {
             "range": [
-                38716,
-                38821
+                38817,
+                38922
             ],
             "filename": "index.js",
-            "lineno": 1251,
+            "lineno": 1256,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004390",
@@ -10497,11 +10522,11 @@
         "comment": "/**\n * If bundle item has no min path, finds one, updates the item and returns.\n * @param {object} bundleItem - The bundle item with src to find min from.\n * @returns {string|undefined} The minified path, if found.\n */",
         "meta": {
             "range": [
-                39042,
-                39456
+                39143,
+                39557
             ],
             "filename": "index.js",
-            "lineno": 1260,
+            "lineno": 1265,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004407",
@@ -10552,11 +10577,11 @@
         "comment": "",
         "meta": {
             "range": [
-                39119,
-                39143
+                39220,
+                39244
             ],
             "filename": "index.js",
-            "lineno": 1261,
+            "lineno": 1266,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004417",
@@ -10576,11 +10601,11 @@
         "comment": "",
         "meta": {
             "range": [
-                39197,
-                39228
+                39298,
+                39329
             ],
             "filename": "index.js",
-            "lineno": 1264,
+            "lineno": 1269,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004431",
@@ -10600,11 +10625,11 @@
         "comment": "",
         "meta": {
             "range": [
-                39236,
-                39325
+                39337,
+                39426
             ],
             "filename": "index.js",
-            "lineno": 1265,
+            "lineno": 1270,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004439",
@@ -10624,11 +10649,11 @@
         "comment": "",
         "meta": {
             "range": [
-                39333,
-                39365
+                39434,
+                39466
             ],
             "filename": "index.js",
-            "lineno": 1268,
+            "lineno": 1273,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004458",
@@ -10648,11 +10673,11 @@
         "comment": "",
         "meta": {
             "range": [
-                39405,
-                39429
+                39506,
+                39530
             ],
             "filename": "index.js",
-            "lineno": 1270,
+            "lineno": 1275,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004473",
@@ -10673,11 +10698,11 @@
         "comment": "/**\n * Returns an object containing information about the bundle. \n * e.g. `{name,data,min,minif,sources,dest,fileName,relFile,relDir}`\n * @param {string} name - Name of the bundle.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns The bundle info.\n */",
         "meta": {
             "range": [
-                39748,
-                41389
+                39849,
+                41490
             ],
             "filename": "index.js",
-            "lineno": 1281,
+            "lineno": 1286,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004481",
@@ -10738,11 +10763,11 @@
         "comment": "",
         "meta": {
             "range": [
-                39822,
-                39853
+                39923,
+                39954
             ],
             "filename": "index.js",
-            "lineno": 1282,
+            "lineno": 1287,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004492",
@@ -10762,11 +10787,11 @@
         "comment": "",
         "meta": {
             "range": [
-                39861,
-                39894
+                39962,
+                39995
             ],
             "filename": "index.js",
-            "lineno": 1283,
+            "lineno": 1288,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004502",
@@ -10786,11 +10811,11 @@
         "comment": "",
         "meta": {
             "range": [
-                39927,
-                39993
+                40028,
+                40094
             ],
             "filename": "index.js",
-            "lineno": 1285,
+            "lineno": 1290,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004512",
@@ -10810,11 +10835,11 @@
         "comment": "",
         "meta": {
             "range": [
-                40132,
-                40237
+                40233,
+                40338
             ],
             "filename": "index.js",
-            "lineno": 1288,
+            "lineno": 1293,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004526",
@@ -10834,11 +10859,11 @@
         "comment": "",
         "meta": {
             "range": [
-                40245,
-                40250
+                40346,
+                40351
             ],
             "filename": "index.js",
-            "lineno": 1291,
+            "lineno": 1296,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004546",
@@ -10856,11 +10881,11 @@
         "comment": "",
         "meta": {
             "range": [
-                40336,
-                40348
+                40437,
+                40449
             ],
             "filename": "index.js",
-            "lineno": 1294,
+            "lineno": 1299,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004556",
@@ -10882,11 +10907,11 @@
         "comment": "",
         "meta": {
             "range": [
-                40450,
-                40466
+                40551,
+                40567
             ],
             "filename": "index.js",
-            "lineno": 1298,
+            "lineno": 1303,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004567",
@@ -10908,11 +10933,11 @@
         "comment": "",
         "meta": {
             "range": [
-                40478,
-                41172
+                40579,
+                41273
             ],
             "filename": "index.js",
-            "lineno": 1300,
+            "lineno": 1305,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004571",
@@ -10932,11 +10957,11 @@
         "comment": "/** Name of the bundle. */",
         "meta": {
             "range": [
-                40520,
-                40530
+                40621,
+                40631
             ],
             "filename": "index.js",
-            "lineno": 1302,
+            "lineno": 1307,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004574",
@@ -10956,11 +10981,11 @@
         "comment": "/** Configuration data. */",
         "meta": {
             "range": [
-                40567,
-                40590
+                40668,
+                40691
             ],
             "filename": "index.js",
-            "lineno": 1304,
+            "lineno": 1309,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004576",
@@ -10980,11 +11005,11 @@
         "comment": "/** Source paths of pre-minified files. */",
         "meta": {
             "range": [
-                40643,
-                40651
+                40744,
+                40752
             ],
             "filename": "index.js",
-            "lineno": 1306,
+            "lineno": 1311,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004582",
@@ -11004,11 +11029,11 @@
         "comment": "/** True to minify all files or an array of glob filters. For gulp-if. */",
         "meta": {
             "range": [
-                40735,
-                40747
+                40836,
+                40848
             ],
             "filename": "index.js",
-            "lineno": 1308,
+            "lineno": 1313,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004584",
@@ -11028,11 +11053,11 @@
         "comment": "/** Source paths to include in the bundle (including pre-minified). */",
         "meta": {
             "range": [
-                40828,
-                40920
+                40929,
+                41021
             ],
             "filename": "index.js",
-            "lineno": 1310,
+            "lineno": 1315,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004586",
@@ -11052,11 +11077,11 @@
         "comment": "/** Destination path. */",
         "meta": {
             "range": [
-                40955,
-                40963
+                41056,
+                41064
             ],
             "filename": "index.js",
-            "lineno": 1314,
+            "lineno": 1319,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004598",
@@ -11076,11 +11101,11 @@
         "comment": "/** Destination file name. */",
         "meta": {
             "range": [
-                41003,
-                41015
+                41104,
+                41116
             ],
             "filename": "index.js",
-            "lineno": 1316,
+            "lineno": 1321,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004600",
@@ -11100,11 +11125,11 @@
         "comment": "/** Relative runtime path (url or src or dest). */",
         "meta": {
             "range": [
-                41076,
-                41087
+                41177,
+                41188
             ],
             "filename": "index.js",
-            "lineno": 1318,
+            "lineno": 1323,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004602",
@@ -11124,11 +11149,11 @@
         "comment": "/** Relative runtime directory path (url or src or dest). */",
         "meta": {
             "range": [
-                41158,
-                41168
+                41259,
+                41269
             ],
             "filename": "index.js",
-            "lineno": 1320,
+            "lineno": 1325,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004604",
@@ -11148,11 +11173,11 @@
         "comment": "",
         "meta": {
             "range": [
-                41176,
-                41249
+                41277,
+                41350
             ],
             "filename": "index.js",
-            "lineno": 1322,
+            "lineno": 1327,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004607",
@@ -11174,11 +11199,11 @@
         "comment": "",
         "meta": {
             "range": [
-                41234,
-                41246
+                41335,
+                41347
             ],
             "filename": "index.js",
-            "lineno": 1322,
+            "lineno": 1327,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004623",
@@ -11197,11 +11222,11 @@
         "comment": "",
         "meta": {
             "range": [
-                41253,
-                41289
+                41354,
+                41390
             ],
             "filename": "index.js",
-            "lineno": 1323,
+            "lineno": 1328,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004626",
@@ -11223,11 +11248,11 @@
         "comment": "",
         "meta": {
             "range": [
-                41293,
-                41330
+                41394,
+                41431
             ],
             "filename": "index.js",
-            "lineno": 1324,
+            "lineno": 1329,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004638",
@@ -11249,11 +11274,11 @@
         "comment": "",
         "meta": {
             "range": [
-                41334,
-                41373
+                41435,
+                41474
             ],
             "filename": "index.js",
-            "lineno": 1325,
+            "lineno": 1330,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004650",
@@ -11275,11 +11300,11 @@
         "comment": "/**\n * Returns just the min paths of the given bundle name.\n * @param {string} name - Name of the bundle.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns {string[]} Array of pre-minified file paths for a bundle.\n */",
         "meta": {
             "range": [
-                41647,
-                42344
+                41748,
+                42445
             ],
             "filename": "index.js",
-            "lineno": 1335,
+            "lineno": 1340,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004664",
@@ -11336,11 +11361,11 @@
         "comment": "",
         "meta": {
             "range": [
-                41725,
-                41751
+                41826,
+                41852
             ],
             "filename": "index.js",
-            "lineno": 1336,
+            "lineno": 1341,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004675",
@@ -11360,11 +11385,11 @@
         "comment": "",
         "meta": {
             "range": [
-                41824,
-                41836
+                41925,
+                41937
             ],
             "filename": "index.js",
-            "lineno": 1339,
+            "lineno": 1344,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004692",
@@ -11384,11 +11409,11 @@
         "comment": "",
         "meta": {
             "range": [
-                41935,
-                42075
+                42036,
+                42176
             ],
             "filename": "index.js",
-            "lineno": 1342,
+            "lineno": 1347,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004713",
@@ -11410,11 +11435,11 @@
         "comment": "",
         "meta": {
             "range": [
-                42178,
-                42319
+                42279,
+                42420
             ],
             "filename": "index.js",
-            "lineno": 1350,
+            "lineno": 1355,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004755",
@@ -11436,11 +11461,11 @@
         "comment": "/**\n * Returns just the src paths of the given bundle name.\n * @param {string} name - Name of the bundle.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns {string[]} Array of source paths for a bundle.\n */",
         "meta": {
             "range": [
-                42590,
-                43148
+                42691,
+                43249
             ],
             "filename": "index.js",
-            "lineno": 1364,
+            "lineno": 1369,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004782",
@@ -11497,11 +11522,11 @@
         "comment": "",
         "meta": {
             "range": [
-                42667,
-                42693
+                42768,
+                42794
             ],
             "filename": "index.js",
-            "lineno": 1365,
+            "lineno": 1370,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004793",
@@ -11521,11 +11546,11 @@
         "comment": "",
         "meta": {
             "range": [
-                42766,
-                42778
+                42867,
+                42879
             ],
             "filename": "index.js",
-            "lineno": 1368,
+            "lineno": 1373,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004810",
@@ -11545,11 +11570,11 @@
         "comment": "",
         "meta": {
             "range": [
-                42877,
-                42948
+                42978,
+                43049
             ],
             "filename": "index.js",
-            "lineno": 1371,
+            "lineno": 1376,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004831",
@@ -11571,11 +11596,11 @@
         "comment": "",
         "meta": {
             "range": [
-                43051,
-                43123
+                43152,
+                43224
             ],
             "filename": "index.js",
-            "lineno": 1375,
+            "lineno": 1380,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004863",
@@ -11597,11 +11622,11 @@
         "comment": "/**\n * Returns the min (if any) OR src paths of the given bundle name.\n * @param {string} name - Name of the bundle.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns {string[]} An array of source or pre-minified file paths for the \n * bundle.\n */",
         "meta": {
             "range": [
-                43435,
-                44028
+                43536,
+                44129
             ],
             "filename": "index.js",
-            "lineno": 1386,
+            "lineno": 1391,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004880",
@@ -11658,11 +11683,11 @@
         "comment": "",
         "meta": {
             "range": [
-                43523,
-                43549
+                43624,
+                43650
             ],
             "filename": "index.js",
-            "lineno": 1388,
+            "lineno": 1393,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004891",
@@ -11682,11 +11707,11 @@
         "comment": "",
         "meta": {
             "range": [
-                43622,
-                43634
+                43723,
+                43735
             ],
             "filename": "index.js",
-            "lineno": 1391,
+            "lineno": 1396,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004908",
@@ -11706,11 +11731,11 @@
         "comment": "",
         "meta": {
             "range": [
-                43733,
-                43816
+                43834,
+                43917
             ],
             "filename": "index.js",
-            "lineno": 1394,
+            "lineno": 1399,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004929",
@@ -11732,11 +11757,11 @@
         "comment": "",
         "meta": {
             "range": [
-                43919,
-                44003
+                44020,
+                44104
             ],
             "filename": "index.js",
-            "lineno": 1399,
+            "lineno": 1404,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004961",
@@ -11758,11 +11783,11 @@
         "comment": "",
         "meta": {
             "range": [
-                44031,
-                44087
+                44132,
+                44188
             ],
             "filename": "index.js",
-            "lineno": 1405,
+            "lineno": 1410,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004977",
@@ -11784,11 +11809,11 @@
         "comment": "",
         "meta": {
             "range": [
-                44089,
-                44162
+                44190,
+                44263
             ],
             "filename": "index.js",
-            "lineno": 1409,
+            "lineno": 1414,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004985",
@@ -11810,11 +11835,11 @@
         "comment": "",
         "meta": {
             "range": [
-                44164,
-                44220
+                44265,
+                44321
             ],
             "filename": "index.js",
-            "lineno": 1413,
+            "lineno": 1418,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100004997",
@@ -11836,11 +11861,11 @@
         "comment": "/**\n * Returns Javascript script tags HTML only for the given bundle name(s).\n * @param {string|string[]} nameOrNames - Bundle name or array of names.\n * @returns {string} HTML of script tags that comprise the bundle.\n */",
         "meta": {
             "range": [
-                44443,
-                44546
+                44544,
+                44647
             ],
             "filename": "index.js",
-            "lineno": 1421,
+            "lineno": 1426,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005006",
@@ -11884,11 +11909,11 @@
         "comment": "/**\n * Converts array items that are String to `{ src: TheString }`.\n * @private\n * @param {array} items - Array that contains string items to convert.\n * @returns {array} An array of bundle item objects with normalized src field.\n */",
         "meta": {
             "range": [
-                44783,
-                45017
+                44884,
+                45118
             ],
             "filename": "index.js",
-            "lineno": 1431,
+            "lineno": 1436,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005022",
@@ -11936,11 +11961,11 @@
         "comment": "",
         "meta": {
             "range": [
-                44827,
-                44828
+                44928,
+                44929
             ],
             "filename": "index.js",
-            "lineno": 1432,
+            "lineno": 1437,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005027",
@@ -11958,11 +11983,11 @@
         "comment": "",
         "meta": {
             "range": [
-                44830,
-                44833
+                44931,
+                44934
             ],
             "filename": "index.js",
-            "lineno": 1432,
+            "lineno": 1437,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005029",
@@ -11980,11 +12005,11 @@
         "comment": "",
         "meta": {
             "range": [
-                44880,
-                44898
+                44981,
+                44999
             ],
             "filename": "index.js",
-            "lineno": 1435,
+            "lineno": 1440,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005039",
@@ -12006,11 +12031,11 @@
         "comment": "",
         "meta": {
             "range": [
-                44907,
-                44912
+                45008,
+                45013
             ],
             "filename": "index.js",
-            "lineno": 1436,
+            "lineno": 1441,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005045",
@@ -12032,11 +12057,11 @@
         "comment": "",
         "meta": {
             "range": [
-                44970,
-                44998
+                45071,
+                45099
             ],
             "filename": "index.js",
-            "lineno": 1438,
+            "lineno": 1443,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005061",
@@ -12056,11 +12081,11 @@
         "comment": "",
         "meta": {
             "range": [
-                44983,
-                44996
+                45084,
+                45097
             ],
             "filename": "index.js",
-            "lineno": 1438,
+            "lineno": 1443,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005066",
@@ -12080,11 +12105,11 @@
         "comment": "/**\n * Removes a bundle from the build.\n * @param {string} name - Name of the bundle.\n */",
         "meta": {
             "range": [
-                45108,
-                45193
+                45209,
+                45294
             ],
             "filename": "index.js",
-            "lineno": 1445,
+            "lineno": 1450,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005073",
@@ -12117,11 +12142,11 @@
         "comment": "/**\n * Saves bundles to the configuration filePath.\n */",
         "meta": {
             "range": [
-                45251,
-                46130
+                45352,
+                46231
             ],
             "filename": "index.js",
-            "lineno": 1452,
+            "lineno": 1457,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005090",
@@ -12149,11 +12174,11 @@
         "comment": "",
         "meta": {
             "range": [
-                45307,
-                45319
+                45408,
+                45420
             ],
             "filename": "index.js",
-            "lineno": 1454,
+            "lineno": 1459,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005099",
@@ -12173,11 +12198,11 @@
         "comment": "",
         "meta": {
             "range": [
-                45327,
-                45356
+                45428,
+                45457
             ],
             "filename": "index.js",
-            "lineno": 1455,
+            "lineno": 1460,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005103",
@@ -12197,11 +12222,11 @@
         "comment": "",
         "meta": {
             "range": [
-                45364,
-                45368
+                45465,
+                45469
             ],
             "filename": "index.js",
-            "lineno": 1456,
+            "lineno": 1461,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005109",
@@ -12219,11 +12244,11 @@
         "comment": "",
         "meta": {
             "range": [
-                45376,
-                45380
+                45477,
+                45481
             ],
             "filename": "index.js",
-            "lineno": 1457,
+            "lineno": 1462,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005112",
@@ -12241,11 +12266,11 @@
         "comment": "",
         "meta": {
             "range": [
-                45388,
-                45391
+                45489,
+                45492
             ],
             "filename": "index.js",
-            "lineno": 1458,
+            "lineno": 1463,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005115",
@@ -12263,11 +12288,11 @@
         "comment": "",
         "meta": {
             "range": [
-                45740,
-                45776
+                45841,
+                45877
             ],
             "filename": "index.js",
-            "lineno": 1467,
+            "lineno": 1472,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005128",
@@ -12289,11 +12314,11 @@
         "comment": "",
         "meta": {
             "range": [
-                45782,
-                45805
+                45883,
+                45906
             ],
             "filename": "index.js",
-            "lineno": 1468,
+            "lineno": 1473,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005136",
@@ -12315,11 +12340,11 @@
         "comment": "",
         "meta": {
             "range": [
-                45811,
-                45837
+                45912,
+                45938
             ],
             "filename": "index.js",
-            "lineno": 1469,
+            "lineno": 1474,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005144",
@@ -12341,11 +12366,11 @@
         "comment": "",
         "meta": {
             "range": [
-                45907,
-                45950
+                46008,
+                46051
             ],
             "filename": "index.js",
-            "lineno": 1472,
+            "lineno": 1477,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005152",
@@ -12367,11 +12392,11 @@
         "comment": "",
         "meta": {
             "range": [
-                46015,
-                46023
+                46116,
+                46124
             ],
             "filename": "index.js",
-            "lineno": 1475,
+            "lineno": 1480,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
                 "id": "astnode100005172",
