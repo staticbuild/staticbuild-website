@@ -27,6 +27,8 @@
     <Content Include="src\lib\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="src\lib\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="src\lib\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="src\lib\jade\sidebar.layout.jade" />
+    <Content Include="src\lib\jade\base.part.jade" />
     <Content Include="staticbuild.json" />
     <Content Include="README.md" />
     <Compile Include="gulpfile.js" />
@@ -43,7 +45,7 @@
     <Content Include="src\api\content.part.jade" />
     <Content Include="src\api\index.jade" />
     <Content Include="src\api\navlist.part.jade" />
-    <Content Include="src\base.layout.jade" />
+    <Content Include="src\lib\jade\base.layout.jade" />
     <Content Include="src\lib\css\monokai-sublime.css" />
     <Content Include="src\lib\img\graffiti-logo-225x42.png" />
     <Content Include="src\lib\js\site.js" />
@@ -58,6 +60,7 @@
     <Folder Include="src\lib\fonts\" />
     <Folder Include="src\lib\img\" />
     <Folder Include="src\lib\js\" />
+    <Folder Include="src\lib\jade\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->

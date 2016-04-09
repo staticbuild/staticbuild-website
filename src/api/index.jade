@@ -1,10 +1,16 @@
-extends ../base.layout.jade
+extends ../lib/jade/sidebar.layout.jade
+block navs
+  li: a(href='/api/#class') Class
+  li: a(href='/api/#fields') Fields
+  li: a(href='/api/#methods') Methods
+  li: a(href='/api/#static-fields') Static Fields
+  li: a(href='/api/#static-methods') Static Methods
 block content
   - var ast = readClassAST('StaticBuild');
-  .container
+  .container-fluid
     .row
-      .col-md-4.hidden-sm.hidden-xs
+      .col-md-3.hidden-sm.hidden-xs
         include ./navlist.part.jade
-      .col-xs-12.col-md-8
+      .col-xs-12.col-md-9
         include ./content.part.jade
         
