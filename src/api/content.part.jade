@@ -1,45 +1,99 @@
-a.anchor(id='class')
-h1 #{ast.root.name}
-p #{ast.root.classdesc}
-h2 Constructor
-.panel.panel-default
-  .panel-heading: strong #{ast.root.name}()
-  .panel-body: p #{ast.root.description}
-p: a.anchor(id='fields')
-h2 Fields
-each field in ast.fields
-  .panel.panel-default
-    .panel-heading: strong
-      a.anchor(id=field.name)
-      | #{field.name}
-      +fieldtypes(field)
-    .panel-body: p #{field.description}
-p: a.anchor(id='methods')
-h2 Methods
-each method in ast.functions
-  .panel.panel-default
-    .panel-heading: strong
-      a.anchor(id=method.name)
-      | #{method.name}(#{methodParamNames(method)})
-    .panel-body: p #{method.description}
-    +paramstable(method)
-p: a.anchor(id='static-fields')
-h2 Static Fields
-each field in ast.static.fields
-  .panel.panel-default
-    .panel-heading: strong
-      a.anchor(id='static-' + field.name)
-      | #{field.name}
-    .panel-body: p #{field.description}
-p: a.anchor(id='static-methods')
-h2 Static Methods
-each method in ast.static.functions
-  .panel.panel-default
-    .panel-heading: strong
-      a.anchor(id='static-' + method.name)
-      | #{method.name}(#{methodParamNames(method)})
-    .panel-body: p #{method.description}
-    +paramstable(method)
+.container-fluid(style='background-color: #393939;')
+  .row
+    .col-xs-12.col-md-6(style='background-color: #fff;')
+      // Class
+      a.anchor(id='class')
+      h1 #{ast.root.name}
+      p #{ast.root.classdesc}
+      h2 Constructor
+      // TODO: Figure out where constructor is in AST.
+      .panel.panel-default
+        .panel-heading: strong #{ast.root.name}(pathorOpt, opt)
+        .panel-body: p #{ast.root.description}
+    .col-xs-12.col-md-6(style='background-color: #393939;')
+      p Examples coming soon!
+      p Examples coming soon!
+
+  // Fields
+  .row
+    .col-xs-12.col-md-6(style='background-color: #fff;')
+      p: a.anchor(id='fields')
+      h2 Fields
+    .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
+      p
+  each field in ast.fields
+    .row
+      .col-xs-12.col-md-6(style='background-color: #fff;')
+        .panel.panel-default
+          .panel-heading: strong
+            a.anchor(id=field.name)
+            | #{field.name}
+            +fieldtypes(field)
+          .panel-body: p #{field.description}
+      .col-xs-12.col-md-6(style='background-color: #393939;')
+        p Examples coming soon!
+        p Examples coming soon!
+
+  // Methods
+  .row
+    .col-xs-12.col-md-6(style='background-color: #fff;')
+      p: a.anchor(id='methods')
+      h2 Methods
+    .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
+      p
+  each method in ast.functions
+    .row
+      .col-xs-12.col-md-6(style='background-color: #fff;')
+        .panel.panel-default
+          .panel-heading: strong
+            a.anchor(id=method.name)
+            | #{method.name}(#{methodParamNames(method)})
+          .panel-body: p #{method.description}
+          +paramstable(method)
+      .col-xs-12.col-md-6(style='background-color: #393939;')
+        p Examples coming soon!
+        p Examples coming soon!
+
+  // Static Fields
+  .row
+    .col-xs-12.col-md-6(style='background-color: #fff;')
+      p: a.anchor(id='static-fields')
+      h2 Static Fields
+    .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
+      p
+  each field in ast.static.fields
+    .row
+      .col-xs-12.col-md-6(style='background-color: #fff;')
+        .panel.panel-default
+          .panel-heading: strong
+            a.anchor(id='static-' + field.name)
+            | #{field.name}
+          .panel-body: p #{field.description}
+      .col-xs-12.col-md-6(style='background-color: #393939;')
+        p Examples coming soon!
+        p Examples coming soon!
+  
+  // Static Methods
+  .row
+    .col-xs-12.col-md-6(style='background-color: #fff;')
+      p: a.anchor(id='static-methods')
+      h2 Static Methods
+    .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
+      p
+  each method in ast.static.functions
+    .row
+      .col-xs-12.col-md-6(style='background-color: #fff;')
+        .panel.panel-default
+          .panel-heading: strong
+            a.anchor(id='static-' + method.name)
+            | #{method.name}(#{methodParamNames(method)})
+          .panel-body: p #{method.description}
+          +paramstable(method)
+      .col-xs-12.col-md-6(style='background-color: #393939;')
+        p Examples coming soon!
+        p Examples coming soon!
+
+// Mixins
 
 mixin fieldtypes(field)
   if field.type && field.type.names
