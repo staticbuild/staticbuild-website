@@ -1,7 +1,7 @@
 
-mixin footer
+mixin footer(fluid)
   = '\n    '
-  .container.text-center
+  .text-center(class=fluid ? 'container-fluid' : 'container')
     em.pull-left.
       #{t('site.copyright')}
     em.
@@ -14,7 +14,7 @@ mixin footer
       a(href=t('url.githubIssues')) Help
 
 mixin hamburger-menu
-  span.sr-only Toggle navigation
+  span.sr-only Menu
   span.icon-bar
   span.icon-bar
   span.icon-bar

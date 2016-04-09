@@ -7301,4 +7301,66 @@ a.anchor {
   top: -65px;
   visibility: hidden;
 }
+.sidebar {
+  transition: left 0.3s ease-in-out;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: fixed;
+  z-index: 30;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 230px;
+  background-color: #393939;
+  font-size: 13px;
+  font-weight: bold;
+}
+.page-wrapper {
+  margin-left: 230px;
+  position: relative;
+  z-index: 10;
+  background-color: #eaf2f6;
+  min-height: 100%;
+  padding-bottom: 1px;
+}
+@media (max-width: 767px) {
+  .page-wrapper {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-wrapper {
+    margin-left: 0;
+  }
+}
+.sidebar > .search {
+  position: relative;
+}
+.sidebar > .search:before {
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  color: #fff;
+}
+.sidebar > .search:before {
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  content: "\e003";
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sidebar > .search input {
+  background: #393939;
+  border-width: 0 0 1px 0;
+  border-color: #666;
+  padding: 6px 0 6px 20px;
+  box-sizing: border-box;
+  margin: 10px 15px;
+  width: 200px;
+  outline: none;
+  color: #fff;
+  border-radius: 0;
+}
 /*# sourceMappingURL=/lib/css/site.css.map */
