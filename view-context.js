@@ -3,6 +3,9 @@
 var fs = require('fs');
 var lodash = require('lodash');
 var hljs = require('highlight.js');
+var marked = require('marked');
+
+exports.marked = marked;
 
 function highlightJS(js) {
 	return hljs.highlight('javascript', js).value;

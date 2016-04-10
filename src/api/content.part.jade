@@ -10,10 +10,10 @@
       .panel.panel-default
         .panel-heading: strong #{ast.root.name}(pathorOpt, opt)
         .panel-body: p #{ast.root.description}
-    .col-xs-12.col-md-6(style='background-color: #393939;')
-      p Examples coming soon!
-      p Examples coming soon!
-
+    .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
+      p!=marked('This is **an example** of __markdown__.')
+      pre
+          code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
   // Fields
   .row
     .col-xs-12.col-md-6(style='background-color: #fff;')
@@ -24,15 +24,17 @@
   each field in ast.fields
     .row
       .col-xs-12.col-md-6(style='background-color: #fff;')
+        p!= '&nbsp;'
         .panel.panel-default
           .panel-heading: strong
             a.anchor(id=field.name)
             | #{field.name}
             +fieldtypes(field)
           .panel-body: p #{field.description}
-      .col-xs-12.col-md-6(style='background-color: #393939;')
-        p Examples coming soon!
-        p Examples coming soon!
+      .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
+        p!=marked('This is **an example** of __markdown__.')
+        pre
+            code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
 
   // Methods
   .row
@@ -44,15 +46,17 @@
   each method in ast.functions
     .row
       .col-xs-12.col-md-6(style='background-color: #fff;')
+        p!= '&nbsp;'
         .panel.panel-default
           .panel-heading: strong
             a.anchor(id=method.name)
             | #{method.name}(#{methodParamNames(method)})
           .panel-body: p #{method.description}
           +paramstable(method)
-      .col-xs-12.col-md-6(style='background-color: #393939;')
-        p Examples coming soon!
-        p Examples coming soon!
+      .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
+        p!=marked('This is **an example** of __markdown__.')
+        pre
+            code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
 
   // Static Fields
   .row
@@ -64,14 +68,16 @@
   each field in ast.static.fields
     .row
       .col-xs-12.col-md-6(style='background-color: #fff;')
+        p!= '&nbsp;'
         .panel.panel-default
           .panel-heading: strong
             a.anchor(id='static-' + field.name)
             | #{field.name}
           .panel-body: p #{field.description}
-      .col-xs-12.col-md-6(style='background-color: #393939;')
-        p Examples coming soon!
-        p Examples coming soon!
+      .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
+        p!=marked('This is **an example** of __markdown__.')
+        pre
+            code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
   
   // Static Methods
   .row
@@ -83,15 +89,17 @@
   each method in ast.static.functions
     .row
       .col-xs-12.col-md-6(style='background-color: #fff;')
+        p!= '&nbsp;'
         .panel.panel-default
           .panel-heading: strong
             a.anchor(id='static-' + method.name)
             | #{method.name}(#{methodParamNames(method)})
           .panel-body: p #{method.description}
           +paramstable(method)
-      .col-xs-12.col-md-6(style='background-color: #393939;')
-        p Examples coming soon!
-        p Examples coming soon!
+      .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
+        p!=marked('This is **an example** of __markdown__.')
+        pre
+            code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
 
 // Mixins
 
