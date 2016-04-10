@@ -1,5 +1,5 @@
 .container-fluid(style='background-color: #393939;')
-  .row
+  .row.row-full-height
     .col-xs-12.col-md-6(style='background-color: #fff;')
       // Class
       a.anchor(id='class')
@@ -12,17 +12,24 @@
         .panel-body: p #{ast.root.description}
     .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
       p!=marked('This is **an example** of __markdown__.')
+      p!=marked('This is **an example** of __markdown__.')
       pre
           code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
+      p!=marked('This is **an example** of __markdown__.')
+      p!=marked('This is **an example** of __markdown__.')
+      p!=marked('This is **an example** of __markdown__.')
+      p!=marked('This is **an example** of __markdown__.')
+      p!=marked('This is **an example** of __markdown__.')
+      p!=marked('This is **an example** of __markdown__.')
   // Fields
-  .row
+  .row.row-full-height
     .col-xs-12.col-md-6(style='background-color: #fff;')
       p: a.anchor(id='fields')
       h2 Fields
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
       p
   each field in ast.fields
-    .row
+    .row.row-full-height
       .col-xs-12.col-md-6(style='background-color: #fff;')
         p!= '&nbsp;'
         .panel.panel-default
@@ -37,14 +44,14 @@
             code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
 
   // Methods
-  .row
+  .row.row-full-height
     .col-xs-12.col-md-6(style='background-color: #fff;')
       p: a.anchor(id='methods')
       h2 Methods
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
       p
   each method in ast.functions
-    .row
+    .row.row-full-height
       .col-xs-12.col-md-6(style='background-color: #fff;')
         p!= '&nbsp;'
         .panel.panel-default
@@ -59,14 +66,14 @@
             code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
 
   // Static Fields
-  .row
+  .row.row-full-height
     .col-xs-12.col-md-6(style='background-color: #fff;')
       p: a.anchor(id='static-fields')
       h2 Static Fields
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
       p
   each field in ast.static.fields
-    .row
+    .row.row-full-height
       .col-xs-12.col-md-6(style='background-color: #fff;')
         p!= '&nbsp;'
         .panel.panel-default
@@ -80,14 +87,14 @@
             code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
   
   // Static Methods
-  .row
+  .row.row-full-height
     .col-xs-12.col-md-6(style='background-color: #fff;')
       p: a.anchor(id='static-methods')
       h2 Static Methods
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
       p
   each method in ast.static.functions
-    .row
+    .row.row-full-height
       .col-xs-12.col-md-6(style='background-color: #fff;')
         p!= '&nbsp;'
         .panel.panel-default

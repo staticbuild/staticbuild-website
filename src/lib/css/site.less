@@ -25,6 +25,17 @@ a.anchor {
     visibility: hidden;
 }
 
+// http://stackoverflow.com/a/19695851/16387
+
+.row-full-height {
+  overflow: hidden;
+}
+
+.row-full-height [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
 .sidebar {
     transition: left 0.3s ease-in-out;
     overflow-y: auto;

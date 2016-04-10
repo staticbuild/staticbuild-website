@@ -7298,6 +7298,13 @@ a.anchor {
   top: -65px;
   visibility: hidden;
 }
+.row-full-height {
+  overflow: hidden;
+}
+.row-full-height [class*="col-"] {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
 .sidebar {
   transition: left 0.3s ease-in-out;
   overflow-y: auto;
@@ -7364,5 +7371,4 @@ a.anchor {
   color: #fff;
   border-radius: 0;
 }
-
-/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=/lib/css/site.css.map */
