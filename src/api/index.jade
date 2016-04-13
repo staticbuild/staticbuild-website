@@ -1,15 +1,12 @@
 extends ../lib/jade/sidebar.layout.jade
 block vars
   - var ast = readClassAST('StaticBuild');
-//block navs
-  //li: a(href='/api/#class') Class
-  //li: a(href='/api/#fields') Fields
-  //li: a(href='/api/#methods') Methods
-  //li: a(href='/api/#static-fields') Static Fields
-  //li: a(href='/api/#static-methods') Static Methods
 
 block sidebar
   include ./navlist.part.jade
 
 block page-content
   include ./content.part.jade
+
+block page-footer
+  

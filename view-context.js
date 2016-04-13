@@ -67,7 +67,7 @@ exports.readClassAST = readClassAST;
 
 function memberTypeNames(member) {
   if (member && member.type && member.type.names)
-    return member.type.names.join(', ')
+    return member.type.names.join(', ');
   return '';
 }
 exports.memberTypeNames = memberTypeNames;

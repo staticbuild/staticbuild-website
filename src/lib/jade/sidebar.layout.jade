@@ -6,5 +6,7 @@ block content
   .page-wrapper
     block page-content
       p!= '&nbsp;'
-    +footer(true)
+    block page-footer
+      .container-fluid: .row: .col-xs-12
+        +footer
 block footer

@@ -9,6 +9,7 @@
   },
   "url": {
     "github": "https://github.com/staticbuild/staticbuild",
-    "githubIssues": "https://github.com/staticbuild/staticbuild/issues"
+    "githubIssues": "https://github.com/staticbuild/staticbuild/issues",
+    "npm": "https://www.npmjs.com/package/staticbuild"
   }
 }

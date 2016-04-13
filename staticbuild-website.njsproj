@@ -18,6 +18,8 @@
   <ItemGroup>
     <Content Include="bower.json" />
     <Content Include="package.json" />
+    <Content Include="src\configuration\index.jade" />
+    <Content Include="src\getting-started\index.jade" />
     <Content Include="src\lib\css\bootstrap.part.less" />
     <Content Include="src\lib\css\site.less" />
     <Content Include="src\lib\css\theme.part.less" />
@@ -55,12 +57,14 @@
     <Folder Include="locales" />
     <Folder Include="src" />
     <Folder Include="src\api" />
+    <Folder Include="src\configuration\" />
     <Folder Include="src\lib" />
     <Folder Include="src\lib\css\" />
     <Folder Include="src\lib\fonts\" />
     <Folder Include="src\lib\img\" />
     <Folder Include="src\lib\js\" />
     <Folder Include="src\lib\jade\" />
+    <Folder Include="src\getting-started\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->

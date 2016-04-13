@@ -1,7 +1,6 @@
 
-mixin footer(fluid)
-  = '\n    '
-  .text-center(class=fluid ? 'container-fluid' : 'container')
+mixin footer()
+  .text-center
     em.pull-left.
       #{t('site.copyright')}
     em.
@@ -32,10 +31,11 @@ mixin navbar
           img(src='/lib/img/graffiti-logo-225x42.png' 
             width='225' height='42')
       #navbar.navbar-collapse.collapse
-        ul.nav.navbar-nav.navbar-right
-          block navs
-            li: a(href='/') Introduction
-            li: a(href='/#beta' title='(Project is currently in beta.)'): strong (Beta)
-            li: a(href='/#features') Features
+        ul.nav.navbar-nav
+          li: a(href='/#beta' title='(Project is currently in beta.)'): strong (beta)
+          li: a(href='/getting-started/') Getting Started
+          li: a(href='/configuration') Configuration
           li: a(href='/api') API
+        ul.nav.navbar-nav.navbar-right
+          li: a(href=t('url.npm')) NPM
           li: a(href=t('url.github')) GitHub

@@ -3161,7 +3161,7 @@
         "meta": {
             "range": [
                 9620,
-                9952
+                9953
             ],
             "filename": "index.js",
             "lineno": 331,
@@ -3340,7 +3340,7 @@
         "meta": {
             "range": [
                 9846,
-                9889
+                9890
             ],
             "filename": "index.js",
             "lineno": 337,
@@ -3365,8 +3365,8 @@
         "comment": "",
         "meta": {
             "range": [
-                9893,
-                9917
+                9894,
+                9918
             ],
             "filename": "index.js",
             "lineno": 338,
@@ -3391,8 +3391,8 @@
         "comment": "",
         "meta": {
             "range": [
-                9994,
-                10415
+                9995,
+                10416
             ],
             "filename": "index.js",
             "lineno": 344,
@@ -3420,8 +3420,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10054,
-                10096
+                10055,
+                10097
             ],
             "filename": "index.js",
             "lineno": 346,
@@ -3444,8 +3444,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10417,
-                10602
+                10418,
+                10603
             ],
             "filename": "index.js",
             "lineno": 360,
@@ -3474,8 +3474,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10571,
-                10599
+                10572,
+                10600
             ],
             "filename": "index.js",
             "lineno": 364,
@@ -3499,8 +3499,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10604,
-                11832
+                10605,
+                11834
             ],
             "filename": "index.js",
             "lineno": 367,
@@ -3534,8 +3534,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10651,
-                10661
+                10652,
+                10662
             ],
             "filename": "index.js",
             "lineno": 368,
@@ -3556,8 +3556,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10669,
-                10677
+                10670,
+                10678
             ],
             "filename": "index.js",
             "lineno": 369,
@@ -3578,8 +3578,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10685,
-                10697
+                10686,
+                10698
             ],
             "filename": "index.js",
             "lineno": 370,
@@ -3602,8 +3602,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10825,
-                10855
+                10826,
+                10856
             ],
             "filename": "index.js",
             "lineno": 373,
@@ -3627,8 +3627,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10902,
-                10936
+                10903,
+                10937
             ],
             "filename": "index.js",
             "lineno": 375,
@@ -3652,8 +3652,8 @@
         "comment": "",
         "meta": {
             "range": [
-                10979,
-                11003
+                10980,
+                11004
             ],
             "filename": "index.js",
             "lineno": 377,
@@ -3678,8 +3678,8 @@
         "comment": "",
         "meta": {
             "range": [
-                11007,
-                11705
+                11008,
+                11707
             ],
             "filename": "index.js",
             "lineno": 378,
@@ -3711,8 +3711,8 @@
         "comment": "",
         "meta": {
             "range": [
-                11129,
-                11143
+                11130,
+                11144
             ],
             "filename": "index.js",
             "lineno": 381,
@@ -3737,8 +3737,8 @@
         "comment": "",
         "meta": {
             "range": [
-                11310,
-                11374
+                11312,
+                11376
             ],
             "filename": "index.js",
             "lineno": 386,
@@ -3763,8 +3763,8 @@
         "comment": "",
         "meta": {
             "range": [
-                11530,
-                11548
+                11532,
+                11550
             ],
             "filename": "index.js",
             "lineno": 393,
@@ -3788,8 +3788,8 @@
         "comment": "",
         "meta": {
             "range": [
-                11626,
-                11655
+                11628,
+                11657
             ],
             "filename": "index.js",
             "lineno": 395,
@@ -3813,8 +3813,8 @@
         "comment": "",
         "meta": {
             "range": [
-                11834,
-                12338
+                11836,
+                12340
             ],
             "filename": "index.js",
             "lineno": 404,
@@ -3845,8 +3845,8 @@
         "comment": "",
         "meta": {
             "range": [
-                12037,
-                12058
+                12039,
+                12060
             ],
             "filename": "index.js",
             "lineno": 409,
@@ -3871,8 +3871,8 @@
         "comment": "",
         "meta": {
             "range": [
-                12152,
-                12184
+                12154,
+                12186
             ],
             "filename": "index.js",
             "lineno": 414,
@@ -3896,8 +3896,8 @@
         "comment": "",
         "meta": {
             "range": [
-                12235,
-                12267
+                12237,
+                12269
             ],
             "filename": "index.js",
             "lineno": 417,
@@ -3921,8 +3921,8 @@
         "comment": "",
         "meta": {
             "range": [
-                12340,
-                12747
+                12342,
+                12749
             ],
             "filename": "index.js",
             "lineno": 421,
@@ -3951,8 +3951,8 @@
         "comment": "",
         "meta": {
             "range": [
-                12700,
-                12744
+                12702,
+                12746
             ],
             "filename": "index.js",
             "lineno": 432,
@@ -3976,8 +3976,8 @@
         "comment": "",
         "meta": {
             "range": [
-                12749,
-                13225
+                12751,
+                13227
             ],
             "filename": "index.js",
             "lineno": 435,
@@ -4011,8 +4011,8 @@
         "comment": "",
         "meta": {
             "range": [
-                12796,
-                12818
+                12798,
+                12820
             ],
             "filename": "index.js",
             "lineno": 436,
@@ -4035,8 +4035,8 @@
         "comment": "",
         "meta": {
             "range": [
-                12826,
-                12847
+                12828,
+                12849
             ],
             "filename": "index.js",
             "lineno": 437,
@@ -4059,8 +4059,8 @@
         "comment": "",
         "meta": {
             "range": [
-                12940,
-                12965
+                12942,
+                12967
             ],
             "filename": "index.js",
             "lineno": 441,
@@ -4085,8 +4085,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13030,
-                13057
+                13032,
+                13059
             ],
             "filename": "index.js",
             "lineno": 444,
@@ -4111,8 +4111,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13112,
-                13129
+                13114,
+                13131
             ],
             "filename": "index.js",
             "lineno": 447,
@@ -4137,8 +4137,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13137,
-                13222
+                13139,
+                13224
             ],
             "filename": "index.js",
             "lineno": 449,
@@ -4162,8 +4162,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13227,
-                13548
+                13229,
+                13550
             ],
             "filename": "index.js",
             "lineno": 456,
@@ -4193,8 +4193,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13271,
-                13287
+                13273,
+                13289
             ],
             "filename": "index.js",
             "lineno": 457,
@@ -4217,8 +4217,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13391,
-                13435
+                13393,
+                13437
             ],
             "filename": "index.js",
             "lineno": 462,
@@ -4242,8 +4242,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13550,
-                14047
+                13552,
+                14049
             ],
             "filename": "index.js",
             "lineno": 468,
@@ -4275,8 +4275,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13594,
-                13610
+                13596,
+                13612
             ],
             "filename": "index.js",
             "lineno": 469,
@@ -4299,8 +4299,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13714,
-                13758
+                13716,
+                13760
             ],
             "filename": "index.js",
             "lineno": 474,
@@ -4324,8 +4324,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13862,
-                13919
+                13864,
+                13921
             ],
             "filename": "index.js",
             "lineno": 478,
@@ -4349,8 +4349,8 @@
         "comment": "",
         "meta": {
             "range": [
-                13985,
-                14040
+                13987,
+                14042
             ],
             "filename": "index.js",
             "lineno": 481,
@@ -4374,8 +4374,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14049,
-                14500
+                14051,
+                14502
             ],
             "filename": "index.js",
             "lineno": 485,
@@ -4408,8 +4408,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14159,
-                14199
+                14161,
+                14201
             ],
             "filename": "index.js",
             "lineno": 488,
@@ -4433,8 +4433,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14205,
-                14239
+                14207,
+                14241
             ],
             "filename": "index.js",
             "lineno": 489,
@@ -4458,8 +4458,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14306,
-                14340
+                14308,
+                14342
             ],
             "filename": "index.js",
             "lineno": 493,
@@ -4483,8 +4483,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14401,
-                14457
+                14403,
+                14459
             ],
             "filename": "index.js",
             "lineno": 497,
@@ -4508,8 +4508,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14463,
-                14493
+                14465,
+                14495
             ],
             "filename": "index.js",
             "lineno": 498,
@@ -4533,8 +4533,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14502,
-                15367
+                14504,
+                15369
             ],
             "filename": "index.js",
             "lineno": 502,
@@ -4566,8 +4566,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14550,
-                14574
+                14552,
+                14576
             ],
             "filename": "index.js",
             "lineno": 503,
@@ -4590,8 +4590,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14686,
-                14738
+                14688,
+                14740
             ],
             "filename": "index.js",
             "lineno": 508,
@@ -4615,8 +4615,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14822,
-                14880
+                14824,
+                14882
             ],
             "filename": "index.js",
             "lineno": 511,
@@ -4640,8 +4640,8 @@
         "comment": "",
         "meta": {
             "range": [
-                14940,
-                15002
+                14942,
+                15004
             ],
             "filename": "index.js",
             "lineno": 513,
@@ -4665,8 +4665,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15077,
-                15129
+                15079,
+                15131
             ],
             "filename": "index.js",
             "lineno": 516,
@@ -4690,8 +4690,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15186,
-                15242
+                15188,
+                15244
             ],
             "filename": "index.js",
             "lineno": 518,
@@ -4715,8 +4715,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15369,
-                15609
+                15371,
+                15611
             ],
             "filename": "index.js",
             "lineno": 524,
@@ -4745,8 +4745,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15482,
-                15517
+                15484,
+                15519
             ],
             "filename": "index.js",
             "lineno": 527,
@@ -4770,8 +4770,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15570,
-                15606
+                15572,
+                15608
             ],
             "filename": "index.js",
             "lineno": 529,
@@ -4795,8 +4795,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15611,
-                16500
+                15613,
+                16502
             ],
             "filename": "index.js",
             "lineno": 532,
@@ -4829,8 +4829,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15718,
-                15750
+                15720,
+                15752
             ],
             "filename": "index.js",
             "lineno": 535,
@@ -4854,8 +4854,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15798,
-                15827
+                15800,
+                15829
             ],
             "filename": "index.js",
             "lineno": 537,
@@ -4879,8 +4879,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15891,
-                15919
+                15893,
+                15921
             ],
             "filename": "index.js",
             "lineno": 540,
@@ -4904,8 +4904,8 @@
         "comment": "",
         "meta": {
             "range": [
-                15965,
-                15990
+                15967,
+                15992
             ],
             "filename": "index.js",
             "lineno": 542,
@@ -4929,8 +4929,8 @@
         "comment": "",
         "meta": {
             "range": [
-                16049,
-                16077
+                16051,
+                16079
             ],
             "filename": "index.js",
             "lineno": 545,
@@ -4954,8 +4954,8 @@
         "comment": "",
         "meta": {
             "range": [
-                16224,
-                16269
+                16226,
+                16271
             ],
             "filename": "index.js",
             "lineno": 549,
@@ -4979,8 +4979,8 @@
         "comment": "",
         "meta": {
             "range": [
-                16443,
-                16497
+                16445,
+                16499
             ],
             "filename": "index.js",
             "lineno": 555,
@@ -5004,8 +5004,8 @@
         "comment": "",
         "meta": {
             "range": [
-                16502,
-                17355
+                16504,
+                17357
             ],
             "filename": "index.js",
             "lineno": 558,
@@ -5039,8 +5039,8 @@
         "comment": "",
         "meta": {
             "range": [
-                16605,
-                16641
+                16607,
+                16643
             ],
             "filename": "index.js",
             "lineno": 561,
@@ -5064,8 +5064,8 @@
         "comment": "",
         "meta": {
             "range": [
-                16714,
-                16758
+                16716,
+                16760
             ],
             "filename": "index.js",
             "lineno": 564,
@@ -5089,8 +5089,8 @@
         "comment": "",
         "meta": {
             "range": [
-                16829,
-                16861
+                16831,
+                16863
             ],
             "filename": "index.js",
             "lineno": 567,
@@ -5114,8 +5114,8 @@
         "comment": "",
         "meta": {
             "range": [
-                16914,
-                16950
+                16916,
+                16952
             ],
             "filename": "index.js",
             "lineno": 569,
@@ -5139,8 +5139,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17001,
-                17025
+                17003,
+                17027
             ],
             "filename": "index.js",
             "lineno": 571,
@@ -5164,8 +5164,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17031,
-                17059
+                17033,
+                17061
             ],
             "filename": "index.js",
             "lineno": 572,
@@ -5189,8 +5189,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17142,
-                17178
+                17144,
+                17180
             ],
             "filename": "index.js",
             "lineno": 576,
@@ -5214,8 +5214,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17231,
-                17267
+                17233,
+                17269
             ],
             "filename": "index.js",
             "lineno": 578,
@@ -5239,8 +5239,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17324,
-                17352
+                17326,
+                17354
             ],
             "filename": "index.js",
             "lineno": 581,
@@ -5264,8 +5264,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17387,
-                18257
+                17389,
+                18259
             ],
             "filename": "index.js",
             "lineno": 586,
@@ -5299,8 +5299,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17463,
-                17519
+                17465,
+                17521
             ],
             "filename": "index.js",
             "lineno": 589,
@@ -5324,8 +5324,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17548,
-                17600
+                17550,
+                17602
             ],
             "filename": "index.js",
             "lineno": 591,
@@ -5349,8 +5349,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17627,
-                17675
+                17629,
+                17677
             ],
             "filename": "index.js",
             "lineno": 593,
@@ -5374,8 +5374,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17705,
-                17759
+                17707,
+                17761
             ],
             "filename": "index.js",
             "lineno": 595,
@@ -5399,8 +5399,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17809,
-                17910
+                17811,
+                17912
             ],
             "filename": "index.js",
             "lineno": 597,
@@ -5424,8 +5424,8 @@
         "comment": "",
         "meta": {
             "range": [
-                17957,
-                18052
+                17959,
+                18054
             ],
             "filename": "index.js",
             "lineno": 600,
@@ -5449,8 +5449,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18083,
-                18139
+                18085,
+                18141
             ],
             "filename": "index.js",
             "lineno": 603,
@@ -5474,8 +5474,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18259,
-                18617
+                18261,
+                18619
             ],
             "filename": "index.js",
             "lineno": 611,
@@ -5500,8 +5500,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18374,
-                18392
+                18376,
+                18394
             ],
             "filename": "index.js",
             "lineno": 615,
@@ -5523,8 +5523,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18398,
-                18410
+                18400,
+                18412
             ],
             "filename": "index.js",
             "lineno": 616,
@@ -5546,8 +5546,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18416,
-                18438
+                18418,
+                18440
             ],
             "filename": "index.js",
             "lineno": 617,
@@ -5569,8 +5569,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18444,
-                18478
+                18446,
+                18480
             ],
             "filename": "index.js",
             "lineno": 618,
@@ -5592,8 +5592,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18484,
-                18511
+                18486,
+                18513
             ],
             "filename": "index.js",
             "lineno": 619,
@@ -5615,8 +5615,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18517,
-                18537
+                18519,
+                18539
             ],
             "filename": "index.js",
             "lineno": 620,
@@ -5638,8 +5638,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18543,
-                18553
+                18545,
+                18555
             ],
             "filename": "index.js",
             "lineno": 621,
@@ -5661,8 +5661,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18559,
-                18577
+                18561,
+                18579
             ],
             "filename": "index.js",
             "lineno": 622,
@@ -5684,8 +5684,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18619,
-                19625
+                18621,
+                19627
             ],
             "filename": "index.js",
             "lineno": 627,
@@ -5718,8 +5718,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18714,
-                18773
+                18716,
+                18775
             ],
             "filename": "index.js",
             "lineno": 629,
@@ -5742,8 +5742,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18781,
-                18794
+                18783,
+                18796
             ],
             "filename": "index.js",
             "lineno": 630,
@@ -5764,8 +5764,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18910,
-                18953
+                18912,
+                18955
             ],
             "filename": "index.js",
             "lineno": 634,
@@ -5790,8 +5790,8 @@
         "comment": "",
         "meta": {
             "range": [
-                18957,
-                19176
+                18959,
+                19178
             ],
             "filename": "index.js",
             "lineno": 635,
@@ -5816,8 +5816,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19283,
-                19340
+                19285,
+                19342
             ],
             "filename": "index.js",
             "lineno": 643,
@@ -5841,8 +5841,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19445,
-                19476
+                19447,
+                19478
             ],
             "filename": "index.js",
             "lineno": 646,
@@ -5866,8 +5866,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19588,
-                19622
+                19590,
+                19624
             ],
             "filename": "index.js",
             "lineno": 649,
@@ -5891,8 +5891,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19627,
-                19903
+                19629,
+                19905
             ],
             "filename": "index.js",
             "lineno": 652,
@@ -5924,8 +5924,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19701,
-                19746
+                19703,
+                19748
             ],
             "filename": "index.js",
             "lineno": 655,
@@ -5948,8 +5948,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19775,
-                19791
+                19777,
+                19793
             ],
             "filename": "index.js",
             "lineno": 658,
@@ -5973,8 +5973,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19799,
-                19821
+                19801,
+                19823
             ],
             "filename": "index.js",
             "lineno": 659,
@@ -5997,8 +5997,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19825,
-                19847
+                19827,
+                19849
             ],
             "filename": "index.js",
             "lineno": 660,
@@ -6022,8 +6022,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19851,
-                19900
+                19853,
+                19902
             ],
             "filename": "index.js",
             "lineno": 661,
@@ -6047,8 +6047,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19905,
-                20662
+                19907,
+                20664
             ],
             "filename": "index.js",
             "lineno": 664,
@@ -6082,8 +6082,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19947,
-                19979
+                19949,
+                19981
             ],
             "filename": "index.js",
             "lineno": 665,
@@ -6106,8 +6106,8 @@
         "comment": "",
         "meta": {
             "range": [
-                19987,
-                19998
+                19989,
+                20000
             ],
             "filename": "index.js",
             "lineno": 666,
@@ -6130,8 +6130,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20069,
-                20133
+                20071,
+                20135
             ],
             "filename": "index.js",
             "lineno": 669,
@@ -6156,8 +6156,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20167,
-                20225
+                20169,
+                20227
             ],
             "filename": "index.js",
             "lineno": 671,
@@ -6182,8 +6182,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20259,
-                20333
+                20261,
+                20335
             ],
             "filename": "index.js",
             "lineno": 674,
@@ -6208,8 +6208,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20340,
-                20422
+                20342,
+                20424
             ],
             "filename": "index.js",
             "lineno": 676,
@@ -6234,8 +6234,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20450,
-                20515
+                20452,
+                20517
             ],
             "filename": "index.js",
             "lineno": 679,
@@ -6260,8 +6260,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20573,
-                20659
+                20575,
+                20661
             ],
             "filename": "index.js",
             "lineno": 682,
@@ -6286,8 +6286,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20664,
-                21094
+                20666,
+                21096
             ],
             "filename": "index.js",
             "lineno": 686,
@@ -6319,8 +6319,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20704,
-                20727
+                20706,
+                20729
             ],
             "filename": "index.js",
             "lineno": 687,
@@ -6343,8 +6343,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20758,
-                20840
+                20760,
+                20842
             ],
             "filename": "index.js",
             "lineno": 689,
@@ -6369,8 +6369,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20768,
-                20840
+                20770,
+                20842
             ],
             "filename": "index.js",
             "lineno": 689,
@@ -6394,8 +6394,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20951,
-                20989
+                20953,
+                20991
             ],
             "filename": "index.js",
             "lineno": 694,
@@ -6420,8 +6420,8 @@
         "comment": "",
         "meta": {
             "range": [
-                20995,
-                21034
+                20997,
+                21036
             ],
             "filename": "index.js",
             "lineno": 695,
@@ -6446,8 +6446,8 @@
         "comment": "",
         "meta": {
             "range": [
-                21040,
-                21087
+                21042,
+                21089
             ],
             "filename": "index.js",
             "lineno": 696,
@@ -6472,8 +6472,8 @@
         "comment": "/**\n * Applies the i18n translate method (`__`).\n * @param {string|obj} [str] - String or phrase object with mustache template.\n * @param [etc] - An object or primitive value to merge into the template.\n * @returns {string} The translation.\n * @see https://github.com/mashpie/i18n-node#__\n */",
         "meta": {
             "range": [
-                21422,
-                21625
+                21424,
+                21627
             ],
             "filename": "index.js",
             "lineno": 709,
@@ -6533,8 +6533,8 @@
         "comment": "",
         "meta": {
             "range": [
-                21511,
-                21555
+                21513,
+                21557
             ],
             "filename": "index.js",
             "lineno": 712,
@@ -6557,8 +6557,8 @@
         "comment": "/**\n * Applies the i18n translate-numeric method (`__n`).\n * @param {string} singular - The singular format string.\n * @param {string} plural - The plural format string.\n * @param {number} value - The number to translate.\n * @returns {string} The translation.\n * @see https://github.com/mashpie/i18n-node#__n\n */",
         "meta": {
             "range": [
-                21940,
-                22166
+                21942,
+                22168
             ],
             "filename": "index.js",
             "lineno": 724,
@@ -6630,8 +6630,8 @@
         "comment": "",
         "meta": {
             "range": [
-                22051,
-                22095
+                22053,
+                22097
             ],
             "filename": "index.js",
             "lineno": 727,
@@ -6654,8 +6654,8 @@
         "comment": "/**\n * Sets the current locale for i18n.\n * @param {string} locale - The locale id string.\n * @param {function} errback - A callback that accepts (err, locale);\n * @returns {boolean} True if successful otherwise false.\n * @see https://github.com/mashpie/i18n-node#setlocale\n */",
         "meta": {
             "range": [
-                22446,
-                22877
+                22448,
+                22879
             ],
             "filename": "index.js",
             "lineno": 738,
@@ -6718,8 +6718,8 @@
         "comment": "",
         "meta": {
             "range": [
-                22548,
-                22591
+                22550,
+                22593
             ],
             "filename": "index.js",
             "lineno": 742,
@@ -6744,8 +6744,8 @@
         "comment": "/** @ignore */",
         "meta": {
             "range": [
-                22766,
-                22786
+                22768,
+                22788
             ],
             "filename": "index.js",
             "lineno": 749,
@@ -6769,8 +6769,8 @@
         "comment": "",
         "meta": {
             "range": [
-                22880,
-                23001
+                22882,
+                23003
             ],
             "filename": "index.js",
             "lineno": 756,
@@ -6795,8 +6795,8 @@
         "comment": "",
         "meta": {
             "range": [
-                23035,
-                23264
+                23037,
+                23266
             ],
             "filename": "index.js",
             "lineno": 765,
@@ -6826,8 +6826,8 @@
         "comment": "",
         "meta": {
             "range": [
-                23091,
-                23118
+                23093,
+                23120
             ],
             "filename": "index.js",
             "lineno": 766,
@@ -6850,8 +6850,8 @@
         "comment": "",
         "meta": {
             "range": [
-                23126,
-                23244
+                23128,
+                23246
             ],
             "filename": "index.js",
             "lineno": 767,
@@ -6874,8 +6874,8 @@
         "comment": "/**\n * Returns the pathStr after appending the given value to the fileName, \n * before the extension.\n * @function\n * @param {string} pathStr - The file path.\n * @param {string} valueToAppend - The value to append.\n * @returns {string} The pathStr with value appended.\n */",
         "meta": {
             "range": [
-                23538,
-                23581
+                23540,
+                23583
             ],
             "filename": "index.js",
             "lineno": 784,
@@ -6929,8 +6929,8 @@
         "comment": "/**\n * Returns the pathStr after appending the given value to the fileName, \n * before the extension.\n * @function\n * @param {string} pathStr - The file path.\n * @param {string} valueToAppend - The value to append.\n * @returns {string} The pathStr with value appended.\n */",
         "meta": {
             "range": [
-                23856,
-                23909
+                23858,
+                23911
             ],
             "filename": "index.js",
             "lineno": 793,
@@ -6984,8 +6984,8 @@
         "comment": "",
         "meta": {
             "range": [
-                23912,
-                24016
+                23914,
+                24018
             ],
             "filename": "index.js",
             "lineno": 795,
@@ -7011,8 +7011,8 @@
         "comment": "/**\n * Returns the pathStr with the given part appended to the fileName, before \n * the extension, using a standard dash as a delimiter.\n * @function\n * @param {string} pathStr - The file path.\n * @param {string} valueToAppend - The value to append.\n * @returns {string} The pathStr with value appended.\n */",
         "meta": {
             "range": [
-                24325,
-                24376
+                24327,
+                24378
             ],
             "filename": "index.js",
             "lineno": 806,
@@ -7066,8 +7066,8 @@
         "comment": "/**\n * Returns the pathStr with the given part appended to the fileName, before \n * the extension, using a standard dash as a delimiter.\n * @function\n * @param {string} pathStr - The file path.\n * @param {string} valueToAppend - The value to append.\n * @returns {string} The pathStr with value appended.\n */",
         "meta": {
             "range": [
-                24686,
-                24747
+                24688,
+                24749
             ],
             "filename": "index.js",
             "lineno": 815,
@@ -7121,8 +7121,8 @@
         "comment": "/**\n * Returns a relative path derived from the build's destDir.\n * @param {string} pattern - The path pattern within the destination.\n * @returns {string} The relative destination path with pattern appended.\n */",
         "meta": {
             "range": [
-                24962,
-                25067
+                24964,
+                25069
             ],
             "filename": "index.js",
             "lineno": 821,
@@ -7168,8 +7168,8 @@
         "comment": "/**\n * Returns a relative path derived from the build's locale directory.\n * @param {string} pattern - The path pattern within the locale destination.\n */",
         "meta": {
             "range": [
-                25224,
-                25359
+                25226,
+                25361
             ],
             "filename": "index.js",
             "lineno": 829,
@@ -7205,8 +7205,8 @@
         "comment": "/**\n * Returns a filesystem path for the given path string, taking any pathMap \n * mappings into account.\n * @param {string} pathStr - The path string.\n * @returns {string} The filesystem path.\n */",
         "meta": {
             "range": [
-                25559,
-                25769
+                25561,
+                25771
             ],
             "filename": "index.js",
             "lineno": 839,
@@ -7255,8 +7255,8 @@
         "comment": "",
         "meta": {
             "range": [
-                25617,
-                25662
+                25619,
+                25664
             ],
             "filename": "index.js",
             "lineno": 840,
@@ -7279,8 +7279,8 @@
         "comment": "/**\n * Returns true if the given url path is mapped.\n * @param {string} pathType - The type of pathStr ('fs', 'url').\n * @param {string} pathStr - The path to get the mapping for.\n * @returns {object} The path mapping object with keys: 'fs', 'url'.\n */",
         "meta": {
             "range": [
-                26024,
-                26357
+                26026,
+                26359
             ],
             "filename": "index.js",
             "lineno": 851,
@@ -7339,8 +7339,8 @@
         "comment": "",
         "meta": {
             "range": [
-                26125,
-                26305
+                26127,
+                26307
             ],
             "filename": "index.js",
             "lineno": 855,
@@ -7369,8 +7369,8 @@
         "comment": "",
         "meta": {
             "range": [
-                26166,
-                26194
+                26168,
+                26196
             ],
             "filename": "index.js",
             "lineno": 856,
@@ -7393,8 +7393,8 @@
         "comment": "/**\n * Returns an array of paths outside of src that are watched in dev mode.\n * @returns {string[]} An array of paths that are watched in dev mode.\n */",
         "meta": {
             "range": [
-                26512,
-                26902
+                26514,
+                26904
             ],
             "filename": "index.js",
             "lineno": 866,
@@ -7430,8 +7430,8 @@
         "comment": "",
         "meta": {
             "range": [
-                26571,
-                26581
+                26573,
+                26583
             ],
             "filename": "index.js",
             "lineno": 868,
@@ -7454,8 +7454,8 @@
         "comment": "/**\n * Returns a glob that excludes the given path string.\n * @param {string} pathStr - The path to exclude.\n * @returns {string} The pathStr with exclusion pattern applied.\n */",
         "meta": {
             "range": [
-                27082,
-                27160
+                27084,
+                27162
             ],
             "filename": "index.js",
             "lineno": 884,
@@ -7501,8 +7501,8 @@
         "comment": "/**\n * Returns a relative path derived from the build's baseDir.\n * @param {string} targetPath - The path to get a relative path to.\n * @returns {string} A relative path to targetPath.\n */",
         "meta": {
             "range": [
-                27351,
-                27482
+                27353,
+                27484
             ],
             "filename": "index.js",
             "lineno": 892,
@@ -7548,8 +7548,8 @@
         "comment": "/**\n * Returns a relative path pattern derived from the build's baseDir. \n * (e.g. '../path/to/##/#.js' but with asterisks instead of hashes)\n * @param {string} basePath - The base path.\n * @param {string} pattern - The glob pattern.\n * @returns {string} A relative path pattern within baseDir.\n */",
         "meta": {
             "range": [
-                27783,
-                28145
+                27785,
+                28147
             ],
             "filename": "index.js",
             "lineno": 903,
@@ -7608,8 +7608,8 @@
         "comment": "",
         "meta": {
             "range": [
-                27968,
-                27994
+                27970,
+                27996
             ],
             "filename": "index.js",
             "lineno": 907,
@@ -7632,8 +7632,8 @@
         "comment": "",
         "meta": {
             "range": [
-                28148,
-                28322
+                28150,
+                28324
             ],
             "filename": "index.js",
             "lineno": 914,
@@ -7665,8 +7665,8 @@
         "comment": "",
         "meta": {
             "range": [
-                28202,
-                28203
+                28204,
+                28205
             ],
             "filename": "index.js",
             "lineno": 915,
@@ -7687,8 +7687,8 @@
         "comment": "",
         "meta": {
             "range": [
-                28205,
-                28230
+                28207,
+                28232
             ],
             "filename": "index.js",
             "lineno": 915,
@@ -7711,8 +7711,8 @@
         "comment": "",
         "meta": {
             "range": [
-                28239,
-                28244
+                28241,
+                28246
             ],
             "filename": "index.js",
             "lineno": 916,
@@ -7737,8 +7737,8 @@
         "comment": "",
         "meta": {
             "range": [
-                28264,
-                28305
+                28266,
+                28307
             ],
             "filename": "index.js",
             "lineno": 917,
@@ -7763,8 +7763,8 @@
         "comment": "/**\n * Returns an absolute file-system path resolved from the build's baseDir.\n * @param {string} targetPath - The path to resolve to.\n * @returns {string} An absolute path to the targetPath.\n */",
         "meta": {
             "range": [
-                28519,
-                28630
+                28521,
+                28632
             ],
             "filename": "index.js",
             "lineno": 925,
@@ -7810,8 +7810,8 @@
         "comment": "/**\n * Returns an absolute file-system path resolved from sourceDir.\n * @param {string} srcPath - The path to resolve.\n * @returns {string} Th absolute path to the given srcPath.\n */",
         "meta": {
             "range": [
-                28815,
-                28925
+                28817,
+                28927
             ],
             "filename": "index.js",
             "lineno": 934,
@@ -7857,8 +7857,8 @@
         "comment": "/**\n * Returns the given pathStr with pathTokens replaced for use at runtime.\n * @param {string} pathStr - The path string.\n * @param {object} [opt] - Options.\n * @param {string} [opt.bundle] - A bundle name for string replacement.\n * @param {string} [opt.bundleVer] - A bundle version for string replacement.\n * @param {string} [opt.bundlePath] - A bundle path for string replacement.\n * @returns {string} The pathStr with runtime path tokens replaced.\n */",
         "meta": {
             "range": [
-                29385,
-                30385
+                29387,
+                30387
             ],
             "filename": "index.js",
             "lineno": 947,
@@ -7950,8 +7950,8 @@
         "comment": "",
         "meta": {
             "range": [
-                29454,
-                29467
+                29456,
+                29469
             ],
             "filename": "index.js",
             "lineno": 949,
@@ -7972,8 +7972,8 @@
         "comment": "",
         "meta": {
             "range": [
-                29471,
-                29524
+                29473,
+                29526
             ],
             "filename": "index.js",
             "lineno": 950,
@@ -7998,8 +7998,8 @@
         "comment": "",
         "meta": {
             "range": [
-                29497,
-                29514
+                29499,
+                29516
             ],
             "filename": "index.js",
             "lineno": 951,
@@ -8021,8 +8021,8 @@
         "comment": "",
         "meta": {
             "range": [
-                29591,
-                29680
+                29593,
+                29682
             ],
             "filename": "index.js",
             "lineno": 955,
@@ -8047,8 +8047,8 @@
         "comment": "",
         "meta": {
             "range": [
-                29686,
-                29783
+                29688,
+                29785
             ],
             "filename": "index.js",
             "lineno": 958,
@@ -8073,8 +8073,8 @@
         "comment": "",
         "meta": {
             "range": [
-                29789,
-                29887
+                29791,
+                29889
             ],
             "filename": "index.js",
             "lineno": 961,
@@ -8099,8 +8099,8 @@
         "comment": "",
         "meta": {
             "range": [
-                29893,
-                29987
+                29895,
+                29989
             ],
             "filename": "index.js",
             "lineno": 964,
@@ -8125,8 +8125,8 @@
         "comment": "",
         "meta": {
             "range": [
-                30030,
-                30117
+                30032,
+                30119
             ],
             "filename": "index.js",
             "lineno": 969,
@@ -8151,8 +8151,8 @@
         "comment": "",
         "meta": {
             "range": [
-                30148,
-                30237
+                30150,
+                30239
             ],
             "filename": "index.js",
             "lineno": 973,
@@ -8177,8 +8177,8 @@
         "comment": "",
         "meta": {
             "range": [
-                30269,
-                30360
+                30271,
+                30362
             ],
             "filename": "index.js",
             "lineno": 977,
@@ -8203,8 +8203,8 @@
         "comment": "/**\n * Returns a relative path derived from the build's sourceDir.\n * @param {string} pattern - Path pattern within the source directory.\n * @returns {string} A relative source directory path.\n */",
         "meta": {
             "range": [
-                30584,
-                30690
+                30586,
+                30692
             ],
             "filename": "index.js",
             "lineno": 988,
@@ -8250,8 +8250,8 @@
         "comment": "",
         "meta": {
             "range": [
-                30693,
-                31183
+                30695,
+                31185
             ],
             "filename": "index.js",
             "lineno": 993,
@@ -8280,8 +8280,8 @@
         "comment": "",
         "meta": {
             "range": [
-                30733,
-                30738
+                30735,
+                30740
             ],
             "filename": "index.js",
             "lineno": 994,
@@ -8302,8 +8302,8 @@
         "comment": "",
         "meta": {
             "range": [
-                30740,
-                30746
+                30742,
+                30748
             ],
             "filename": "index.js",
             "lineno": 994,
@@ -8324,8 +8324,8 @@
         "comment": "",
         "meta": {
             "range": [
-                30871,
-                31018
+                30873,
+                31020
             ],
             "filename": "index.js",
             "lineno": 1000,
@@ -8350,8 +8350,8 @@
         "comment": "",
         "meta": {
             "range": [
-                31024,
-                31088
+                31026,
+                31090
             ],
             "filename": "index.js",
             "lineno": 1003,
@@ -8376,8 +8376,8 @@
         "comment": "/**\n * Attempts to require an uncached instance of the given pathStr's module \n * using require-new.\n * @function\n * @param {string} pathStr - The path string.\n * @returns {object} The required javascript module or JSON file data.\n */",
         "meta": {
             "range": [
-                31419,
-                31460
+                31421,
+                31462
             ],
             "filename": "index.js",
             "lineno": 1017,
@@ -8422,8 +8422,8 @@
         "comment": "/**\n * Attempts to require an uncached instance of the given pathStr's module \n * using require-new.\n * @function\n * @param {string} pathStr - The path string.\n * @returns {object} The required javascript module or JSON file data.\n */",
         "meta": {
             "range": [
-                31697,
-                31748
+                31699,
+                31750
             ],
             "filename": "index.js",
             "lineno": 1025,
@@ -8468,8 +8468,8 @@
         "comment": "/**\n * Do not use. This function is not finished.\n */",
         "meta": {
             "range": [
-                31913,
-                32951
+                31915,
+                32953
             ],
             "filename": "index.js",
             "lineno": 1034,
@@ -8504,8 +8504,8 @@
         "comment": "",
         "meta": {
             "range": [
-                31978,
-                31988
+                31980,
+                31990
             ],
             "filename": "index.js",
             "lineno": 1036,
@@ -8528,8 +8528,8 @@
         "comment": "",
         "meta": {
             "range": [
-                31995,
-                32032
+                31997,
+                32034
             ],
             "filename": "index.js",
             "lineno": 1038,
@@ -8554,8 +8554,8 @@
         "comment": "",
         "meta": {
             "range": [
-                32043,
-                32074
+                32045,
+                32076
             ],
             "filename": "index.js",
             "lineno": 1040,
@@ -8578,8 +8578,8 @@
         "comment": "",
         "meta": {
             "range": [
-                32111,
-                32140
+                32113,
+                32142
             ],
             "filename": "index.js",
             "lineno": 1044,
@@ -8604,8 +8604,8 @@
         "comment": "",
         "meta": {
             "range": [
-                32153,
-                32169
+                32155,
+                32171
             ],
             "filename": "index.js",
             "lineno": 1046,
@@ -8630,8 +8630,8 @@
         "comment": "",
         "meta": {
             "range": [
-                32211,
-                32270
+                32213,
+                32272
             ],
             "filename": "index.js",
             "lineno": 1049,
@@ -8656,8 +8656,8 @@
         "comment": "",
         "meta": {
             "range": [
-                32274,
-                32342
+                32276,
+                32344
             ],
             "filename": "index.js",
             "lineno": 1050,
@@ -8682,8 +8682,8 @@
         "comment": "",
         "meta": {
             "range": [
-                32346,
-                32409
+                32348,
+                32411
             ],
             "filename": "index.js",
             "lineno": 1051,
@@ -8708,8 +8708,8 @@
         "comment": "",
         "meta": {
             "range": [
-                32862,
-                32908
+                32864,
+                32910
             ],
             "filename": "index.js",
             "lineno": 1074,
@@ -8732,8 +8732,8 @@
         "comment": "/**\n * Returns HTML for a link tag with a dynamic href attribute.\n * @param {string} srcPath - Relative path to the css file.\n * @returns {string} An HTML link tag string.\n */",
         "meta": {
             "range": [
-                33160,
-                33366
+                33162,
+                33368
             ],
             "filename": "index.js",
             "lineno": 1086,
@@ -8783,8 +8783,8 @@
         "comment": "",
         "meta": {
             "range": [
-                33212,
-                33247
+                33214,
+                33249
             ],
             "filename": "index.js",
             "lineno": 1088,
@@ -8809,8 +8809,8 @@
         "comment": "",
         "meta": {
             "range": [
-                33255,
-                33350
+                33257,
+                33352
             ],
             "filename": "index.js",
             "lineno": 1089,
@@ -8833,8 +8833,8 @@
         "comment": "/**\n * Returns HTML for a script tag with a dynamic src attribute.\n * @param {string} srcPath - Relative path to the js file.\n * @returns {string} An HTML script tag string.\n */",
         "meta": {
             "range": [
-                33547,
-                33755
+                33549,
+                33757
             ],
             "filename": "index.js",
             "lineno": 1101,
@@ -8884,8 +8884,8 @@
         "comment": "",
         "meta": {
             "range": [
-                33601,
-                33636
+                33603,
+                33638
             ],
             "filename": "index.js",
             "lineno": 1103,
@@ -8910,8 +8910,8 @@
         "comment": "",
         "meta": {
             "range": [
-                33644,
-                33739
+                33646,
+                33741
             ],
             "filename": "index.js",
             "lineno": 1104,
@@ -8934,8 +8934,8 @@
         "comment": "/**\n * Stores the result path for the bundled css, for rendering later.\n * @param {string} name - Name of the bundle.\n * @param {string} resultPath - Path to the bundled file.\n */",
         "meta": {
             "range": [
-                33972,
-                34083
+                33974,
+                34085
             ],
             "filename": "index.js",
             "lineno": 1118,
@@ -8984,8 +8984,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34039,
-                34080
+                34041,
+                34082
             ],
             "filename": "index.js",
             "lineno": 1119,
@@ -9009,8 +9009,8 @@
         "comment": "/**\n * Stores the result path for the bundled css, for rendering later.\n * @param {string} name - Name of the bundle.\n * @param {object} logger - Object with log method to use for logging.\n * @returns {stream.Transform} A stream transform to capture the bundle file.\n */",
         "meta": {
             "range": [
-                34356,
-                34937
+                34358,
+                34939
             ],
             "filename": "index.js",
             "lineno": 1127,
@@ -9072,8 +9072,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34431,
-                34489
+                34433,
+                34491
             ],
             "filename": "index.js",
             "lineno": 1128,
@@ -9096,8 +9096,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34470,
-                34486
+                34472,
+                34488
             ],
             "filename": "index.js",
             "lineno": 1128,
@@ -9119,8 +9119,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34497,
-                34509
+                34499,
+                34511
             ],
             "filename": "index.js",
             "lineno": 1129,
@@ -9143,8 +9143,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34513,
-                34859
+                34515,
+                34861
             ],
             "filename": "index.js",
             "lineno": 1130,
@@ -9176,8 +9176,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34572,
-                34599
+                34574,
+                34601
             ],
             "filename": "index.js",
             "lineno": 1131,
@@ -9200,8 +9200,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34609,
-                34669
+                34611,
+                34671
             ],
             "filename": "index.js",
             "lineno": 1132,
@@ -9224,8 +9224,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34654,
-                34666
+                34656,
+                34668
             ],
             "filename": "index.js",
             "lineno": 1132,
@@ -9247,8 +9247,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34675,
-                34735
+                34677,
+                34737
             ],
             "filename": "index.js",
             "lineno": 1133,
@@ -9273,8 +9273,8 @@
         "comment": "",
         "meta": {
             "range": [
-                34862,
-                34910
+                34864,
+                34912
             ],
             "filename": "index.js",
             "lineno": 1139,
@@ -9299,8 +9299,8 @@
         "comment": "/**\n * Stores the result path for the bundled js, for rendering later.\n * @param {string} name - Name of the bundle.\n * @param {string} resultPath - Path to the bundled file.\n */",
         "meta": {
             "range": [
-                35118,
-                35227
+                35120,
+                35229
             ],
             "filename": "index.js",
             "lineno": 1147,
@@ -9349,8 +9349,8 @@
         "comment": "",
         "meta": {
             "range": [
-                35184,
-                35224
+                35186,
+                35226
             ],
             "filename": "index.js",
             "lineno": 1148,
@@ -9374,8 +9374,8 @@
         "comment": "/**\n * Stores the result path for the bundled js, for rendering later.\n * @param {string} name - Name of the bundle.\n * @param {object} logger - Object with log method to use for logging.\n * @returns {stream.Transform} A stream transform to capture the bundle file.\n */",
         "meta": {
             "range": [
-                35499,
-                36076
+                35501,
+                36078
             ],
             "filename": "index.js",
             "lineno": 1156,
@@ -9437,8 +9437,8 @@
         "comment": "",
         "meta": {
             "range": [
-                35573,
-                35631
+                35575,
+                35633
             ],
             "filename": "index.js",
             "lineno": 1157,
@@ -9461,8 +9461,8 @@
         "comment": "",
         "meta": {
             "range": [
-                35612,
-                35628
+                35614,
+                35630
             ],
             "filename": "index.js",
             "lineno": 1157,
@@ -9484,8 +9484,8 @@
         "comment": "",
         "meta": {
             "range": [
-                35639,
-                35651
+                35641,
+                35653
             ],
             "filename": "index.js",
             "lineno": 1158,
@@ -9508,8 +9508,8 @@
         "comment": "",
         "meta": {
             "range": [
-                35655,
-                35999
+                35657,
+                36001
             ],
             "filename": "index.js",
             "lineno": 1159,
@@ -9541,8 +9541,8 @@
         "comment": "",
         "meta": {
             "range": [
-                35713,
-                35740
+                35715,
+                35742
             ],
             "filename": "index.js",
             "lineno": 1160,
@@ -9565,8 +9565,8 @@
         "comment": "",
         "meta": {
             "range": [
-                35750,
-                35810
+                35752,
+                35812
             ],
             "filename": "index.js",
             "lineno": 1161,
@@ -9589,8 +9589,8 @@
         "comment": "",
         "meta": {
             "range": [
-                35795,
-                35807
+                35797,
+                35809
             ],
             "filename": "index.js",
             "lineno": 1161,
@@ -9612,8 +9612,8 @@
         "comment": "",
         "meta": {
             "range": [
-                35816,
-                35876
+                35818,
+                35878
             ],
             "filename": "index.js",
             "lineno": 1162,
@@ -9638,8 +9638,8 @@
         "comment": "",
         "meta": {
             "range": [
-                36002,
-                36049
+                36004,
+                36051
             ],
             "filename": "index.js",
             "lineno": 1168,
@@ -9664,8 +9664,8 @@
         "comment": "/**\n * Returns HTML for the given bundles name(s) with CSS link tags first, \n * then JS script tags.\n * @param {string|string[]} nameOrNames - Bundle name or array of names.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns {string} HTML of link and script tags that comprise the bundle.\n */",
         "meta": {
             "range": [
-                36407,
-                37506
+                36409,
+                37508
             ],
             "filename": "index.js",
             "lineno": 1178,
@@ -9728,8 +9728,8 @@
         "comment": "",
         "meta": {
             "range": [
-                36557,
-                36564
+                36559,
+                36566
             ],
             "filename": "index.js",
             "lineno": 1182,
@@ -9752,8 +9752,8 @@
         "comment": "",
         "meta": {
             "range": [
-                36572,
-                36602
+                36574,
+                36604
             ],
             "filename": "index.js",
             "lineno": 1183,
@@ -9776,8 +9776,8 @@
         "comment": "",
         "meta": {
             "range": [
-                36610,
-                36621
+                36612,
+                36623
             ],
             "filename": "index.js",
             "lineno": 1184,
@@ -9800,8 +9800,8 @@
         "comment": "",
         "meta": {
             "range": [
-                36761,
-                36785
+                36763,
+                36787
             ],
             "filename": "index.js",
             "lineno": 1188,
@@ -9824,8 +9824,8 @@
         "comment": "",
         "meta": {
             "range": [
-                36919,
-                36951
+                36921,
+                36953
             ],
             "filename": "index.js",
             "lineno": 1194,
@@ -9850,8 +9850,8 @@
         "comment": "",
         "meta": {
             "range": [
-                37010,
-                37035
+                37012,
+                37037
             ],
             "filename": "index.js",
             "lineno": 1196,
@@ -9876,8 +9876,8 @@
         "comment": "",
         "meta": {
             "range": [
-                37189,
-                37213
+                37191,
+                37215
             ],
             "filename": "index.js",
             "lineno": 1202,
@@ -9900,8 +9900,8 @@
         "comment": "",
         "meta": {
             "range": [
-                37354,
-                37387
+                37356,
+                37389
             ],
             "filename": "index.js",
             "lineno": 1208,
@@ -9926,8 +9926,8 @@
         "comment": "",
         "meta": {
             "range": [
-                37447,
-                37474
+                37449,
+                37476
             ],
             "filename": "index.js",
             "lineno": 1210,
@@ -9952,8 +9952,8 @@
         "comment": "/**\n * Creates a new bundle within the build.\n * @param {string} name - Name of the bundle.\n * @param {object} data - Data for the bundle.\n * @returns {object} The bundle data.\n */",
         "meta": {
             "range": [
-                37689,
-                39355
+                37691,
+                39398
             ],
             "filename": "index.js",
             "lineno": 1221,
@@ -9976,6 +9976,7 @@
                 "data.path.base": "StaticBuild#createBundle~data.path.base",
                 "data.path.css": "StaticBuild#createBundle~data.path.css",
                 "data.path.js": "StaticBuild#createBundle~data.path.js",
+                "minFromSource": "StaticBuild#createBundle~minFromSource",
                 "this.bundle[undefined]": "StaticBuild#bundle[undefined]"
             }
         },
@@ -10020,8 +10021,8 @@
         "comment": "",
         "meta": {
             "range": [
-                37756,
-                37782
+                37758,
+                37784
             ],
             "filename": "index.js",
             "lineno": 1223,
@@ -10044,8 +10045,8 @@
         "comment": "",
         "meta": {
             "range": [
-                37990,
-                38038
+                37992,
+                38040
             ],
             "filename": "index.js",
             "lineno": 1227,
@@ -10069,8 +10070,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38042,
-                38088
+                38044,
+                38090
             ],
             "filename": "index.js",
             "lineno": 1228,
@@ -10094,8 +10095,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38092,
-                38726
+                38094,
+                38728
             ],
             "filename": "index.js",
             "lineno": 1229,
@@ -10120,8 +10121,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38242,
-                38269
+                38244,
+                38271
             ],
             "filename": "index.js",
             "lineno": 1236,
@@ -10143,8 +10144,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38275,
-                38315
+                38277,
+                38317
             ],
             "filename": "index.js",
             "lineno": 1237,
@@ -10166,8 +10167,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38288,
-                38295
+                38290,
+                38297
             ],
             "filename": "index.js",
             "lineno": 1238,
@@ -10190,8 +10191,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38303,
-                38309
+                38305,
+                38311
             ],
             "filename": "index.js",
             "lineno": 1239,
@@ -10214,8 +10215,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38321,
-                38384
+                38323,
+                38386
             ],
             "filename": "index.js",
             "lineno": 1241,
@@ -10237,8 +10238,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38335,
-                38349
+                38337,
+                38351
             ],
             "filename": "index.js",
             "lineno": 1242,
@@ -10261,8 +10262,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38357,
-                38364
+                38359,
+                38366
             ],
             "filename": "index.js",
             "lineno": 1243,
@@ -10285,8 +10286,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38372,
-                38378
+                38374,
+                38380
             ],
             "filename": "index.js",
             "lineno": 1244,
@@ -10309,8 +10310,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38390,
-                38449
+                38392,
+                38451
             ],
             "filename": "index.js",
             "lineno": 1246,
@@ -10332,8 +10333,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38406,
-                38414
+                38408,
+                38416
             ],
             "filename": "index.js",
             "lineno": 1247,
@@ -10356,8 +10357,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38422,
-                38429
+                38424,
+                38431
             ],
             "filename": "index.js",
             "lineno": 1248,
@@ -10380,8 +10381,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38437,
-                38443
+                38439,
+                38445
             ],
             "filename": "index.js",
             "lineno": 1249,
@@ -10404,8 +10405,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38455,
-                38605
+                38457,
+                38607
             ],
             "filename": "index.js",
             "lineno": 1251,
@@ -10427,8 +10428,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38611,
-                38715
+                38613,
+                38717
             ],
             "filename": "index.js",
             "lineno": 1257,
@@ -10450,8 +10451,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38769,
-                38800
+                38771,
+                38802
             ],
             "filename": "index.js",
             "lineno": 1264,
@@ -10476,8 +10477,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38783,
-                38798
+                38785,
+                38800
             ],
             "filename": "index.js",
             "lineno": 1264,
@@ -10500,8 +10501,8 @@
         "comment": "",
         "meta": {
             "range": [
-                38950,
-                38980
+                38952,
+                38982
             ],
             "filename": "index.js",
             "lineno": 1267,
@@ -10526,8 +10527,8 @@
         "comment": "",
         "meta": {
             "range": [
-                39008,
-                39054
+                39010,
+                39056
             ],
             "filename": "index.js",
             "lineno": 1269,
@@ -10552,8 +10553,8 @@
         "comment": "",
         "meta": {
             "range": [
-                39081,
-                39126
+                39083,
+                39128
             ],
             "filename": "index.js",
             "lineno": 1271,
@@ -10575,17 +10576,41 @@
         "scope": "static"
     },
     {
+        "comment": "",
+        "meta": {
+            "range": [
+                39163,
+                39234
+            ],
+            "filename": "index.js",
+            "lineno": 1273,
+            "path": "D:\\staticbuild\\staticbuild",
+            "code": {
+                "id": "astnode100004356",
+                "name": "minFromSource",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "minFromSource",
+        "longname": "StaticBuild#createBundle~minFromSource",
+        "kind": "member",
+        "memberof": "StaticBuild#createBundle",
+        "scope": "inner"
+    },
+    {
         "comment": "/** @ignore */",
         "meta": {
             "range": [
-                39313,
-                39337
+                39356,
+                39380
             ],
             "filename": "index.js",
-            "lineno": 1277,
+            "lineno": 1278,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004380",
+                "id": "astnode100004386",
                 "name": "this.bundle[undefined]",
                 "type": "Identifier",
                 "value": "data",
@@ -10603,14 +10628,14 @@
         "comment": "/**\n * Returns CSS link tags HTML only for the given bundle name(s).\n * @param {string|string[]} nameOrNames - Bundle name or array of names.\n * @returns {string} HTML of link tags that comprise the bundle.\n */",
         "meta": {
             "range": [
-                39568,
-                39673
+                39611,
+                39716
             ],
             "filename": "index.js",
-            "lineno": 1285,
+            "lineno": 1286,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004390",
+                "id": "astnode100004396",
                 "name": "StaticBuild.prototype.cssBundles",
                 "type": "FunctionExpression",
                 "paramnames": [
@@ -10651,14 +10676,14 @@
         "comment": "/**\n * If bundle item has no min path, finds one, updates the item and returns.\n * @param {object} bundleItem - The bundle item with src to find min from.\n * @returns {string|undefined} The minified path, if found.\n */",
         "meta": {
             "range": [
-                39894,
-                40308
+                39937,
+                40351
             ],
             "filename": "index.js",
-            "lineno": 1294,
+            "lineno": 1295,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004407",
+                "id": "astnode100004413",
                 "name": "StaticBuild.prototype.findMinifiedFromSource",
                 "type": "FunctionExpression",
                 "paramnames": [
@@ -10706,14 +10731,14 @@
         "comment": "",
         "meta": {
             "range": [
-                39971,
-                39995
+                40014,
+                40038
             ],
             "filename": "index.js",
-            "lineno": 1295,
+            "lineno": 1296,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004417",
+                "id": "astnode100004423",
                 "name": "pathStr",
                 "type": "MemberExpression",
                 "value": "bundleItem.src"
@@ -10730,14 +10755,14 @@
         "comment": "",
         "meta": {
             "range": [
-                40049,
-                40080
+                40092,
+                40123
             ],
             "filename": "index.js",
-            "lineno": 1298,
+            "lineno": 1299,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004431",
+                "id": "astnode100004437",
                 "name": "extName",
                 "type": "CallExpression",
                 "value": ""
@@ -10754,14 +10779,14 @@
         "comment": "",
         "meta": {
             "range": [
-                40088,
-                40177
+                40131,
+                40220
             ],
             "filename": "index.js",
-            "lineno": 1299,
+            "lineno": 1300,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004439",
+                "id": "astnode100004445",
                 "name": "minPath",
                 "type": "BinaryExpression",
                 "value": ""
@@ -10778,14 +10803,14 @@
         "comment": "",
         "meta": {
             "range": [
-                40185,
-                40217
+                40228,
+                40260
             ],
             "filename": "index.js",
-            "lineno": 1302,
+            "lineno": 1303,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004458",
+                "id": "astnode100004464",
                 "name": "minFsPath",
                 "type": "CallExpression",
                 "value": ""
@@ -10802,14 +10827,14 @@
         "comment": "",
         "meta": {
             "range": [
-                40257,
-                40281
+                40300,
+                40324
             ],
             "filename": "index.js",
-            "lineno": 1304,
+            "lineno": 1305,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004473",
+                "id": "astnode100004479",
                 "name": "bundleItem.min",
                 "type": "Identifier",
                 "value": "minPath",
@@ -10827,14 +10852,14 @@
         "comment": "/**\n * Returns an object containing information about the bundle. \n * e.g. `{name,data,min,minif,sources,dest,fileName,relFile,relDir}`\n * @param {string} name - Name of the bundle.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns The bundle info.\n */",
         "meta": {
             "range": [
-                40600,
-                42241
+                40643,
+                42284
             ],
             "filename": "index.js",
-            "lineno": 1315,
+            "lineno": 1316,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004481",
+                "id": "astnode100004487",
                 "name": "StaticBuild.prototype.getBundleInfo",
                 "type": "FunctionExpression",
                 "paramnames": [
@@ -10892,14 +10917,14 @@
         "comment": "",
         "meta": {
             "range": [
-                40674,
-                40705
+                40717,
+                40748
             ],
             "filename": "index.js",
-            "lineno": 1316,
+            "lineno": 1317,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004492",
+                "id": "astnode100004498",
                 "name": "fsPath",
                 "type": "CallExpression",
                 "value": ""
@@ -10916,14 +10941,14 @@
         "comment": "",
         "meta": {
             "range": [
-                40713,
-                40746
+                40756,
+                40789
             ],
             "filename": "index.js",
-            "lineno": 1317,
+            "lineno": 1318,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004502",
+                "id": "astnode100004508",
                 "name": "notPath",
                 "type": "CallExpression",
                 "value": ""
@@ -10940,14 +10965,14 @@
         "comment": "",
         "meta": {
             "range": [
-                40779,
-                40845
+                40822,
+                40888
             ],
             "filename": "index.js",
-            "lineno": 1319,
+            "lineno": 1320,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004512",
+                "id": "astnode100004518",
                 "name": "min",
                 "type": "CallExpression",
                 "value": ""
@@ -10964,14 +10989,14 @@
         "comment": "",
         "meta": {
             "range": [
-                40984,
-                41089
+                41027,
+                41132
             ],
             "filename": "index.js",
-            "lineno": 1322,
+            "lineno": 1323,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004526",
+                "id": "astnode100004532",
                 "name": "minGlobs",
                 "type": "CallExpression",
                 "value": ""
@@ -10988,14 +11013,14 @@
         "comment": "",
         "meta": {
             "range": [
-                41097,
-                41102
+                41140,
+                41145
             ],
             "filename": "index.js",
-            "lineno": 1325,
+            "lineno": 1326,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004546",
+                "id": "astnode100004552",
                 "name": "minIf"
             }
         },
@@ -11010,14 +11035,14 @@
         "comment": "",
         "meta": {
             "range": [
-                41188,
-                41200
+                41231,
+                41243
             ],
             "filename": "index.js",
-            "lineno": 1328,
+            "lineno": 1329,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004556",
+                "id": "astnode100004562",
                 "name": "minIf",
                 "type": "Literal",
                 "funcscope": "StaticBuild#getBundleInfo",
@@ -11036,14 +11061,14 @@
         "comment": "",
         "meta": {
             "range": [
-                41302,
-                41318
+                41345,
+                41361
             ],
             "filename": "index.js",
-            "lineno": 1332,
+            "lineno": 1333,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004567",
+                "id": "astnode100004573",
                 "name": "minIf",
                 "type": "Identifier",
                 "funcscope": "StaticBuild#getBundleInfo",
@@ -11062,14 +11087,14 @@
         "comment": "",
         "meta": {
             "range": [
-                41330,
-                42024
+                41373,
+                42067
             ],
             "filename": "index.js",
-            "lineno": 1334,
+            "lineno": 1335,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004571",
+                "id": "astnode100004577",
                 "name": "bi",
                 "type": "ObjectExpression",
                 "value": "{\"name\":\"\",\"data\":\"\",\"min\":\"\",\"minIf\":\"\",\"sources\":\"\",\"dest\":\"\",\"fileName\":\"\",\"relFile\":\"\",\"relDir\":\"\"}"
@@ -11086,14 +11111,14 @@
         "comment": "/** Name of the bundle. */",
         "meta": {
             "range": [
-                41372,
-                41382
+                41415,
+                41425
             ],
             "filename": "index.js",
-            "lineno": 1336,
+            "lineno": 1337,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004574",
+                "id": "astnode100004580",
                 "name": "name",
                 "type": "Identifier",
                 "value": "name"
@@ -11110,14 +11135,14 @@
         "comment": "/** Configuration data. */",
         "meta": {
             "range": [
-                41419,
-                41442
+                41462,
+                41485
             ],
             "filename": "index.js",
-            "lineno": 1338,
+            "lineno": 1339,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004576",
+                "id": "astnode100004582",
                 "name": "data",
                 "type": "MemberExpression",
                 "value": "this.bundle[undefined]"
@@ -11134,14 +11159,14 @@
         "comment": "/** Source paths of pre-minified files. */",
         "meta": {
             "range": [
-                41495,
-                41503
+                41538,
+                41546
             ],
             "filename": "index.js",
-            "lineno": 1340,
+            "lineno": 1341,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004582",
+                "id": "astnode100004588",
                 "name": "min",
                 "type": "Identifier",
                 "value": "min"
@@ -11158,14 +11183,14 @@
         "comment": "/** True to minify all files or an array of glob filters. For gulp-if. */",
         "meta": {
             "range": [
-                41587,
-                41599
+                41630,
+                41642
             ],
             "filename": "index.js",
-            "lineno": 1342,
+            "lineno": 1343,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004584",
+                "id": "astnode100004590",
                 "name": "minIf",
                 "type": "Identifier",
                 "value": "minIf"
@@ -11182,14 +11207,14 @@
         "comment": "/** Source paths to include in the bundle (including pre-minified). */",
         "meta": {
             "range": [
-                41680,
-                41772
+                41723,
+                41815
             ],
             "filename": "index.js",
-            "lineno": 1344,
+            "lineno": 1345,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004586",
+                "id": "astnode100004592",
                 "name": "sources",
                 "type": "CallExpression",
                 "value": ""
@@ -11206,14 +11231,14 @@
         "comment": "/** Destination path. */",
         "meta": {
             "range": [
-                41807,
-                41815
+                41850,
+                41858
             ],
             "filename": "index.js",
-            "lineno": 1348,
+            "lineno": 1349,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004598",
+                "id": "astnode100004604",
                 "name": "dest",
                 "type": "Literal",
                 "value": ""
@@ -11230,14 +11255,14 @@
         "comment": "/** Destination file name. */",
         "meta": {
             "range": [
-                41855,
-                41867
+                41898,
+                41910
             ],
             "filename": "index.js",
-            "lineno": 1350,
+            "lineno": 1351,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004600",
+                "id": "astnode100004606",
                 "name": "fileName",
                 "type": "Literal",
                 "value": ""
@@ -11254,14 +11279,14 @@
         "comment": "/** Relative runtime path (url or src or dest). */",
         "meta": {
             "range": [
-                41928,
-                41939
+                41971,
+                41982
             ],
             "filename": "index.js",
-            "lineno": 1352,
+            "lineno": 1353,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004602",
+                "id": "astnode100004608",
                 "name": "relFile",
                 "type": "Literal",
                 "value": ""
@@ -11278,14 +11303,14 @@
         "comment": "/** Relative runtime directory path (url or src or dest). */",
         "meta": {
             "range": [
-                42010,
-                42020
+                42053,
+                42063
             ],
             "filename": "index.js",
-            "lineno": 1354,
+            "lineno": 1355,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004604",
+                "id": "astnode100004610",
                 "name": "relDir",
                 "type": "Literal",
                 "value": ""
@@ -11302,14 +11327,14 @@
         "comment": "",
         "meta": {
             "range": [
-                42028,
-                42101
+                42071,
+                42144
             ],
             "filename": "index.js",
-            "lineno": 1356,
+            "lineno": 1357,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004607",
+                "id": "astnode100004613",
                 "name": "bi.relFile",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleInfo",
@@ -11328,14 +11353,14 @@
         "comment": "",
         "meta": {
             "range": [
-                42086,
-                42098
+                42129,
+                42141
             ],
             "filename": "index.js",
-            "lineno": 1356,
+            "lineno": 1357,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004623",
+                "id": "astnode100004629",
                 "name": "bundle",
                 "type": "Identifier",
                 "value": "name"
@@ -11351,14 +11376,14 @@
         "comment": "",
         "meta": {
             "range": [
-                42105,
-                42141
+                42148,
+                42184
             ],
             "filename": "index.js",
-            "lineno": 1357,
+            "lineno": 1358,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004626",
+                "id": "astnode100004632",
                 "name": "bi.relDir",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleInfo",
@@ -11377,14 +11402,14 @@
         "comment": "",
         "meta": {
             "range": [
-                42145,
-                42182
+                42188,
+                42225
             ],
             "filename": "index.js",
-            "lineno": 1358,
+            "lineno": 1359,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004638",
+                "id": "astnode100004644",
                 "name": "bi.dest",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleInfo",
@@ -11403,14 +11428,14 @@
         "comment": "",
         "meta": {
             "range": [
-                42186,
-                42225
+                42229,
+                42268
             ],
             "filename": "index.js",
-            "lineno": 1359,
+            "lineno": 1360,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004650",
+                "id": "astnode100004656",
                 "name": "bi.fileName",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleInfo",
@@ -11429,14 +11454,14 @@
         "comment": "/**\n * Returns just the min paths of the given bundle name.\n * @param {string} name - Name of the bundle.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns {string[]} Array of pre-minified file paths for a bundle.\n */",
         "meta": {
             "range": [
-                42499,
-                43196
+                42542,
+                43239
             ],
             "filename": "index.js",
-            "lineno": 1369,
+            "lineno": 1370,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004664",
+                "id": "astnode100004670",
                 "name": "StaticBuild.prototype.getBundleMinified",
                 "type": "FunctionExpression",
                 "paramnames": [
@@ -11490,14 +11515,14 @@
         "comment": "",
         "meta": {
             "range": [
-                42577,
-                42603
+                42620,
+                42646
             ],
             "filename": "index.js",
-            "lineno": 1370,
+            "lineno": 1371,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004675",
+                "id": "astnode100004681",
                 "name": "bundle",
                 "type": "MemberExpression",
                 "value": "this.bundle[undefined]"
@@ -11514,14 +11539,14 @@
         "comment": "",
         "meta": {
             "range": [
-                42676,
-                42688
+                42719,
+                42731
             ],
             "filename": "index.js",
-            "lineno": 1373,
+            "lineno": 1374,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004692",
+                "id": "astnode100004698",
                 "name": "sources",
                 "type": "ArrayExpression",
                 "value": "[]"
@@ -11538,14 +11563,14 @@
         "comment": "",
         "meta": {
             "range": [
-                42787,
-                42927
+                42830,
+                42970
             ],
             "filename": "index.js",
-            "lineno": 1376,
+            "lineno": 1377,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004713",
+                "id": "astnode100004719",
                 "name": "sources",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleMinified",
@@ -11564,14 +11589,14 @@
         "comment": "",
         "meta": {
             "range": [
-                43030,
-                43171
+                43073,
+                43214
             ],
             "filename": "index.js",
-            "lineno": 1384,
+            "lineno": 1385,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004755",
+                "id": "astnode100004761",
                 "name": "sources",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleMinified",
@@ -11590,14 +11615,14 @@
         "comment": "/**\n * Returns just the src paths of the given bundle name.\n * @param {string} name - Name of the bundle.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns {string[]} Array of source paths for a bundle.\n */",
         "meta": {
             "range": [
-                43442,
-                44000
+                43485,
+                44043
             ],
             "filename": "index.js",
-            "lineno": 1398,
+            "lineno": 1399,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004782",
+                "id": "astnode100004788",
                 "name": "StaticBuild.prototype.getBundleSources",
                 "type": "FunctionExpression",
                 "paramnames": [
@@ -11651,14 +11676,14 @@
         "comment": "",
         "meta": {
             "range": [
-                43519,
-                43545
+                43562,
+                43588
             ],
             "filename": "index.js",
-            "lineno": 1399,
+            "lineno": 1400,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004793",
+                "id": "astnode100004799",
                 "name": "bundle",
                 "type": "MemberExpression",
                 "value": "this.bundle[undefined]"
@@ -11675,14 +11700,14 @@
         "comment": "",
         "meta": {
             "range": [
-                43618,
-                43630
+                43661,
+                43673
             ],
             "filename": "index.js",
-            "lineno": 1402,
+            "lineno": 1403,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004810",
+                "id": "astnode100004816",
                 "name": "sources",
                 "type": "ArrayExpression",
                 "value": "[]"
@@ -11699,14 +11724,14 @@
         "comment": "",
         "meta": {
             "range": [
-                43729,
-                43800
+                43772,
+                43843
             ],
             "filename": "index.js",
-            "lineno": 1405,
+            "lineno": 1406,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004831",
+                "id": "astnode100004837",
                 "name": "sources",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleSources",
@@ -11725,14 +11750,14 @@
         "comment": "",
         "meta": {
             "range": [
-                43903,
-                43975
+                43946,
+                44018
             ],
             "filename": "index.js",
-            "lineno": 1409,
+            "lineno": 1410,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004863",
+                "id": "astnode100004869",
                 "name": "sources",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleSources",
@@ -11751,14 +11776,14 @@
         "comment": "/**\n * Returns the min (if any) OR src paths of the given bundle name.\n * @param {string} name - Name of the bundle.\n * @param {string} sourceType - The type of files to output ('css', 'js').\n * @returns {string[]} An array of source or pre-minified file paths for the \n * bundle.\n */",
         "meta": {
             "range": [
-                44287,
-                44880
+                44330,
+                44923
             ],
             "filename": "index.js",
-            "lineno": 1420,
+            "lineno": 1421,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004880",
+                "id": "astnode100004886",
                 "name": "StaticBuild.prototype.getBundleSourcesOrMinified",
                 "type": "FunctionExpression",
                 "paramnames": [
@@ -11812,14 +11837,14 @@
         "comment": "",
         "meta": {
             "range": [
-                44375,
-                44401
+                44418,
+                44444
             ],
             "filename": "index.js",
-            "lineno": 1422,
+            "lineno": 1423,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004891",
+                "id": "astnode100004897",
                 "name": "bundle",
                 "type": "MemberExpression",
                 "value": "this.bundle[undefined]"
@@ -11836,14 +11861,14 @@
         "comment": "",
         "meta": {
             "range": [
-                44474,
-                44486
+                44517,
+                44529
             ],
             "filename": "index.js",
-            "lineno": 1425,
+            "lineno": 1426,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004908",
+                "id": "astnode100004914",
                 "name": "sources",
                 "type": "ArrayExpression",
                 "value": "[]"
@@ -11860,14 +11885,14 @@
         "comment": "",
         "meta": {
             "range": [
-                44585,
-                44668
+                44628,
+                44711
             ],
             "filename": "index.js",
-            "lineno": 1428,
+            "lineno": 1429,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004929",
+                "id": "astnode100004935",
                 "name": "sources",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleSourcesOrMinified",
@@ -11886,14 +11911,14 @@
         "comment": "",
         "meta": {
             "range": [
-                44771,
-                44855
+                44814,
+                44898
             ],
             "filename": "index.js",
-            "lineno": 1433,
+            "lineno": 1434,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004961",
+                "id": "astnode100004967",
                 "name": "sources",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#getBundleSourcesOrMinified",
@@ -11912,14 +11937,14 @@
         "comment": "",
         "meta": {
             "range": [
-                44883,
-                44939
+                44926,
+                44982
             ],
             "filename": "index.js",
-            "lineno": 1439,
+            "lineno": 1440,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004977",
+                "id": "astnode100004983",
                 "name": "getMinOfBundleItem",
                 "type": "FunctionDeclaration",
                 "paramnames": [
@@ -11938,14 +11963,14 @@
         "comment": "",
         "meta": {
             "range": [
-                44941,
-                45014
+                44984,
+                45057
             ],
             "filename": "index.js",
-            "lineno": 1443,
+            "lineno": 1444,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004985",
+                "id": "astnode100004991",
                 "name": "getMinOrSrcOfBundleItem",
                 "type": "FunctionDeclaration",
                 "paramnames": [
@@ -11964,14 +11989,14 @@
         "comment": "",
         "meta": {
             "range": [
-                45016,
-                45072
+                45059,
+                45115
             ],
             "filename": "index.js",
-            "lineno": 1447,
+            "lineno": 1448,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100004997",
+                "id": "astnode100005003",
                 "name": "getSrcOfBundleItem",
                 "type": "FunctionDeclaration",
                 "paramnames": [
@@ -11990,14 +12015,14 @@
         "comment": "/**\n * Returns Javascript script tags HTML only for the given bundle name(s).\n * @param {string|string[]} nameOrNames - Bundle name or array of names.\n * @returns {string} HTML of script tags that comprise the bundle.\n */",
         "meta": {
             "range": [
-                45295,
-                45398
+                45338,
+                45441
             ],
             "filename": "index.js",
-            "lineno": 1455,
+            "lineno": 1456,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005006",
+                "id": "astnode100005012",
                 "name": "StaticBuild.prototype.jsBundles",
                 "type": "FunctionExpression",
                 "paramnames": [
@@ -12038,14 +12063,14 @@
         "comment": "/**\n * Converts array items that are String to `{ src: TheString }`.\n * @private\n * @param {array} items - Array that contains string items to convert.\n * @returns {array} An array of bundle item objects with normalized src field.\n */",
         "meta": {
             "range": [
-                45635,
-                45869
+                45678,
+                45912
             ],
             "filename": "index.js",
-            "lineno": 1465,
+            "lineno": 1466,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005022",
+                "id": "astnode100005028",
                 "name": "normalizeBundleItem",
                 "type": "FunctionDeclaration",
                 "paramnames": [
@@ -12090,14 +12115,14 @@
         "comment": "",
         "meta": {
             "range": [
-                45679,
-                45680
+                45722,
+                45723
             ],
             "filename": "index.js",
-            "lineno": 1466,
+            "lineno": 1467,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005027",
+                "id": "astnode100005033",
                 "name": "i"
             }
         },
@@ -12112,14 +12137,14 @@
         "comment": "",
         "meta": {
             "range": [
-                45682,
-                45685
+                45725,
+                45728
             ],
             "filename": "index.js",
-            "lineno": 1466,
+            "lineno": 1467,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005029",
+                "id": "astnode100005035",
                 "name": "len"
             }
         },
@@ -12134,14 +12159,14 @@
         "comment": "",
         "meta": {
             "range": [
-                45732,
-                45750
+                45775,
+                45793
             ],
             "filename": "index.js",
-            "lineno": 1469,
+            "lineno": 1470,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005039",
+                "id": "astnode100005045",
                 "name": "len",
                 "type": "MemberExpression",
                 "funcscope": "normalizeBundleItem",
@@ -12160,14 +12185,14 @@
         "comment": "",
         "meta": {
             "range": [
-                45759,
-                45764
+                45802,
+                45807
             ],
             "filename": "index.js",
-            "lineno": 1470,
+            "lineno": 1471,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005045",
+                "id": "astnode100005051",
                 "name": "i",
                 "type": "Literal",
                 "funcscope": "normalizeBundleItem",
@@ -12186,14 +12211,14 @@
         "comment": "",
         "meta": {
             "range": [
-                45822,
-                45850
+                45865,
+                45893
             ],
             "filename": "index.js",
-            "lineno": 1472,
+            "lineno": 1473,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005061",
+                "id": "astnode100005067",
                 "name": "items[undefined]",
                 "type": "ObjectExpression",
                 "value": "{\"src\":\"\"}",
@@ -12210,14 +12235,14 @@
         "comment": "",
         "meta": {
             "range": [
-                45835,
-                45848
+                45878,
+                45891
             ],
             "filename": "index.js",
-            "lineno": 1472,
+            "lineno": 1473,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005066",
+                "id": "astnode100005072",
                 "name": "src",
                 "type": "MemberExpression",
                 "value": "items[undefined]"
@@ -12234,14 +12259,14 @@
         "comment": "/**\n * Removes a bundle from the build.\n * @param {string} name - Name of the bundle.\n */",
         "meta": {
             "range": [
-                45960,
-                46045
+                46003,
+                46088
             ],
             "filename": "index.js",
-            "lineno": 1479,
+            "lineno": 1480,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005073",
+                "id": "astnode100005079",
                 "name": "StaticBuild.prototype.removeBundle",
                 "type": "FunctionExpression",
                 "paramnames": [
@@ -12271,14 +12296,14 @@
         "comment": "/**\n * Saves bundles to the configuration filePath.\n */",
         "meta": {
             "range": [
-                46103,
-                46982
+                46146,
+                47025
             ],
             "filename": "index.js",
-            "lineno": 1486,
+            "lineno": 1487,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005090",
+                "id": "astnode100005096",
                 "name": "StaticBuild.prototype.saveBundles",
                 "type": "FunctionExpression",
                 "paramnames": []
@@ -12303,14 +12328,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46159,
-                46171
+                46202,
+                46214
             ],
             "filename": "index.js",
-            "lineno": 1488,
+            "lineno": 1489,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005099",
+                "id": "astnode100005105",
                 "name": "build",
                 "type": "ThisExpression",
                 "value": "this"
@@ -12327,14 +12352,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46179,
-                46208
+                46222,
+                46251
             ],
             "filename": "index.js",
-            "lineno": 1489,
+            "lineno": 1490,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005103",
+                "id": "astnode100005109",
                 "name": "savefilepath",
                 "type": "MemberExpression",
                 "value": "build.filePath"
@@ -12351,14 +12376,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46216,
-                46220
+                46259,
+                46263
             ],
             "filename": "index.js",
-            "lineno": 1490,
+            "lineno": 1491,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005109",
+                "id": "astnode100005115",
                 "name": "text"
             }
         },
@@ -12373,14 +12398,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46228,
-                46232
+                46271,
+                46275
             ],
             "filename": "index.js",
-            "lineno": 1491,
+            "lineno": 1492,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005112",
+                "id": "astnode100005118",
                 "name": "data"
             }
         },
@@ -12395,14 +12420,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46240,
-                46243
+                46283,
+                46286
             ],
             "filename": "index.js",
-            "lineno": 1492,
+            "lineno": 1493,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005115",
+                "id": "astnode100005121",
                 "name": "err"
             }
         },
@@ -12417,14 +12442,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46592,
-                46628
+                46635,
+                46671
             ],
             "filename": "index.js",
-            "lineno": 1501,
+            "lineno": 1502,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005128",
+                "id": "astnode100005134",
                 "name": "text",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#saveBundles",
@@ -12443,14 +12468,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46634,
-                46657
+                46677,
+                46700
             ],
             "filename": "index.js",
-            "lineno": 1502,
+            "lineno": 1503,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005136",
+                "id": "astnode100005142",
                 "name": "data",
                 "type": "CallExpression",
                 "funcscope": "StaticBuild#saveBundles",
@@ -12469,14 +12494,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46663,
-                46689
+                46706,
+                46732
             ],
             "filename": "index.js",
-            "lineno": 1503,
+            "lineno": 1504,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005144",
+                "id": "astnode100005150",
                 "name": "data.bundle",
                 "type": "MemberExpression",
                 "funcscope": "StaticBuild#saveBundles",
@@ -12495,14 +12520,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46759,
-                46802
+                46802,
+                46845
             ],
             "filename": "index.js",
-            "lineno": 1506,
+            "lineno": 1507,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005152",
+                "id": "astnode100005158",
                 "name": "text",
                 "type": "BinaryExpression",
                 "funcscope": "StaticBuild#saveBundles",
@@ -12521,14 +12546,14 @@
         "comment": "",
         "meta": {
             "range": [
-                46867,
-                46875
+                46910,
+                46918
             ],
             "filename": "index.js",
-            "lineno": 1509,
+            "lineno": 1510,
             "path": "D:\\staticbuild\\staticbuild",
             "code": {
-                "id": "astnode100005172",
+                "id": "astnode100005178",
                 "name": "err",
                 "type": "Identifier",
                 "funcscope": "StaticBuild#saveBundles",
