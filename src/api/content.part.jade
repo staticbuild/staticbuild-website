@@ -49,7 +49,7 @@
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
       p
   each field in ast.static.fields
-    +fieldRow(field)
+    +fieldRow(field, 'static-')
   
   // Static Methods
   .row.row-full-height
@@ -59,17 +59,18 @@
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
       p
   each method in ast.static.functions
-    +methodRow(method)
+    +methodRow(method, 'static-')
 
 // Mixins
 
-mixin fieldRow(field)
+mixin fieldRow(field, anchorPrefix)
+  - anchorPrefix = anchorPrefix || '';
   .row.row-full-height
     .col-xs-12.col-md-6(style='background-color: #fff;')
       p!= '&nbsp;'
       .panel.panel-default
         .panel-heading: strong
-          a.anchor(id='static-' + field.name)
+          a.anchor(id=anchorPrefix + field.name)
           | #{field.name}
           +typeNamesBadge(field)
         .panel-body: p #{field.description}
@@ -86,13 +87,14 @@ mixin returnTypeNamesBadge(member)
   if member.returns && member.returns.length > 0
     +typeNamesBadge(member.returns[0])
 
-mixin methodRow(method)
+mixin methodRow(method, anchorPrefix)
+  - anchorPrefix = anchorPrefix || '';
   .row.row-full-height
     .col-xs-12.col-md-6(style='background-color: #fff;')
       p!= '&nbsp;'
       .panel.panel-default
         .panel-heading: strong
-          a.anchor(id=method.name)
+          a.anchor(id=anchorPrefix + method.name)
           | #{method.name}(#{methodParamNames(method)})
           +returnTypeNamesBadge(method)
         .panel-body: p #{method.description}
