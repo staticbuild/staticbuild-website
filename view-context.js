@@ -4,8 +4,25 @@ var fs = require('fs');
 var lodash = require('lodash');
 var hljs = require('highlight.js');
 var marked = require('marked');
+var path = require('path');
+
+var ExamplesPath = 'examples/api';
 
 exports.marked = marked;
+
+function getExamples(moduleName, memberName) {
+  var dirPath = path.join(ExamplesPath, moduleName, memberName);
+  var fileNames = fs.existsSync(dirPath) ? fs.readdirSync(dirPath) : [];
+  var examples = lodash.map(fileNames, function (value, index) {
+    return {
+      name: value,
+      path: path.join(dirPath, value),
+      ext: path.extname(value)
+    };
+  });
+  return examples;
+}
+exports.getExamples = getExamples;
 
 function highlightJS(js) {
 	return hljs.highlight('javascript', js).value;
@@ -64,6 +81,18 @@ function readClassAST(className) {
 	return result;
 }
 exports.readClassAST = readClassAST;
+
+function renderMDFile(filePath) {
+  var contents = readFile(filePath);
+  return marked(contents);
+}
+exports.renderMDFile = renderMDFile;
+
+function renderJSFile(filePath) {
+  var contents = readFile(filePath);
+  return highlightJS(contents);
+}
+exports.renderJSFile = renderJSFile;
 
 function memberTypeNames(member) {
   if (member && member.type && member.type.names)

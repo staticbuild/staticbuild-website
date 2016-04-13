@@ -17,6 +17,11 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
     <Content Include="bower.json" />
+    <Content Include="examples\api\StaticBuild\constructor\1.md" />
+    <Content Include="examples\api\StaticBuild\src\1.md" />
+    <Content Include="examples\api\StaticBuild\dest\1.md" />
+    <Content Include="examples\api\StaticBuild\destLocale\1.md" />
+    <Content Include="examples\api\StaticBuild\trySetLocale\1.md" />
     <Content Include="package.json" />
     <Content Include="src\configuration\index.jade" />
     <Content Include="src\getting-started\index.jade" />
@@ -33,6 +38,11 @@
     <Content Include="src\lib\jade\base.part.jade" />
     <Content Include="staticbuild.json" />
     <Content Include="README.md" />
+    <Compile Include="examples\api\StaticBuild\constructor\2.js" />
+    <Compile Include="examples\api\StaticBuild\src\2.js" />
+    <Compile Include="examples\api\StaticBuild\dest\2.js" />
+    <Compile Include="examples\api\StaticBuild\destLocale\2.js" />
+    <Compile Include="examples\api\StaticBuild\trySetLocale\2.js" />
     <Compile Include="gulpfile.js" />
     <Compile Include="view-context.js" />
     <Content Include="ast\StaticBuild.json" />
@@ -54,7 +64,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ast" />
+    <Folder Include="examples\api\" />
+    <Folder Include="examples\api\StaticBuild\" />
+    <Folder Include="examples\api\StaticBuild\constructor\" />
+    <Folder Include="examples\api\StaticBuild\src\" />
+    <Folder Include="examples\api\StaticBuild\dest\" />
+    <Folder Include="examples\api\StaticBuild\destLocale\" />
+    <Folder Include="examples\api\StaticBuild\trySetLocale\" />
     <Folder Include="locales" />
+    <Folder Include="examples\" />
     <Folder Include="src" />
     <Folder Include="src\api" />
     <Folder Include="src\configuration\" />

@@ -1,29 +1,24 @@
 .container-fluid(style='background-color: #393939;')
   .row.row-full-height
-    .col-xs-12.col-md-6(style='background-color: #fff;')
+    .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
       // Class
       a.anchor(id='class')
       h1 #{ast.root.name}
       p #{ast.root.classdesc}
+    .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
+  .row.row-full-height
+    .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
+      // Constructor
+      a.anchor(id='constructor')
       h2 Constructor
       // TODO: Figure out where constructor is in AST.
       .panel.panel-default
         .panel-heading: strong #{ast.root.name}(pathorOpt, opt)
         .panel-body: p #{ast.root.description}
-    .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
-      p!=marked('This is **an example** of __markdown__.')
-      p!=marked('This is **an example** of __markdown__.')
-      pre
-          code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
-      p!=marked('This is **an example** of __markdown__.')
-      p!=marked('This is **an example** of __markdown__.')
-      p!=marked('This is **an example** of __markdown__.')
-      p!=marked('This is **an example** of __markdown__.')
-      p!=marked('This is **an example** of __markdown__.')
-      p!=marked('This is **an example** of __markdown__.')
+    +renderExamples('constructor')
   // Fields
   .row.row-full-height
-    .col-xs-12.col-md-6(style='background-color: #fff;')
+    .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
       p: a.anchor(id='fields')
       h2 Fields
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
@@ -33,7 +28,7 @@
 
   // Methods
   .row.row-full-height
-    .col-xs-12.col-md-6(style='background-color: #fff;')
+    .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
       p: a.anchor(id='methods')
       h2 Methods
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
@@ -43,7 +38,7 @@
 
   // Static Fields
   .row.row-full-height
-    .col-xs-12.col-md-6(style='background-color: #fff;')
+    .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
       p: a.anchor(id='static-fields')
       h2 Static Fields
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
@@ -53,7 +48,7 @@
   
   // Static Methods
   .row.row-full-height
-    .col-xs-12.col-md-6(style='background-color: #fff;')
+    .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
       p: a.anchor(id='static-methods')
       h2 Static Methods
     .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
@@ -71,21 +66,28 @@
 
 // Mixins
 
-mixin fieldRow(field, anchorPrefix)
-  - anchorPrefix = anchorPrefix || '';
+mixin renderExamples(memberName)
+  .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
+    - var examples = getExamples('StaticBuild', memberName);
+    each example in examples
+      if example.ext === '.md'
+        p!=renderMDFile(example.path)
+      else if example.ext === '.js'
+        pre
+          code.hljs!=renderJSFile(example.path)
+
+mixin fieldRow(field, memberPrefix)
+  - memberPrefix = memberPrefix || '';
   .row.row-full-height
-    .col-xs-12.col-md-6(style='background-color: #fff;')
+    .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
       p!= '&nbsp;'
       .panel.panel-default
         .panel-heading: strong
-          a.anchor(id=anchorPrefix + field.name)
+          a.anchor(id=memberPrefix + field.name)
           | #{field.name}
           +typeNamesBadge(field)
         .panel-body: p #{field.description}
-    .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
-      p!=marked('This is **an example** of __markdown__.')
-      pre
-          code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
+    +renderExamples(memberPrefix + field.name)
 
 mixin typeNamesBadge(member)
   if member && member.type && member.type.names
@@ -95,22 +97,19 @@ mixin returnTypeNamesBadge(member)
   if member.returns && member.returns.length > 0
     +typeNamesBadge(member.returns[0])
 
-mixin methodRow(method, anchorPrefix)
-  - anchorPrefix = anchorPrefix || '';
+mixin methodRow(method, memberPrefix)
+  - memberPrefix = memberPrefix || '';
   .row.row-full-height
-    .col-xs-12.col-md-6(style='background-color: #fff;')
+    .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
       p!= '&nbsp;'
       .panel.panel-default
         .panel-heading: strong
-          a.anchor(id=anchorPrefix + method.name)
+          a.anchor(id=memberPrefix + method.name)
           | #{method.name}(#{methodParamNames(method)})
           +returnTypeNamesBadge(method)
         .panel-body: p #{method.description}
         +paramstable(method)
-    .col-xs-12.col-md-6(style='background-color: #393939;color:#fff;')
-      p!=marked('This is **an example** of __markdown__.')
-      pre
-          code.hljs!= highlightJS('// This is code!\nvar x = 10, y = 10;\nconsole.log("x + y: " + (x + y).toString());')
+    +renderExamples(memberPrefix + method.name)
 
 mixin paramstable(method)
   if method.params || (method.returns && method.returns.length > 0)

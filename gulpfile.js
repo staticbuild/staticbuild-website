@@ -51,6 +51,8 @@ build.trySetLocale(gutil.env.locale, function (err) {
   process.exit(1001);
 });
 
+gutil.log('src path: ' + build.src('/lib/**/*'));
+
 /** Pushes the task name to mainTaskSeries and returns the name. */
 function mts(name) {
   mainTaskSeries.push(name);
