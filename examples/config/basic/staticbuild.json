@@ -1,0 +1,38 @@
+{
+  // Salt for any file-name hashing that is based on version number.
+  "versionHash": { "salt": "MDAEaMF8Q8rhwCGQuaeCC4Za9GLHUeZr" },
+  // Maps url `/bower` to the `bower_components` directory.
+  "pathMap": {
+    "bower": { "fs": "bower_components" }
+  },
+  // Global view context module available to rendered views.
+  "contextFile": "./view-context.js",
+  // Script and Style bundles
+  "bundle": {
+    "jqbs": {
+      "scripts": [
+        "/bower_components/jquery/dist/jquery.js",
+        "/bower_components/bootstrap/dist/js/bootstrap.js"
+      ]
+    },
+    "ko": {
+      "scripts": [
+        {
+          "src": "/bower_components/knockout/dist/knockout.js",
+          "min": "/bower_components/knockout/dist/knockout.js"
+        }
+      ]
+    },
+    // The main bundle style `site.css` is compiled from `site.less`, which
+    // includes bootstrap.
+    "main": {
+      "scripts": [
+        "/lib/js/site.js"
+      ],
+      "styles": [
+        "/lib/css/monokai-sublime.css",
+        "/lib/css/site.css"
+      ]
+    }
+  }
+}

@@ -1,19 +1,19 @@
 extends ./lib/jade/base.layout.jade
 block content
   a(name='introduction')
-  .jumbotron
+  .jumbotron(style='margin-bottom:0;')
     .container
       h1.text-center(style='margin: 0 auto; max-width: 900px'): small.
-        A simple and easy to use #[strong static website] builder.
-  .container
+        A #[strong static website generator] and #[strong development server] 
+        that uses #[a(href='https://github.com/pugjs/pug') Pug (Jade)] and 
+        #[a(href='https://github.com/mozilla/nunjucks') Nunjucks] templates.
+  a(name='features')
+  .jumbotron: .container
+    h1 Featuring
     p!= '&nbsp;'
-    h4.text-center.
-      Until this page has further content, please check out the 
-      #[a(href='/api/') API] section or the 
-      #[a(href='https://github.com/staticbuild/staticbuild/tree/master/demo') demo projects].
+    p!=renderMDFile('markdown/features.md')
     p!= '&nbsp;'
     a(name='beta')
-    p!= '&nbsp;'
     p.text-center
       a.bn.btn-primary.btn-lg(href=t('url.github') 
         role='button')!= 'GitHub &raquo;'
@@ -21,20 +21,19 @@ block content
       br
       em: strong (Project is currently in the beta.)
     p!= '&nbsp;'
-  a(name='features')
-  .jumbotron: .container
-    h1 Features
-    p
-      | Here are some features...
-    ul
-      li Bundling of CSS and JS
-      li Minification with source maps
-      li LESS (SASS coming soon)
-      li Jade and Nunjucks
-      li Development Server
-      li i18n
+    .row: .col-xs-12(style='background-color: #eaf2f6;')
+      p!= '&nbsp;'
+      h2 Quick Start
+      p!=renderMDFile('markdown/quick-start.md')
+      p.
+        See the full #[a(href='/getting-started/') Getting Started] guide for 
+        more info.
+      p!= '&nbsp;'
     p!= '&nbsp;'
     p.text-center
       a.bn.btn-primary.btn-lg(href=t('url.github') 
         role='button')!= 'GitHub &raquo;'
+      br
+      br
+      em: strong (Project is currently in the beta.)
     p!= '&nbsp;'

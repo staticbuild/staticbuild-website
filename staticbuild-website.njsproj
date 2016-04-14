@@ -22,6 +22,10 @@
     <Content Include="examples\api\StaticBuild\dest\1.md" />
     <Content Include="examples\api\StaticBuild\destLocale\1.md" />
     <Content Include="examples\api\StaticBuild\trySetLocale\1.md" />
+    <Content Include="examples\config\basic\staticbuild.json" />
+    <Content Include="markdown\quick-start.md" />
+    <Content Include="markdown\features.md" />
+    <Content Include="markdown\getting-started.md" />
     <Content Include="package.json" />
     <Content Include="src\configuration\index.jade" />
     <Content Include="src\getting-started\index.jade" />
@@ -71,8 +75,11 @@
     <Folder Include="examples\api\StaticBuild\dest\" />
     <Folder Include="examples\api\StaticBuild\destLocale\" />
     <Folder Include="examples\api\StaticBuild\trySetLocale\" />
+    <Folder Include="examples\config\" />
+    <Folder Include="examples\config\basic\" />
     <Folder Include="locales" />
     <Folder Include="examples\" />
+    <Folder Include="markdown\" />
     <Folder Include="src" />
     <Folder Include="src\api" />
     <Folder Include="src\configuration\" />

@@ -4,4 +4,13 @@ block content
     h1 Configuration
     .row
       .col-xs-12.text-center
-        p Content...
+        p.
+          Most #[a(href='/api') API] fields are also configurable from this 
+          file.
+        p.
+          The following shows the configuration file from the basic template, 
+          with some inline comments.
+    .row
+      .col-xs-12
+        pre
+          p.hljs!=renderJSFile('examples/config/basic/staticbuild.json')
