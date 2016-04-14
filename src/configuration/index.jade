@@ -3,14 +3,21 @@ block content
   .container
     h1 Configuration
     .row
-      .col-xs-12.text-center
+      .col-xs-12
         p.
-          Most #[a(href='/api') API] fields are also configurable from this 
-          file.
-        p.
-          The following shows the configuration file from the basic template, 
-          with some inline comments.
+          Most #[a(href='/api') API] fields are also configurable from a 
+          #[code staticbuild.json] configuration file.
+          The basic configuration that is created with the #[+setup] 
+          command is shown below.
+          Currently, jquery, bootstrap and knockout are included with the 
+          default #[+setup] template.
     .row
       .col-xs-12
         pre
           p.hljs!=renderJSFile('examples/config/basic/staticbuild.json')
+
+
+// Mixins
+
+mixin setup()
+  a(href='https://github.com/staticbuild/staticbuild#setup'): code setup

@@ -20,13 +20,17 @@
       ]
     },
     "main": {
-      "scripts": [
-        "/lib/js/site.js"
-      ],
-      "styles": [
-        "/lib/css/monokai-sublime.css",
-        "/lib/css/site.css"
-      ]
+      "scripts": [ "/lib/js/site.js" ],
+      "styles": [ "/lib/css/site.css" ]
+    },
+    "hljs-monokai-sublime":  {
+      "styles": [ "/lib/css/monokai-sublime.css" ]
+    },
+    "hljs-dracula": {
+      "styles": [ "/lib/css/dracula.css" ]
+    },
+    "hljs-solarized-dark": {
+      "styles": [ "/lib/css/solarized-dark.css" ]
     }
   }
 }

@@ -31,6 +31,7 @@
     <Content Include="src\getting-started\index.jade" />
     <Content Include="src\lib\css\bootstrap.part.less" />
     <Content Include="src\lib\css\site.less" />
+    <Content Include="src\lib\css\solarized-dark.css" />
     <Content Include="src\lib\css\theme.part.less" />
     <Content Include="src\lib\css\variables.part.less" />
     <Content Include="src\lib\fonts\glyphicons-halflings-regular.eot" />
