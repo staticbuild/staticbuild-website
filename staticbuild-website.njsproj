@@ -17,7 +17,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
     <Content Include="bower.json" />
-    <Content Include="examples\api\StaticBuild\constructor\1.md" />
+    <Content Include="examples\api\StaticBuild\StaticBuild\1.md" />
     <Content Include="examples\api\StaticBuild\src\1.md" />
     <Content Include="examples\api\StaticBuild\dest\1.md" />
     <Content Include="examples\api\StaticBuild\destLocale\1.md" />
@@ -44,7 +44,7 @@
     <Content Include="src\lib\jade\base.part.jade" />
     <Content Include="staticbuild.json" />
     <Content Include="README.md" />
-    <Compile Include="examples\api\StaticBuild\constructor\2.js" />
+    <Compile Include="examples\api\StaticBuild\StaticBuild\2.js" />
     <Compile Include="examples\api\StaticBuild\src\2.js" />
     <Compile Include="examples\api\StaticBuild\dest\2.js" />
     <Compile Include="examples\api\StaticBuild\destLocale\2.js" />
@@ -72,7 +72,7 @@
     <Folder Include="ast" />
     <Folder Include="examples\api\" />
     <Folder Include="examples\api\StaticBuild\" />
-    <Folder Include="examples\api\StaticBuild\constructor\" />
+    <Folder Include="examples\api\StaticBuild\StaticBuild\" />
     <Folder Include="examples\api\StaticBuild\src\" />
     <Folder Include="examples\api\StaticBuild\dest\" />
     <Folder Include="examples\api\StaticBuild\destLocale\" />

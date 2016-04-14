@@ -5,16 +5,22 @@
   "pathMap": {
     "bower": { "fs": "bower_components" }
   },
-  // Global view context module available to rendered views.
+  // Global context for rendered views.
   "contextFile": "./view-context.js",
-  // Script and Style bundles
+  // Script and Style Bundles
   "bundle": {
+    // A default highlight.js theme...
+    "hljs-monokai-sublime":  {
+      "styles": [ "/lib/css/monokai-sublime.css" ]
+    },
+    // jQuery and Bootstrap
     "jqbs": {
       "scripts": [
         "/bower_components/jquery/dist/jquery.js",
         "/bower_components/bootstrap/dist/js/bootstrap.js"
       ]
     },
+    // Knockout
     "ko": {
       "scripts": [
         {
@@ -23,16 +29,20 @@
         }
       ]
     },
-    // The main bundle style `site.css` is compiled from `site.less`, which
+    // Main bundle - style `site.css` is compiled from `site.less`, which
     // includes bootstrap.
     "main": {
       "scripts": [
         "/lib/js/site.js"
       ],
       "styles": [
-        "/lib/css/monokai-sublime.css",
         "/lib/css/site.css"
       ]
     }
+    // Bundles can be included in your (Jade) template via: 
+    // `|!{build.bundles(['jqbs', 'ko', 'main'])}`
+    // During development, src links are used if specified.
+    // Min links, if specified, are used in lieu of minifying the file at 
+    // generation time.
   }
 }

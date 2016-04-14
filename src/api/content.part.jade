@@ -11,11 +11,10 @@
       // Constructor
       a.anchor(id='constructor')
       h2 Constructor
-      // TODO: Figure out where constructor is in AST.
-      .panel.panel-default
-        .panel-heading: strong #{ast.root.name}(pathorOpt, opt)
-        .panel-body: p #{ast.root.description}
-    +renderExamples('constructor')
+    .hidden-xs.hidden-sm.col-md-6(style='background-color: #393939;')
+      p
+  +methodRow(ast.root)
+      
   // Fields
   .row.row-full-height
     .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
@@ -124,8 +123,11 @@ mixin paramstable(method)
         if method.params
           each param in method.params
             tr
-              td(style='width: 125px') #{param.name}
-              td(style='width: 100px')
+              if param.name.indexOf('.') < 0
+                td(style='width: 125px;') #{param.name}
+              else
+                td(style='width: 125px;background-color:#f5f5f5;') #{param.name}
+              td(style='width: 100px;')
                 if param.type
                   | #{param.type.names}
               td #{param.description}

@@ -106,7 +106,9 @@ function methodParamNames(method) {
     return '';
   var names = [];
   for (var i = 0; i < method.params.length; i++) {
-    names.push(method.params[i].name);
+    var name = method.params[i].name;
+    if (name.indexOf('.') < 0)
+      names.push(name);
   }
   var joined = names.join(', ');
   return joined;
