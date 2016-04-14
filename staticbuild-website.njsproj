@@ -30,6 +30,7 @@
     <Content Include="src\configuration\index.jade" />
     <Content Include="src\getting-started\index.jade" />
     <Content Include="src\lib\css\bootstrap.part.less" />
+    <Content Include="src\lib\css\dracula.css" />
     <Content Include="src\lib\css\site.less" />
     <Content Include="src\lib\css\solarized-dark.css" />
     <Content Include="src\lib\css\theme.part.less" />
