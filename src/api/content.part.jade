@@ -81,16 +81,46 @@ mixin fieldRow(field, memberPrefix)
     .col-xs-12.col-md-6(style='background-color: #eaf2f6;')
       p!= '&nbsp;'
       .panel.panel-default
-        .panel-heading: strong
+        .panel-heading.text-center
           a.anchor(id=memberPrefix + field.name)
-          | #{field.name}
+          span.pull-left: strong #{field.name}
+          +fieldConfigurable(field)
           +typeNamesBadge(field)
         .panel-body: p #{field.description}
+        +fieldTable(field)
     +renderExamples(memberPrefix + field.name)
+
+mixin fieldConfigurable(member)
+  - var config = findConfigurable(member)
+  if config
+    strong(style='color:#337ab7'): em @configurable
+  else
+    != '&nbsp;'
+
+mixin fieldTable(member)
+  - var config = findConfigurable(member);
+  - var hasConfigText = config && config.text;
+  if member.defaultvalue || hasConfigText
+    table.table
+      tbody
+        if member.defaultvalue
+          tr
+            td(style='width: 125px'): strong Default value
+              if member.defaultvaluetype === "object"
+                td.text-wrap
+                  pre: code!=highlightJS(member.defaultvalue.toString())
+              else
+                td.text-wrap
+                  code!=highlightJS(member.defaultvalue.toString())
+        if hasConfigText
+          tr
+            td(style='width: 125px'): strong Configuration
+            td
+              | #{config.text}
 
 mixin typeNamesBadge(member)
   if member && member.type && member.type.names
-    span.pull-right #{member.type.names}
+    span.pull-right: strong #{member.type.names}
 
 mixin returnTypeNamesBadge(member)
   if member.returns && member.returns.length > 0
@@ -115,10 +145,10 @@ mixin paramstable(method)
     table.table
       if method.params
         thead
-          tr
-            td(style='width: 125px'): em Argument
-            td(style='width: 100px'): em Type
-            td: em Description
+          tr.active
+            td(style='width: 125px'): strong: em Argument
+            td(style='width: 100px'): strong: em Type
+            td: strong: em Description
       tbody
         if method.params
           each param in method.params
@@ -126,7 +156,7 @@ mixin paramstable(method)
               if param.name.indexOf('.') < 0
                 td(style='width: 125px;') #{param.name}
               else
-                td(style='width: 125px;background-color:#f5f5f5;') #{param.name}
+                td.active(style='width: 125px;'): em #{param.name}
               td(style='width: 100px;')
                 if param.type
                   | #{param.type.names}

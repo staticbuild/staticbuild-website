@@ -10,6 +10,16 @@ var ExamplesPath = 'examples/api';
 
 exports.marked = marked;
 
+function findConfigurable(astNode) {
+  if (!astNode || !astNode.tags || astNode.tags.length < 1)
+    return undefined;
+  var tag = lodash.find(astNode.tags, function(value) {
+    return value.title === "configurable";
+  });
+  return tag;
+}
+exports.findConfigurable = findConfigurable;
+
 function getExamples(moduleName, memberName) {
   var dirPath = path.join(ExamplesPath, moduleName, memberName);
   var fileNames = fs.existsSync(dirPath) ? fs.readdirSync(dirPath) : [];
